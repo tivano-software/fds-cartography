@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Copyright (c) 2023-2026 Maveniverse Org.
+    All rights reserved. This program and the accompanying materials
+    are made available under the terms of the Eclipse Public License v2.0
+    which accompanies this distribution, and is available at
+    https://www.eclipse.org/legal/epl-v20.html
+
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>eu.maveniverse.maven.parent</groupId>
+    <artifactId>parent</artifactId>
+    <version>52</version>
+  </parent>
+
+  <groupId>eu.maveniverse.maven.domtrip</groupId>
+  <artifactId>domtrip</artifactId>
+  <version>1.5.1</version>
+  <packaging>pom</packaging>
+  <name>${project.groupId}:${project.artifactId}</name>
+
+  <modules>
+    <module>core</module>
+    <module>jaxen</module>
+    <module>maven</module>
+    <module>website</module>
+  </modules>
+
+  <scm>
+    <connection>scm:git:git@github.com:maveniverse/domtrip.git</connection>
+    <developerConnection>scm:git:git@github.com:maveniverse/domtrip.git</developerConnection>
+    <tag>1.5.1</tag>
+    <url>https://github.com/maveniverse/domtrip</url>
+  </scm>
+
+  <properties>
+    <maven.compiler.release>8</maven.compiler.release>
+    <maven.compiler.testRelease>21</maven.compiler.testRelease>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <version.junit>6.0.3</version.junit>
+  </properties>
+
+</project>

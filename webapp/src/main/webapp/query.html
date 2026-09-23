@@ -1,0 +1,160 @@
+<!doctype html>
+<html>
+<header>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <script type='text/javascript' src='js/knockout.js'></script>
+    <script src="js/require.js"></script>
+    <script src="index.js"></script>
+    <title>Query Erstellung</title>
+</header>
+
+<body>
+    <custom-navbar params="messages: messages"></custom-navbar>
+    <div class="container">
+        <h1 class="h1">Abfrage</h1>
+        <custom-messagebar params="messages: messages"></custom-messagebar>
+
+        <fieldset class="d-flex justify-content-center flex-nowrap">
+            <div class="card mb-3" style="width: 40em;">
+                <div class="card-header">
+                    Query Erstellung
+                </div>
+                <div class="card-body">
+                    <div class="mb-3">
+                        <button data-bind="click: function() { controller.addFilter() }" class="btn btn-primary btn-sm">
+                            <i class="bi bi-plus-circle"></i> Filter hinzuf&uuml;gen
+                        </button>
+                        <!-- ko foreach: { data: $root.form.filters, as: 'filter' } -->
+                        <div class="row my-2">
+                            <div class="col-1">
+                                <button data-bind="click: function() { controller.removeFilter(filter) }"
+                                    class="btn btn-danger btn-sm">
+                                    <i class="bi bi-trash"></i>
+                                </button>
+                            </div>
+                            <div class="col-11">
+                                <choose-filter params="
+                                    name: filter.name,
+                                    searchString: $root.ressources.filterListSearchString,
+                                    filteredList: $root.ressources.filteredFilterList,
+                                    consumeFilter: function(value) { controller.setFilterData(value, filter); }
+                                "></choose-filter>
+                            </div>
+                        </div>
+                        <!-- /ko -->
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="mb-3">
+                                <label class="form-label">Spalten</label>
+                                <select
+                                    data-bind="options: ressources.tokenTableInnerGroupValues, value: form.tokensTableInnerGroupValue"
+                                    class="form-select form-select-sm">
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="mb-3">
+                                <label class="form-label">Zeilen</label>
+                                <select
+                                    data-bind="options: ressources.tokenTableOuterGroupValues, value: form.tokensTableOuterGroupValue"
+                                    class="form-select form-select-sm">
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="mb-3">
+                                <label class="form-label">Location Level</label>
+                                <select
+                                    data-bind="options: ressources.tokensTableLocationsLevels, value: form.tokensTableLocationsLevelValue"
+                                    class="form-select form-select-sm">
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="mb-3">
+                                <label class="form-label">Types Level</label>
+                                <select
+                                    data-bind="options: ressources.tokensTableTypesLevels, value: form.tokensTableTypesLevelValue"
+                                    class="form-select form-select-sm">
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn-group" role="group">
+                        <button type="submit" class="btn btn-primary btn-sm" onclick="controller.searchQuery()">
+                            <i class="bi bi-search"></i>
+                            Suche
+                        </button>
+                        <button type="submit" class="btn btn-primary btn-sm" onclick="controller.searchQueryDownload()">
+                            <i class="bi bi-download"></i>
+                            Download
+                        </button>
+                        <button type="submit" class="btn btn-primary btn-sm" onclick="controller.openMap()">
+                            <i class="bi bi-map"></i>
+                            Karte
+                        </button>
+                        <button type="submit" class="btn btn-primary btn-sm" onclick="controller.openCluster()">
+                            <i class="bi bi-boxes"></i>
+                            Cluster-Analyse
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+
+        <!-- ko ifnot: observable.table.isEmpty -->
+        <h2 class="h2">Query Ergebnisse</h2>
+        <div class="table-scrollable">
+            <table class="table table-hover table-sortable table-responsive">
+                <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th class="" scope="col">
+                            Summe
+                        </th>
+                        <!-- ko foreach: { data: table.titlesColumn, as: 'titleColumn' } -->
+                        <th scope="col" data-bind="text: titleColumn"></th>
+                        <!-- /ko -->
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- ko foreach: { data: table.titlesRow, as: 'titleRow' } -->
+                    <tr>
+                        <td data-bind="text: titleRow"></td>
+                        <td class="" data-bind="text: observable.table.resultsTotal.get(titleRow)">
+                        </td>
+                        <!-- ko foreach: { data: $root.table.titlesColumn, as: 'titleColumn' } -->
+                        <td scope="col">
+                            <span data-bind="text: observable.table.map.getOrCreate(titleRow, titleColumn, 0)"></span>
+                        </td>
+                        <!-- /ko -->
+                    </tr>
+                    <!-- /ko -->
+                </tbody>
+            </table>
+        </div>
+        <paging-toolbar params="list: observable.table.map.map.keys"></paging-toolbar>
+        <!-- /ko -->
+    </div>
+    <script>
+        var observable;
+        var controller;
+        require(['pages/filter-search-by/index'],
+            function (FilterSearchBy) {
+                FilterSearchBy.registerComponents(ko);
+                observable = FilterSearchBy.createViewModel(ko);
+                controller = FilterSearchBy.controllerOf(observable, ko);
+                controller.init();
+                ko.applyBindings(observable);
+            }
+        );
+    </script>
+</body>
+
+</html>

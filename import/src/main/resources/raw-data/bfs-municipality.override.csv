@@ -1,0 +1,20 @@
+INFO;BFS:REPORTINGMUNICIPALITYID;LOC:NAME;COMMENT
+MANUAL;1331;Küssnacht am Rigi;municipality from be-t-00.04-agv-01.csv: Küssnacht (SZ), possible locations: Küssnacht am Rigi, Merlischachen, Immensee
+MANUAL;6487;Cernier;municipality from be-t-00.04-agv-01.csv: Val-de-Ruz, possible locations: Villiers, Cernier, Les Hauts-Geneveys, Les Geneveys-sur-Coffrane, Les Vieux-Prés, Vilars NE, Engollon, Savagnier, Saules, Montmollin, Chézard-St-Martin, Fontainemelon, Le Pâquier NE, Coffrane, Fontaines NE, Boudevilliers, La Vue-des-Alpes, Dombresson, Fenin
+MANUAL;4005;Erlinsbach;municipality from be-t-00.04-agv-01.csv: Erlinsbach (AG), possible locations: Barmelweid, Erlinsbach
+MANUAL;6417;Bevaix;municipality from be-t-00.04-agv-01.csv: La Grande Béroche, possible locations: Bevaix, St-Aubin-Sauges, Vaumarcus, Gorgier, Montalchez, Fresens, Chez-le-Bart
+MANUAL;6416;Colombier NE;municipality from be-t-00.04-agv-01.csv: Milvignes, possible locations: Auvernier, Colombier NE, Bôle
+MANUAL;4323;Bad Zurzach;reportingmunicipalityId not found in be-t-00.04-agv-01.csv and not unique in eCH-0135_Code_Heimatorte.csv. Current name (since 2006-12-01) is „Bad Zurzach“
+MANUAL;2041;St-Aubin FR;municipality from be-t-00.04-agv-01.csv: Saint-Aubin (FR), possible locations: St-Aubin FR, Les Friques
+MANUAL;3359;Alt St. Johann;municipality from be-t-00.04-agv-01.csv: Wildhaus-Alt St. Johann, possible locations: Alt St. Johann, Unterwasser, Wildhaus
+MANUAL;3395;Bütschwil;municipality from be-t-00.04-agv-01.csv: Bütschwil-Ganterschwil, possible locations: Dietfurt, Ganterschwil, Bütschwil
+MANUAL;3297;Vilters;municipality from be-t-00.04-agv-01.csv: Vilters-Wangs, possible locations: Vilters, Wangs
+MANUAL;5806;Mézières VD;municipality from be-t-00.04-agv-01.csv: Jorat-Mézières, possible locations: Mézières VD, Ferlens VD, Carrouge VD
+MANUAL;3103;Appenzell Steinegg;municipality from be-t-00.04-agv-01.csv: Rüte, possible locations: Brülisau, Weissbad, Appenzell Steinegg, Appenzell Eggerstanden
+MANUAL;2029;Cousset;municipality from be-t-00.04-agv-01.csv: Montagny (FR), possible locations: Mannens, Cousset, Montagny-les-Monts, Grandsivaz, Montagny-la-Ville
+MANUAL;6087;St-Martin VS;municipality from be-t-00.04-agv-01.csv: Saint-Martin (VS), possible locations: Suen (St-Martin), Liez (St-Martin), Trogne (St-Martin), St-Martin VS, Eison (St-Martin)
+MANUAL;888;Zimmerwald;municipality from be-t-00.04-agv-01.csv: Wald (BE), possible locations: Zimmerwald, Englisberg
+MANUAL;2233;Posieux;municipality from be-t-00.04-agv-01.csv: Hauterive (FR), possible locations: Ecuvillens, Posieux
+MANUAL;2335;St-Martin FR;municipality from be-t-00.04-agv-01.csv: Saint-Martin (FR), possible locations: Fiaugères, Besencens, St-Martin FR
+MANUAL;3104;Haslen AI;municipality from be-t-00.04-agv-01.csv: Schlatt-Haslen, possible locations: Haslen AI, Appenzell Schlatt, Appenzell Enggenhütten
+MANUAL;3705;Donat;reportingmunicipalityId not found in be-t-00.04-agv-01.csv and not unique in eCH-0135_Code_Heimatorte.csv. Possible matches are „Donath“ (until 31.12.2002) and „Donat“, current name is „Donat“

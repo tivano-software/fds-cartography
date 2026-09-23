@@ -1,0 +1,533 @@
+<!doctype html>
+<html>
+<header>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link href="css/custom.css" rel="stylesheet">
+    <script type='text/javascript' src='js/knockout.js'></script>
+    <script src="js/require.js"></script>
+    <script src="index.js"></script>
+    <title>Karte</title>
+</header>
+
+<body id="bodyID">
+    <custom-navbar params="messages: messages"></custom-navbar>
+    <div class="container-fluid" id="topWrapper">
+        <custom-messagebar params="messages: messages"></custom-messagebar>
+        <div class="container-fluid" id="ActionWrapper">
+            <!-- ko if: svg && svg.settings && svg.settings.name -->
+            <div class="container-fluid" id="HeaderWrapper">
+                <h1 class="h1">
+                    <span data-bind="text: svg.settings.name"></span>
+                </h1>
+            </div>
+            <!-- /ko -->
+            <div class="container-fluid" id="MapAreaWrapper">
+                <div class="container-fluid" id="MapWrapper">
+                    <div class="position-absolute top-10 end-0 mx-4" data-bind="html: svg.svgTokens.state"></div>
+                    <div data-bind="attr: { 'style': svg.box.style() }" class="container-fluid p-0 border" scroll="no" id="map-div">
+                        <svg
+                            data-bind="attr: { 'viewBox': svg.box.viewBox.complete() }"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:ch="https://fds.germ.unibe.ch/xmls"
+                    >
+                        <defs>
+                            <clipPath id="frame-rect">
+                                <rect data-bind="attr: {
+                                    'width': svg.box.viewBox.width(),
+                                    'height': svg.box.viewBox.height(),
+                                    'x': svg.box.viewBox.x()
+                                }"/>
+                            </clipPath>
+                        </defs>
+                        <g clip-path="url(#frame-rect)">
+                            <g id="svg-frame"></g>
+                            <g id="legend-border-frame"></g>
+                        </g>
+                    </svg>
+                    </div>
+                </div>
+                <div class="container-fluid" id="overlayWrapper">
+                    <div class="overlay">
+                        <div class="d-flex align-items-center justify-content-center mb-3">
+                            <div class="row">
+                                <div class="col my-auto">
+                                    <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
+                                        <button onclick="controller.nav('zoom-out')" type="button"
+                                            class="btn btn-sm btn-secondary">-</button>
+                                        <button onclick="controller.nav('zoom-in')" type="button"
+                                            class="btn btn-sm btn-secondary">+</button>
+                                    </div>
+                                </div>
+                                <div class="col my-auto">
+                                    <div class="row">
+                                        <div class="col-sm-4"></div>
+                                        <div class="col-sm-4"><button onclick="controller.nav('up')" type="button"
+                                                class="btn btn-sm btn-secondary">
+                                                <i class="bi bi-chevron-up"></i>
+                                            </button></div>
+                                        <div class="col-sm-4"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <button onclick="controller.nav('left')" type="button"
+                                                class="btn btn-sm btn-secondary">
+                                                <i class="bi bi-chevron-left"></i>
+                                            </button>
+                                        </div>
+                                        <div class="col-sm-4"></div>
+                                        <div class="col-sm-4"><button onclick="controller.nav('right')" type="button"
+                                                class="btn btn-sm btn-secondary">
+                                                <i class="bi bi-chevron-right"></i>
+                                            </button></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-4"></div>
+                                        <div class="col-sm-4"><button onclick="controller.nav('down')" type="button"
+                                                class="btn btn-sm btn-secondary">
+                                                <i class="bi bi-chevron-down"></i>
+                                            </button></div>
+                                        <div class="col-sm-4"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mx-3 row">
+        <div class="col">
+            <div class="card">
+                <div class="card-header">
+                    Einstellung der Karte
+                </div>
+                <ul class="list-group list-group-flush">
+
+                    <li class="list-group-item">
+                        <div class="form-group row">
+                            <label class="col-sm-6" for="formControlRange">Format</label>
+                            <div class="col-sm-6">
+                                <!-- ko foreach: { data: controller.formatOptions(), as: 'data' } -->
+
+                                <span class="form-check">
+                                    <input class="form-check-input" type="radio" name="format" id="format"
+                                        data-bind="value: data.name, checked: $parent.svg.settings.format.format"
+                                    >
+                                    <label class="form-check-label" for="format">
+                                        <span data-bind="text: data.name"></span>
+                                    </label>
+                                </span>
+
+                                <!-- /ko -->
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="list-group-item">
+                        <div class="form-group row">
+                            <label class="col-sm-6" for="formControlRange">Transparenz Hintergrund</label>
+                            <div class="col-sm-6">
+                                <div data-bind="template: {
+                                    name: 'combined-slider', data: {
+                                        min: 0, max: 100, step: 1, value: svg.settings.cardElements.backgroundOpacity
+                                    }
+                                }"></div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="list-group-item">
+                        <div class="form-group row">
+                            <label class="col-sm-6" for="formControlRange">Schwellenwert St&auml;dte</label>
+                            <div class="col-sm-6">
+                                <div data-bind="template: {
+                                    name: 'combined-slider', data: {
+                                        min: svg.settings.cities.thresholdRange.min,
+                                        max: svg.settings.cities.thresholdRange.max,
+                                        step: 1,
+                                        value: svg.settings.cities.threshold
+                                    }
+                                }"></div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="list-group-item">
+                        <div class="form-group row">
+                            <label class="col-sm-6" for="formControlRange">Feinheitsgrad Fl&uuml;sse</label>
+                            <div class="col-sm-6">
+                                <div data-bind="template: {
+                                    name: 'combined-slider', data: {
+                                        min: 0, max: 40, step: 1, value: svg.settings.cardElements.riverSize
+                                    }
+                                }"></div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="list-group-item">
+                        <div class="form-group row">
+                            <label class="col-sm-6 form-check-label" for="inlineCheckbox1">Kantonsgrenzen anzeigen</label>
+                            <div class="col-sm-6">
+                                <input class="form-check-input" type="checkbox"
+                                    data-bind="checked: svg.settings.cardElements.showCantonBorders">
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="list-group-item">
+                        <div class="form-group row">
+                            <label class="col-sm-6 form-check-label" for="inlineCheckbox1">Kantonsk&uuml;rzel anzeigen</label>
+                            <div class="col-sm-6">
+                                <input class="form-check-input" type="checkbox"
+                                    data-bind="checked: svg.settings.cardElements.showCantonNames">
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="list-group-item">
+                        <div class="form-group row">
+                            <label class="col-sm-6 form-check-label" for="inlineCheckbox1">Legendenhintergrund anzeigen</label>
+                            <div class="col-sm-6">
+                                <input class="form-check-input" type="checkbox"
+                                    data-bind="checked: svg.settings.cardElements.showLegend">
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="list-group-item">
+                        <div class="form-group row">
+                            <label class="col-sm-6" for="formControlRange">Bezeichnung der Karte</label>
+                            <div class="col-sm-6">
+                                <input data-bind="textInput: svg.settings.name" type="text" class="form-control"
+                                    id="titel">
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+            <br />
+            <div class="card">
+                <div class="card-header">
+                    Einstellung der Filter
+                </div>
+                <ul class="list-group list-group-flush">
+
+                    <li class="list-group-item">
+                        <div class="row">
+                            <button type="submit" class="btn btn-outline-secondary btn-sm"
+                                onclick="controller.openQuerySettings()">
+                                &Ouml;ffnen Query-Bearbeitung zum Ausw&auml;hlen der Filter
+                            </button>
+                        </div>
+                    </li>
+                    <!-- ko foreach: { data: svg.settings.query.filters, as: 'filter' } -->
+                    <li class="list-group-item">
+                        <div class="fs-5 d-flex w-100 justify-content-between">
+                            <h6 class="mb-1"><span data-bind="text: filter.name"></span></h6>
+                            <small>(<span data-bind="text: filter.id"></span>)</small>
+                        </div>
+                        <div class="form-group row">
+                            <label for="formControlRange">Anzeigename</label>
+                            <input type="text" class="form-control" aria-describedby="basic-addon3"
+                                data-bind="value: filter.customName">
+                        </div>
+                    </li>
+                    <!-- /ko -->
+                </ul>
+            </div>
+            <br />
+            <div class="card">
+                <div class="card-header">
+                    Aktionen
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <div class="row">
+                            <label class="col-sm-6" for="formControlRange">
+                                Karte Speichern
+                                <span data-bind="if: svg.settings.configId">(ID&nbsp;<span data-bind="text: svg.settings.configId"></span>)</span>
+                            </label>
+                            <div class="col-sm-6">
+                                <button type="submit" class="btn btn-outline-primary btn-sm"
+                                    onclick="controller.saveMap()">
+                                    Speichern
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="row">
+                            <label class="col-sm-6" for="formControlRange">SVG Export</label>
+                            <div class="col-sm-6">
+                                <button type="submit" class="btn btn-outline-primary btn-sm"
+                                    onclick="controller.downloadSVG()">
+                                    Download SVG
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="card-header">
+                    <input class="form-check-input" type="checkbox"
+                        data-bind="checked: svg.settings.query.pieChartActivated">
+                    Einstellung der Tortendiagramme
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <div class="row">
+                            <label class="col-sm-6" for="formControlRange">Location Level</label>
+                            <div class="col-sm-6">
+                                <select
+                                    data-bind="options: ressources.locationLevels, value: svg.settings.query.pieChartLocationLevel"
+                                    class="form-select form-select-sm">
+                                </select>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="list-group-item">
+                        <div class="row">
+                            <label class="col-sm-6" for="formControlRange">Modus</label>
+                            <div class="col-sm-6">
+                                <select data-bind="value: svg.settings.query.pieChartMode"
+                                    class="form-select form-select-sm">
+                                    <option value="absolut">Absolut</option>
+                                    <option value="relative">Relativ</option>
+                                    <option value="incidence">Inzidenz</option>
+                                </select>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="list-group-item">
+                        <div class="form-group row">
+                            <label class="col-sm-6" for="formControlRange">Gr&ouml;sse Torte (min)</label>
+                            <div class="col-sm-6">
+                                <div data-bind="template: {
+                                    name: 'combined-slider', data: {
+                                        min: svg.settings.query.pieChartSize.rangeEditable.min,
+                                        max: svg.settings.query.pieChartSize.rangeEditable.max,
+                                        step: svg.settings.query.pieChartSize.rangeEditable.step,
+                                        value: svg.settings.query.pieChartSize.minValueEditable
+                                    }
+                                }"></div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="list-group-item">
+                        <div class="form-group row">
+                            <label class="col-sm-6" for="formControlRange">Gr&ouml;sse Torte (max)</label>
+                            <div class="col-sm-6">
+                                <div data-bind="template: {
+                                    name: 'combined-slider', data: {
+                                        min: svg.settings.query.pieChartSize.rangeEditable.min,
+                                        max: svg.settings.query.pieChartSize.rangeEditable.max,
+                                        step: svg.settings.query.pieChartSize.rangeEditable.step,
+                                        value: svg.settings.query.pieChartSize.maxValueEditable
+                                    }
+                                }"></div>
+                            </div>
+                        </div>
+
+                    </li>
+
+                    <!-- ko foreach: { data: svg.settings.query.filters, as: 'filter' } -->
+                    <li class="list-group-item">
+                        <div class="fs-5 d-flex w-100 justify-content-between">
+                            <h6 class="mb-1"><span data-bind="text: filter.name"></span></h6>
+                            <small>(<span data-bind="text: filter.id"></span>)</small>
+                        </div>
+                        <div class="form-group row">
+                            <div class="input-group-prepend">
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault"
+                                        data-bind="checked: considerWhileCreatingPiechart">
+                                    <button class="btn" type="button" data-bind="
+                                        style: { 'background-color': filter.colorPieChart },
+                                        click: function() { filter.openColorPickerPieChart(!filter.openColorPickerPieChart()); }
+                                    ">W&auml;hle Farbe</button>
+                                    <input type="text" class="form-control" disabled
+                                        data-bind="value: filter.colorPieChart">
+                                </div>
+                            </div>
+                            <div class="input-group mb-3">
+
+                            </div>
+                            <!-- ko if: openColorPickerPieChart() -->
+                            <!-- ko foreach: $root.ressources.colors -->
+                            <div data-bind="foreach: $data" class="btn-group" role="group"
+                                aria-label="Basic mixed styles example">
+                                <button type="button" class="btn" data-bind="
+                                    style: { 'background-color': $data },
+                                    click: function() {
+                                        filter.openColorPickerPieChart(!filter.openColorPickerPieChart());
+                                        filter.colorPieChart($data);
+                                        filter.colorAreaColoring($data);
+                                    }
+                                "></button>
+                            </div>
+                            <!-- /ko -->
+                            <!-- /ko -->
+                        </div>
+                    </li>
+                    <!-- /ko -->
+
+                </ul>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="card-header">
+                    <input class="form-check-input" type="checkbox"
+                        data-bind="checked: svg.settings.query.areaColoringActivated">
+                    Einstellung der Fl&auml;chenf&auml;rbung
+                </div>
+                <ul class="list-group list-group-flush">
+
+                    <li class="list-group-item">
+                        <div class="row">
+                            <label class="col-sm-6" for="formControlRange">Location Level</label>
+                            <div class="col-sm-6">
+                                <select
+                                    data-bind="options: ressources.locationLevels, value: svg.settings.query.areaColoringLocationLevel"
+                                    class="form-select form-select-sm">
+                                </select>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="list-group-item">
+                        <div class="row">
+                            <label class="col-sm-6" for="formControlRange">Modus</label>
+                            <div class="col-sm-6">
+                                <select data-bind="value: svg.settings.query.areaColoringMode"
+                                    class="form-select form-select-sm">
+                                    <option value="absolut">Absolut</option>
+                                    <option value="relative">Relativ</option>
+                                    <option value="distribution">&Auml;hnlichkeit</option>
+                                </select>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="list-group-item">
+                        <div class="form-group row">
+                            <label class="col-sm-6" for="formControlRange">Transparenz (min)</label>
+                            <div class="col-sm-6">
+                                <div data-bind="template: {
+                                    name: 'combined-slider', data: {
+                                        min: svg.settings.query.areaColoringOpacity.rangeEditable.min,
+                                        max: svg.settings.query.areaColoringOpacity.rangeEditable.max,
+                                        step: svg.settings.query.areaColoringOpacity.rangeEditable.step,
+                                        value: svg.settings.query.areaColoringOpacity.minValueEditable
+                                    }
+                                }"></div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="list-group-item">
+                        <div class="form-group row">
+                            <label class="col-sm-6" for="formControlRange">Transparenz (max)</label>
+                            <div class="col-sm-6">
+                                <div data-bind="template: {
+                                    name: 'combined-slider', data: {
+                                        min: svg.settings.query.areaColoringOpacity.rangeEditable.min,
+                                        max: svg.settings.query.areaColoringOpacity.rangeEditable.max,
+                                        step: svg.settings.query.areaColoringOpacity.rangeEditable.step,
+                                        value: svg.settings.query.areaColoringOpacity.maxValueEditable
+                                    }
+                                }"></div>
+                            </div>
+                        </div>
+
+                    </li>
+
+                    <!-- ko foreach: { data: svg.settings.query.filters, as: 'filter' } -->
+                    <li class="list-group-item">
+                        <div class="fs-5 d-flex w-100 justify-content-between">
+                            <h6 class="mb-1"><span data-bind="text: filter.name"></span></h6>
+                            <small>(<span data-bind="text: filter.id"></span>)</small>
+                        </div>
+                        <div class="form-group row">
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <div class="form-check form-switch">
+                                        <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault"
+                                            data-bind="checked: considerWhileCreatingAreaColoring">
+                                        <button class="btn" type="button"
+                                            data-bind="
+                                                                                                                                        style: { 'background-color': filter.colorAreaColoring },
+                                                                                                                                        click: function() { filter.openColorPickerAreaColoring(!filter.openColorPickerAreaColoring()); }
+                                                                                                                                    ">
+                                            W&auml;hle Farbe
+                                        </button>
+                                    </div>
+                                </div>
+                                <input type="text" class="form-control" disabled
+                                    data-bind="value: filter.colorAreaColoring">
+                            </div>
+                            <!-- ko if: openColorPickerAreaColoring() -->
+                            <!-- ko foreach: $root.ressources.colors -->
+                            <div data-bind="foreach: $data" class="btn-group" role="group"
+                                aria-label="Basic mixed styles example">
+                                <button type="button" class="btn" data-bind="
+                                    style: { 'background-color': $data },
+                                    click: function() {
+                                        filter.openColorPickerAreaColoring(!filter.openColorPickerAreaColoring());
+                                        filter.colorAreaColoring($data);
+                                    }
+                                "></button>
+                            </div>
+                            <!-- /ko -->
+                            <!-- /ko -->
+                        </div>
+                    </li>
+                    <!-- /ko -->
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/html" id="combined-slider">
+        <div class="row">
+            <div class="col-sm-6">
+                <input type="range" class="form-range" id="formControlRange"
+                    data-bind="attr: { min: min, max: max, step: step }, value: value">
+            </div>
+            <div class="col-sm-6">
+                <input type="number" class="form-control"
+                    data-bind="attr: { min: min, max: max, step: step }, value: value">
+            </div>
+        </div>
+    </script>
+
+    <script>
+        var observable;
+        var controller;
+        require(['pages/filter-results-map/index'],
+            function (FilterResultsCard) {
+                FilterResultsCard.registerComponents(ko);
+                observable = FilterResultsCard.createViewModel(ko);
+                controller = FilterResultsCard.controllerOf(observable, ko);
+                controller.init();
+                ko.applyBindings(observable);
+            }
+        );
+    </script>
+</body>
+
+</html>

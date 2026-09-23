@@ -1,0 +1,121 @@
+TOKENS;HLS:COMMUNE;HLS:CANTON;NS1:PLACEOFORIGINNAME;NS1:CANTONABBREVIATION;COMMENT
+475;Biel;BE;Biel/Bienne;BE;bilinguale Schreibung in locations.csv
+381;Tablat;SG;St. Gallen;SG;Eingemeindung
+278;Willisau Land;LU;Willisau;LU;Fusion
+230;Willisau Stadt;LU;Willisau;LU;Fusion
+158;Straubenzell;SG;St. Gallen;SG;Eingemeindung
+148;Rotmonten;SG;St. Gallen;SG;Eingemeindung
+105;Grub;SG;Grub SG;SG;Schreibung mit Kantonskürzel in locations.csv
+101;Kappel (Toggenburg);SG;Ebnat-Kappel;SG;Fusion
+97;Campo (Blenio);TI;Campo (Blenio);TI;unklar, warum zuvor nicht gefunden. @NS1:PLACEOFORIGINNAME ist aus locations.csv kopiert
+82;Ebnat;SG;Ebnat-Kappel;SG;Fusion
+53;Küssnacht am Rigi;SZ;Küssnacht am Rigi;SZ;unklar, warum zuvor nicht gefunden. @NS1:PLACEOFORIGINNAME ist aus locations.csv kopiert
+52;Ennetbühl;SG;Ennetbühl;SG;unklar, warum zuvor nicht gefunden. @NS1:PLACEOFORIGINNAME ist aus locations.csv kopiert
+46;Flums Dorf;SG;Flums;SG;Flums ist der Hauptort von Flums-Dorf 
+40;Schinznach Dorf;AG;Schinznach Dorf;AG;unklar, warum zuvor nicht gefunden. @NS1:PLACEOFORIGINNAME ist aus locations.csv kopiert
+36;Bré-Aldesago;TI;Aldesago;TI;"Bré-Aldesago mittlerweile zu Lugano; in locations.csv noch Brè und Aldesago einzeln, letzteres grösser"
+34;Bichwil;SG;Bichwil;SG;unklar, warum zuvor nicht gefunden. @NS1:PLACEOFORIGINNAME ist aus locations.csv kopiert
+34;Magdenau;SG;Degersheim;SG;Fusion
+34;Vilters;SG;Vilters;SG;unklar, warum zuvor nicht gefunden. @NS1:PLACEOFORIGINNAME ist aus locations.csv kopiert
+33;Brione (Verzasca);TI;Brione (Verzasca);TI;unklar, warum zuvor nicht gefunden. @NS1:PLACEOFORIGINNAME ist aus locations.csv kopiert
+32;Flums Grossberg;SG;Flumserberg Tannenheim;SG;Tannenheim ist sehr wahrscheinlich der drei zugehörigen Orte
+31;Laufen Stadt;BE;Laufen;BL;Kantonswechsel: heute BL
+30;Benken-Biel;BL;Biel-Benken BL;BL;andere Schreibung in locations.ch
+30;Frümsen;SG;Frümsen;SG;unklar, warum zuvor nicht gefunden. @NS1:PLACEOFORIGINNAME ist aus locations.csv kopiert
+30;Wangs;SG;Wangs;SG;unklar, warum zuvor nicht gefunden. @NS1:PLACEOFORIGINNAME ist aus locations.csv kopiert
+29;Schmitter;SG;Diepoldsau;SG;Fusion
+28;Flums Kleinberg;SG;Flumserberg Portels;SG;Portels ist sehr wahrscheinlich der grössere der zwei zugehörigen Orte
+28;Gerra (Verzasca);TI;Gerra (Verzasca);TI;unklar, warum zuvor nicht gefunden. @NS1:PLACEOFORIGINNAME ist aus locations.csv kopiert
+25;Holzrhode;SG;Oberriet SG;SG;Oberriet besteht aus mehreren Gemeinden, Holzerhode gehört zum Dorf Kobelwald, da dies nicht aufgeführt ist, fällt Wahl auf Oberriet SG
+24;Montlingen;SG;Montlingen;SG;unklar, warum zuvor nicht gefunden. @NS1:PLACEOFORIGINNAME ist aus locations.csv kopiert
+23;Bernhardzell;SG;Bernhardzell;SG;unklar, warum zuvor nicht gefunden. @NS1:PLACEOFORIGINNAME ist aus locations.csv kopiert
+23;Gerra (Gambarogno);TI;Gerra (Gambarogno);TI;unklar, warum zuvor nicht gefunden. @NS1:PLACEOFORIGINNAME ist aus locations.csv kopiert
+22;Vättis;SG;Vättis;SG;unklar, warum zuvor nicht gefunden. @NS1:PLACEOFORIGINNAME ist aus locations.csv kopiert
+21;Campo (Vallemaggia);TI;Campo (Vallemaggia);TI;unklar, warum zuvor nicht gefunden. @NS1:PLACEOFORIGINNAME ist aus locations.csv kopiert
+20;Dorf bei Schänis;SG;Schänis;SG;Dorf ist ein Weiler zwischen Schänis und Rufi (Schäni ist grösser)
+20;Geneve;GE;Genève;GE;
+20;Maseltrangen;SG;Maseltrangen;SG;unklar, warum zuvor nicht gefunden. @NS1:PLACEOFORIGINNAME ist aus locations.csv kopiert
+20;Sax;SG;Sax;SG;unklar, warum zuvor nicht gefunden. @NS1:PLACEOFORIGINNAME ist aus locations.csv kopiert
+19;Niederglatt;SG;Niederglatt SG;SG;andere Schreibung in locations.ch 
+18;Berschis;SG;Berschis;SG;unklar, warum zuvor nicht gefunden. @NS1:PLACEOFORIGINNAME ist aus locations.csv kopiert
+18;Rufi;SG;Rufi;SG;unklar, warum zuvor nicht gefunden. @NS1:PLACEOFORIGINNAME ist aus locations.csv kopiert
+16;Bourg-Saint-Pierre;VS;Bourg-St-Pierre;VS;St anstatt Saint
+16;Eichenwies;SG;Oberriet;SG;Eichenwies liegt geografisch mit Oberried zusammen
+16;Schinznach Bad;AG;Schinznach Bad;AG;unklar, warum zuvor nicht gefunden. @NS1:PLACEOFORIGINNAME ist aus locations.csv kopiert
+16;Tscherlach;SG;Tscherlach;SG;unklar, warum zuvor nicht gefunden. @NS1:PLACEOFORIGINNAME ist aus locations.csv kopiert
+16;Walenstadtberg;SG;Walenstadtberg;SG;unklar, warum zuvor nicht gefunden. @NS1:PLACEOFORIGINNAME ist aus locations.csv kopiert
+15;Kriessern;SG;Kriessern;SG;unklar, warum zuvor nicht gefunden. @NS1:PLACEOFORIGINNAME ist aus locations.csv kopiert
+15;Murg;SG;Murg;SG;unklar, warum zuvor nicht gefunden. @NS1:PLACEOFORIGINNAME ist aus locations.csv kopiert
+15;Salez;SG;Salez;SG;unklar, warum zuvor nicht gefunden. @NS1:PLACEOFORIGINNAME ist aus locations.csv kopiert
+14;Röthenbach b/Herzogenbuchsee;BE;Röthenbach Herzogenbuchsee;BE;bei viel weg
+13;Mols;SG;Mols;SG;unklar, warum zuvor nicht gefunden. @NS1:PLACEOFORIGINNAME ist aus locations.csv kopiert
+13;Villars-Sainte-Croix;VD;Villars-Ste-Croix;VD;Saint zu Ste
+12;Hausen bei Brugg;AG;Hausen AG;AG;vor 2003 Hausen bei Brugg
+12;Weisstannen;SG;Weisstannen;SG;unklar, warum zuvor nicht gefunden. @NS1:PLACEOFORIGINNAME ist aus locations.csv kopiert
+11;Dippishausen-Oftershausen;TG;Siegershausen;TG;Fusion
+11;Valens;SG;Valens;SG;unklar, warum zuvor nicht gefunden. @NS1:PLACEOFORIGINNAME ist aus locations.csv kopiert
+11;Wahlen;BE;Wahlen b. Laufen;BL;Im Kanton Bern gibt es nur ein Wahlendorf, in BL gibt es Wahlen b. Laufen das 1994 zusammen mit Laufen nach BL gewechselt ist
+10;Quinten;SG;Quinten;SG;unklar, warum zuvor nicht gefunden. @NS1:PLACEOFORIGINNAME ist aus locations.csv kopiert
+10;Vasön;SG;Vasön;SG;unklar, warum zuvor nicht gefunden. @NS1:PLACEOFORIGINNAME ist aus locations.csv kopiert
+9;Oberterzen;SG;Oberterzen;SG;unklar, warum zuvor nicht gefunden. @NS1:PLACEOFORIGINNAME ist aus locations.csv kopiert
+9;Rüttiberg;SG;Rufi;SG;Rüttiberg liegt an der selben Stelle wie heute Rufi
+8;Roveredo;TI;Roveredo TI;TI;Zusatz TI wegen Verwechslungsgefahr mit Orten im GR
+7;Altenrhein;SG;Altenrhein;SG;unklar, warum zuvor nicht gefunden. @NS1:PLACEOFORIGINNAME ist aus locations.csv kopiert
+7;Haag;SG;Haag (Rheintal);SG;Zusatz Rheintal fehlt
+7;Laufen Vorstadt;BE;Laufen;BL;Laufen Stadt und Vorstadt wurden 1872 zu Laufen vereint, Laufen in BE gibt es nicht
+5;Cutterwil;FR;Belfaux;FR;Cutterwil ist ein kleiner Weiler von Belfaux
+5;Guntershausen b/Birwinken;TG;Guntershausen b. Berg;TG;Bis 1994 Guntershausen b/Birwinken
+4;Mettemberg;JU;Mettembert;JU;Anpassung an französische Aussprache 1984
+4;Neuchatel;NE;Neuchâtel;NE;Schreibfehler
+1;Beurnevesin;JU;Beurnevésin;JU;Schreibfehler
+1;Beurnévesin;JU;Beurnevésin;JU;Schreibfehler
+1;Biester;VS;Bister;VS;Schreibfehler
+1;Binnigen;BL;Binningen;BL;Schreibfehler
+1;Boecourt-Séprais;JU;Boécourt;JU;Séprais ist ein Weiler von Boecourt
+1;Brusino-Arsizio;TI;Brusino Arsizio;TI;ohne Bindestrich
+1;Bruzzella;TI;Bruzella;TI;Schreibfehler
+1;Bussigny-pres-Lausanne;VD;Bussigny;VD;nach Auschlussverfahren festgelegt (Bussigny-sur-Oron liegt nicht bei Lausanne)
+1;Chênens;FR;Chénens;FR;Schreibfehler
+1;Corcelles-pres-Payerne;VD;Corcelles-près-Payerne;VD;Schreibfehler in den HLS-Daten
+1;Corcelles-sur-Charvonay;VD;Corcelles-sur-Chavornay;VD;Schreibfehler in den HLS-Daten
+1;Croglio-Casterotto;TI;Croglio-Castelrotto;TI;Schreibfehler in den HLS-Daten
+1;Eggenschwil;AG;Eggenwil;AG;Eggenschwil konnte nicht gefunden werden, vermutlich handelt es sich um Eggenwil im AG
+1;Emmeten;NW;Emmetten;NW;Schreibfehler
+1;Ersingen;BE;Ersigen;BE;Schreibfehler
+1;Giez;VS;Giez;VD;Im Wallis existiert keine Gemeinde mit Giez -> vermutlich handelt es sich um einen Schreibfehler beim Kantion
+1;Gubiasco;TI;Giubiasco;TI;Schreibfehler
+1;Gutenberg;BE;Gutenburg;BE;Schreibfehler
+1;Heréménce;VS;Hérémence;VS;Schreibfehler
+1;Hohentannnen;TG;Hohentannen;TG;Schreibfehler
+1;Jonschwil;AG;Jonschwil;SG;Kein Jonschwil im AG, vermutlich handelt es sich um Jonschwil SG (Schreibfehler im Kantonsnamen)
+1;Langnau;BE;Langnau im Emmental;BE;Gemeindezusatz fehlte
+1;Lausanne;VS;Lausanne;VD;Schreibfehler im Kantonsnamen
+1;Lupsigen;BL;Lupsingen;BL;Schreibfehler
+1;Martherenges;VS;Martherenges;VD;Schreibfehler im Kantonsnamen
+1;Massonens;FR;Massonnens;FR;Schreibfehler
+1;Miecourt;JU;Miécourt;JU;Schreibfehler
+1;Moncherand;VD;Montcherand;VD;Schreibfehler
+1;Muraz;VD;Muraz (Collombey);VS;Es gibt kein Muraz im Kanton VD, vermutlich ist die Gemeinde Collombey-Muraz gemeint, es gäbe noch einen Weiler Muraz-Sierre (VS), dieser ist jedoch sehr klein
+1;Oberuzwil;SZ;Oberuzwil;SG;Schreibfehler im Kantonsnamen
+1;Orsieres;VS;Orsières;VS;Schreibfehler
+1;Ponte-Tresa;TI;Ponte Tresa;TI;Bindestrich fällt weg
+1;Riaz;VD;Riaz;FR;Falscher Kanton
+1;Riddes;VD;Riddes;VS;Schreibfehler im Kantonsnamen
+1;Saillon;VD;Saillon;VS;Schreibfehler im Kantonsnamen
+1;Saint-Ciergues;VD;St-Cierges;VD;Schreibfehler
+1;Saint-Leonard;VS;St-Léonard;VS;Schreibfehler
+1;Saint-Saphorin [Lavaux];VD;St-Saphorin (Lavaux);VD;Saint zu St
+1;Seewis im Prätttigau;GR;Seewis Dorf;GR;Vermutlichh ist Seews Dorf die Grösste der drei Gemeinden
+1;Senedes;FR;Senèdes;FR;Schreibfehler
+1;Stansstaad;NW;Stansstad;NW;Schreibfehler
+1;Thonex;GE;Thônex;GE;Schreibfehler
+1;Vaulruz;VD;Vaulruz;FR;Falscher Kanton
+1;Villars-Bourquin;VD;Villars-Burquin;VD;Schreibfehler
+1;Villars;NE;Vilars NE;NE;Schreibfehler
+1;Villars-sous-Monts;FR;Villars-sous-Mont;FR;Schreibfehler
+1;Vionnaz;VD;Vionnaz;VS;Schreibfehler im Kantonsnamen
+1;Viques;JU;Vicques;JU;Schreibfeler
+1;Vugelles-la-Mothe;VD;Vugelles-La Mothe;VD;Schreibfeler
+1;Vuillerens;VD;Vullierens;VD;Schreibfehler
+1;Vullierenes;VD;Vullierens;VD;Schreibfehler
+1;Wittnau;SG;Wittnau;AG;Schreibfehler im Kantonsnamen

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- (C) 2021 Tivano Software GmbH-->
+<project
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xmlns='http://maven.apache.org/DECORATION/1.8.0'
+    xsi:schemaLocation='http://maven.apache.org/DECORATION/1.8.0 https://maven.apache.org/xsd/decoration-1.8.0.xsd'>
+    <body>
+        <menu name="Main Project" ref="parent" />
+        <menu name="Contents">
+            <item name="Index" href="./"/>
+            <item name="Raw Data" href="./raw-data.html"/>
+        </menu>
+    </body>
+</project>

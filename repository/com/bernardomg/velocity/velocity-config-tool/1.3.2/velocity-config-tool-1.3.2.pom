@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+   <modelVersion>4.0.0</modelVersion>
+
+   <!-- ********************************************** -->
+   <!-- ****************** BASE POM ****************** -->
+   <!-- ********************************************** -->
+
+   <parent>
+      <groupId>com.bernardomg.maven</groupId>
+      <artifactId>base-pom</artifactId>
+      <version>1.5.4</version>
+   </parent>
+
+   <!-- ********************************************** -->
+   <!-- **************** PROJECT INFO **************** -->
+   <!-- ********************************************** -->
+
+   <groupId>com.bernardomg.velocity</groupId>
+   <artifactId>velocity-config-tool</artifactId>
+   <version>1.3.2</version>
+   <packaging>jar</packaging>
+
+   <name>Velocity config tool</name>
+   <description>Acquire the Maven Skin configuration from a Velocity template.</description>
+   <url>https://www.github.com/bernardo-mg/velocity-config-tool</url>
+   <inceptionYear>2017</inceptionYear>
+
+   <licenses>
+      <license>
+         <name>MIT License</name>
+         <url>http://www.opensource.org/licenses/mit-license.php</url>
+         <distribution>repo</distribution>
+      </license>
+   </licenses>
+
+   <!-- ********************************************** -->
+   <!-- ********* INFRASTRUCTURE AND SERVICES ******** -->
+   <!-- ********************************************** -->
+
+   <scm>
+      <connection>scm:git:https://github.com/bernardo-mg/velocity-config-tool.git</connection>
+      <developerConnection>scm:git:https://github.com/bernardo-mg/velocity-config-tool.git</developerConnection>
+      <tag>head</tag>
+      <url>https://www.github.com/bernardo-mg/velocity-config-tool</url>
+   </scm>
+
+   <issueManagement>
+      <system>GitHub</system>
+      <url>https://www.github.com/bernardo-mg/velocity-config-tool/issues</url>
+   </issueManagement>
+
+   <ciManagement>
+      <system>Github Actions</system>
+      <url>https://github.com/Bernardo-MG/velocity-config-tool/actions</url>
+      <notifiers />
+   </ciManagement>
+
+   <!-- ********************************************** -->
+   <!-- ****************** PROFILES ****************** -->
+   <!-- ********************************************** -->
+
+   <profiles>
+      <!-- ============================================== -->
+      <!-- ============ DEPLOYMENT PROFILES ============= -->
+      <!-- ============================================== -->
+      <profile>
+         <!-- Site deployment profile -->
+         <!-- Sets the site repository to point to the releases repo -->
+         <id>deployment-site</id>
+         <activation>
+            <!-- Active by default so the repository appears in the reports -->
+            <activeByDefault>true</activeByDefault>
+         </activation>
+         <distributionManagement>
+            <site>
+               <id>site</id>
+               <name>Project Documentation Site</name>
+               <!-- The URL should be set externally -->
+               <url>${site.url}</url>
+            </site>
+         </distributionManagement>
+      </profile>
+      <profile>
+         <!-- Github deployment profile. -->
+         <id>deployment-github</id>
+         <distributionManagement>
+            <repository>
+               <!-- Github repository -->
+               <id>github</id>
+               <name>GitHub Packages</name>
+               <url>https://maven.pkg.github.com/Bernardo-MG/velocity-config-tool</url>
+            </repository>
+         </distributionManagement>
+      </profile>
+      <profile>
+         <!-- OSSRH deployment profile. -->
+         <id>deployment-ossrh</id>
+         <distributionManagement>
+            <repository>
+               <!-- OSSRH repository -->
+               <id>ossrh</id>
+               <name>Central Repository OSSRH</name>
+               <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            </repository>
+            <snapshotRepository>
+               <!-- OSSRH snapshots repository -->
+               <id>ossrh</id>
+               <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+            </snapshotRepository>
+         </distributionManagement>
+         <build>
+            <plugins>
+               <plugin>
+                  <!-- GPG -->
+                  <!-- Signs the artifacts -->
+                  <groupId>org.apache.maven.plugins</groupId>
+                  <artifactId>maven-gpg-plugin</artifactId>
+                  <executions>
+                     <execution>
+                        <id>sign-artifacts</id>
+                        <phase>verify</phase>
+                        <goals>
+                           <goal>sign</goal>
+                        </goals>
+                     </execution>
+                  </executions>
+                  <configuration>
+                     <!-- Prevent gpg from using pinentry programs -->
+                     <gpgArguments>
+                        <arg>--pinentry-mode</arg>
+                        <arg>loopback</arg>
+                     </gpgArguments>
+                  </configuration>
+               </plugin>
+            </plugins>
+         </build>
+      </profile>
+   </profiles>
+
+   <!-- ********************************************** -->
+   <!-- *********** ORGANIZATION AND MEMBERS ********* -->
+   <!-- ********************************************** -->
+
+   <organization>
+      <name>Bernardo Martínez Garrido</name>
+      <url>https://github.com/Bernardo-MG</url>
+   </organization>
+
+   <developers>
+      <developer>
+         <id>bmg</id>
+         <name>Bernardo Martínez Garrido</name>
+         <email>programming@bernardomg.com</email>
+         <url>https://github.com/Bernardo-MG</url>
+         <organization>Bernardo Martínez Garrido</organization>
+         <organizationUrl>https://github.com/Bernardo-MG</organizationUrl>
+         <roles>
+            <role>Developer</role>
+         </roles>
+         <timezone>+1</timezone>
+         <properties />
+      </developer>
+   </developers>
+
+   <contributors>
+      <contributor>
+         <name>Glenn Lewis</name>
+         <url>https://github.com/gmlewis</url>
+      </contributor>
+   </contributors>
+
+   <!-- ********************************************** -->
+   <!-- **************** PROPERTIES ****************** -->
+   <!-- ********************************************** -->
+
+   <properties>
+      <!-- ============================================== -->
+      <!-- =============== MANIFEST DATA ================ -->
+      <!-- ============================================== -->
+      <manifest.name>com/bernardomg/velocity/velocity-config-tool</manifest.name>
+      <!-- ============================================== -->
+      <!-- =========== DEPENDENCIES VERSIONS ============ -->
+      <!-- ============================================== -->
+      <commons.beanUtils.version>1.9.4</commons.beanUtils.version>
+      <commons.lang3.version>3.17.0</commons.lang3.version>
+      <commons.logging.version>1.3.4</commons.logging.version>
+      <doxia.decoration.version>1.11.1</doxia.decoration.version>
+      <junit.jupiter.version>5.11.0</junit.jupiter.version>
+      <mockito.version>5.13.0</mockito.version>
+      <plexus.version>4.0.1</plexus.version>
+      <velocity.tools.version>3.1</velocity.tools.version>
+      <!-- ============================================== -->
+      <!-- ============ PLUGIN CONFIGURATION ============ -->
+      <!-- ============================================== -->
+      <!-- Checkstyle customized rules file -->
+      <checkstyle.config.location>${project.basedir}/src/config/checkstyle/checkstyle-rules.xml</checkstyle.config.location>
+      <!-- ============================================== -->
+      <!-- ================= MAVEN SITE ================= -->
+      <!-- ============================================== -->
+      <site.skin.version>2.3.2</site.skin.version>
+      <mavenURL>http://mvnrepository.com/artifact/com.bernardomg.velocity/velocity-config-tool</mavenURL>
+      <githubArtifactURL><![CDATA[https://github.com/Bernardo-MG?tab=packages&amp;repo_name=velocity-config-tool]]></githubArtifactURL>
+   </properties>
+
+   <!-- ********************************************** -->
+   <!-- *************** DEPENDENCIES ***************** -->
+   <!-- ********************************************** -->
+
+   <dependencyManagement>
+      <dependencies>
+         <dependency>
+            <!-- JUnit BOM -->
+            <groupId>org.junit</groupId>
+            <artifactId>junit-bom</artifactId>
+            <version>${junit.jupiter.version}</version>
+            <type>pom</type>
+            <scope>import</scope>
+         </dependency>
+      </dependencies>
+   </dependencyManagement>
+
+   <dependencies>
+      <dependency>
+         <!-- Doxia Decoration Model -->
+         <groupId>org.apache.maven.doxia</groupId>
+         <artifactId>doxia-decoration-model</artifactId>
+         <version>${doxia.decoration.version}</version>
+      </dependency>
+      <dependency>
+         <!-- Plexus XML -->
+         <groupId>org.codehaus.plexus</groupId>
+         <artifactId>plexus-xml</artifactId>
+         <version>${plexus.version}</version>
+      </dependency>
+      <dependency>
+         <!-- Velocity Tools -->
+         <groupId>org.apache.velocity.tools</groupId>
+         <artifactId>velocity-tools-generic</artifactId>
+         <version>${velocity.tools.version}</version>
+      </dependency>
+      <!-- ============================================== -->
+      <!-- ============ ENFORCED DEPENDENCIES =========== -->
+      <!-- ============================================== -->
+      <!-- Obsolete dependencies are overriden -->
+      <!-- Some of them have vulnerabilities issues, others just cause version 
+         collisions -->
+      <dependency>
+         <!-- Commons Bean Utils -->
+         <groupId>commons-beanutils</groupId>
+         <artifactId>commons-beanutils</artifactId>
+         <version>${commons.beanUtils.version}</version>
+      </dependency>
+      <dependency>
+         <!-- Commons Logging -->
+         <groupId>commons-logging</groupId>
+         <artifactId>commons-logging</artifactId>
+         <version>${commons.logging.version}</version>
+      </dependency>
+      <dependency>
+         <!-- Commons Lang 3 -->
+         <groupId>org.apache.commons</groupId>
+         <artifactId>commons-lang3</artifactId>
+         <version>${commons.lang3.version}</version>
+      </dependency>
+      <!-- ============================================== -->
+      <!-- ======= TEST ENVIRONMENT DEPENDENCIES ======== -->
+      <!-- ============================================== -->
+      <dependency>
+         <!-- JUnit Jupiter Engine -->
+         <groupId>org.junit.jupiter</groupId>
+         <artifactId>junit-jupiter-engine</artifactId>
+         <scope>test</scope>
+      </dependency>
+      <dependency>
+         <!-- JUnit Jupiter Platform -->
+         <groupId>org.junit.platform</groupId>
+         <artifactId>junit-platform-runner</artifactId>
+         <scope>test</scope>
+      </dependency>
+      <dependency>
+         <!-- Mockito -->
+         <groupId>org.mockito</groupId>
+         <artifactId>mockito-core</artifactId>
+         <version>${mockito.version}</version>
+         <scope>test</scope>
+      </dependency>
+      <dependency>
+         <!-- Mockito JUnit -->
+         <groupId>org.mockito</groupId>
+         <artifactId>mockito-junit-jupiter</artifactId>
+         <version>${mockito.version}</version>
+         <scope>test</scope>
+      </dependency>
+   </dependencies>
+
+   <!-- ********************************************** -->
+   <!-- ******************* BUILD ******************** -->
+   <!-- ********************************************** -->
+
+   <build>
+      <defaultGoal>clean package install</defaultGoal>
+      <plugins>
+         <plugin>
+            <!-- Changes -->
+            <!-- Takes care of the changes log -->
+            <!-- It is set to also validate the changes log file -->
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-changes-plugin</artifactId>
+            <executions>
+               <!-- Changes plugin is bound to the pre-site phase -->
+               <execution>
+                  <id>check-changes</id>
+                  <phase>pre-site</phase>
+                  <goals>
+                     <goal>changes-check</goal>
+                  </goals>
+               </execution>
+               <execution>
+                  <id>validate-changes</id>
+                  <phase>pre-site</phase>
+                  <goals>
+                     <goal>changes-validate</goal>
+                  </goals>
+                  <configuration>
+                     <failOnError>true</failOnError>
+                  </configuration>
+               </execution>
+            </executions>
+         </plugin>
+         <plugin>
+            <!-- Site -->
+            <!-- Generates the Maven Site -->
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-site-plugin</artifactId>
+            <dependencies>
+               <dependency>
+                  <!-- Docs Maven Skin -->
+                  <groupId>com.bernardomg.maven.skins</groupId>
+                  <artifactId>docs-maven-skin</artifactId>
+                  <version>${site.skin.version}</version>
+               </dependency>
+            </dependencies>
+         </plugin>
+      </plugins>
+   </build>
+
+   <!-- ********************************************** -->
+   <!-- ****************** REPORTS ******************* -->
+   <!-- ********************************************** -->
+
+   <reporting>
+      <plugins>
+         <plugin>
+            <!-- Javadoc -->
+            <!-- Generates the javadocs -->
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-javadoc-plugin</artifactId>
+            <configuration>
+               <links>
+                  <link>http://www.antlr.org/api/Java/</link>
+               </links>
+               <!-- Excludes generated code -->
+               <excludePackageNames>*.generated.*</excludePackageNames>
+            </configuration>
+         </plugin>
+         <plugin>
+            <!-- PMD -->
+            <!-- Checks that the code complies with a series of code quality rules -->
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-pmd-plugin</artifactId>
+            <configuration>
+               <rulesets>
+                  <!-- The customized rules file -->
+                  <ruleset>${project.basedir}/src/config/pmd/pmd-rules.xml</ruleset>
+               </rulesets>
+               <excludes>
+                  <!-- Excludes generated code -->
+                  <exclude>**/generated/**/*</exclude>
+               </excludes>
+            </configuration>
+         </plugin>
+      </plugins>
+   </reporting>
+
+</project>

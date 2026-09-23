@@ -1,0 +1,2 @@
+# treat everything under repository as binary
+repository/** binary

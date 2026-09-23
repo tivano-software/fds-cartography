@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.jeluard</groupId>
+  <artifactId>oss-parent</artifactId>
+  <packaging>pom</packaging>
+  <version>9</version>
+
+  <name>jeluard github parent POM</name>
+  <description>Parent POM for jeluard OpenSource projects</description>
+  <url>https://github.com/jeluard/${project.artifactId}</url>
+  <inceptionYear>2012</inceptionYear>
+
+  <parent>
+    <groupId>org.sonatype.oss</groupId>
+    <artifactId>oss-parent</artifactId>
+    <version>7</version>
+  </parent>
+
+  <properties>
+    <java.version>1.6</java.version>
+    <javaAnimalSniffer.version>16</javaAnimalSniffer.version>
+    <maven.version>3.0.3</maven.version>
+    <project.build.resourceEncoding>UTF-8</project.build.resourceEncoding>
+  </properties>
+
+  <prerequisites>
+    <maven>${maven.version}</maven>
+  </prerequisites>
+
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <id>jeluard</id>
+      <name>Julien Eluard</name>
+    </developer>
+  </developers>
+
+  <!-- SCM settings can't rely on properties are they are relative to their parent (and rewritten by release plugin) -->
+  <scm>
+    <connection>scm:git:git@github.com:jeluard/oss-parent.git</connection>
+    <developerConnection>scm:git:git@github.com:jeluard/oss-parent.git</developerConnection>
+    <url>git@github.com:jeluard/oss-parent.git</url>
+    <tag>9</tag>
+  </scm>
+
+  <issueManagement>
+    <system>GitHub Issue Management</system>
+    <url>https://github.com/jeluard/${project.artifactId}/issues</url>
+  </issueManagement>
+
+  <ciManagement>
+    <system>travis</system>
+    <url>http://http://travis-ci.org/#!/jeluard/${project.artifactId}</url>
+  </ciManagement>
+
+  <build>
+    <pluginManagement>
+      <!-- Make sure plugins defined by parent POMs are up-to-date. -->
+      <plugins>
+        <plugin>
+          <artifactId>maven-antrun-plugin</artifactId>
+          <version>1.7</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-assembly-plugin</artifactId>
+          <version>2.4</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-clean-plugin</artifactId>
+          <version>2.5</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>3.1</version>
+          <configuration>
+            <source>${java.version}</source>
+            <target>${java.version}</target>
+            <showDeprecation>true</showDeprecation>
+            <showWarnings>true</showWarnings>
+          </configuration>
+        </plugin>
+        <plugin>
+          <!--
+            This is not necessary when using the right rt.jar as bootstrap classpath but this is a pain in practise.
+            See:
+             * https://blogs.oracle.com/darcy/entry/how_to_cross_compile_for
+             * https://blogs.oracle.com/darcy/entry/bootclasspath_older_source
+           -->
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>animal-sniffer-maven-plugin</artifactId>
+          <version>1.10</version>
+          <configuration>
+            <signature>
+              <groupId>org.codehaus.mojo.signature</groupId>
+              <artifactId>java${javaAnimalSniffer.version}</artifactId>
+              <version>1.0</version>
+            </signature>
+          </configuration>
+        </plugin>
+        <plugin>
+          <artifactId>maven-dependency-plugin</artifactId>
+          <version>2.8</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-deploy-plugin</artifactId>
+          <version>2.8.1</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-ear-plugin</artifactId>
+          <version>2.9</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-ejb-plugin</artifactId>
+          <version>2.3</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-enforcer-plugin</artifactId>
+          <version>1.3.1</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-install-plugin</artifactId>
+          <version>2.5.1</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-jar-plugin</artifactId>
+          <version>2.4</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-javadoc-plugin</artifactId>
+          <version>2.9.1</version>
+          <configuration>
+            <failOnError>false</failOnError>
+          </configuration>
+        </plugin>
+        <plugin>
+          <artifactId>maven-plugin-plugin</artifactId>
+          <version>3.2</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-rar-plugin</artifactId>
+          <version>2.3</version>
+        </plugin>
+        <plugin>
+          <!-- do not push pre-deployment SCM changes to upstream repo
+           with maven release plugin; if the release/deploy fails,
+           we're stuck with manually fixing up version numbers, git
+           history, etc -->
+          <artifactId>maven-release-plugin</artifactId>
+          <version>2.5</version>
+          <configuration>
+            <pushChanges>false</pushChanges>
+            <localCheckout>true</localCheckout>
+            <preparationGoals>clean verify animal-sniffer:check license:check</preparationGoals>
+          </configuration>
+        </plugin>
+        <plugin>
+          <artifactId>maven-resources-plugin</artifactId>
+          <version>2.6</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-site-plugin</artifactId>
+          <version>3.3</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-source-plugin</artifactId>
+          <version>2.2.1</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>2.17</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-war-plugin</artifactId>
+          <version>2.4</version>
+        </plugin>
+        <plugin>
+          <groupId>com.mycila.maven-license-plugin</groupId>
+          <artifactId>maven-license-plugin</artifactId>
+          <version>1.10.b1</version>
+          <configuration>
+            <header>NOTICE</header>
+            <failIfMissing>true</failIfMissing>
+            <aggregate>true</aggregate>
+            <strictCheck>true</strictCheck>
+            <excludes>
+              <exclude>.gitignore</exclude>
+              <exclude>.travis.yml</exclude>
+              <exclude>**/*.properties</exclude>
+              <exclude>**/README.md</exclude>
+              <exclude>**/LICENSE</exclude>
+              <exclude>**/NOTICE</exclude>
+              <exclude>**/dependency-reduced-pom.xml</exclude>
+              <exclude>**/pom.xml.releaseBackup</exclude>
+            </excludes>
+          </configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+    <plugins>
+      <plugin>
+        <artifactId>maven-enforcer-plugin</artifactId>
+        <version>1.3.1</version>
+        <dependencies>
+          <dependency>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>extra-enforcer-rules</artifactId>
+            <version>1.0-beta-2</version>
+          </dependency>
+          <dependency>
+            <groupId>com.github.jeluard.parent-enforcer-rule</groupId>
+            <artifactId>enforcer-rule</artifactId>
+            <version>1.0.2</version>
+          </dependency>
+        </dependencies>
+        <executions>
+          <execution>
+            <id>enforce-maven</id>
+            <goals>
+              <goal>enforce</goal>
+            </goals>
+            <configuration>
+              <rules>
+                <requireMavenVersion>
+                  <version>[${maven.version},)</version>
+                  <message>Requires at least maven ${maven.version}</message>
+                </requireMavenVersion>
+                <requireJavaVersion>
+                  <version>[${java.version},)</version>
+                </requireJavaVersion>
+                <requireProperty>
+                  <property>env.JAVA_HOME</property>
+                  <message>You must set JAVA_HOME.</message>
+                </requireProperty>
+              </rules>
+            </configuration>
+          </execution>
+          <execution>
+            <id>check-dependency-convergence</id>
+            <phase>verify</phase>
+            <goals>
+              <goal>enforce</goal>
+            </goals>
+            <configuration>
+              <fail>false</fail>
+              <rules>
+                <dependencyConvergence />
+              </rules>
+            </configuration>
+          </execution>
+          <execution>
+            <id>enforce-parent</id>
+            <phase>verify</phase>
+            <goals>
+              <goal>enforce</goal>
+            </goals>
+            <configuration>
+              <rules>
+                <requireParentVersion implementation="com.github.jeluard.maven.ParentEnforcerRule" />
+              </rules>
+            </configuration>
+          </execution>
+          <execution>
+            <id>enforce-bytecode-version</id>
+            <goals>
+              <goal>enforce</goal>
+            </goals>
+            <configuration>
+              <rules>
+                <enforceBytecodeVersion>
+                  <maxJdkVersion>${java.version}</maxJdkVersion>
+                </enforceBytecodeVersion>
+              </rules>
+              <fail>true</fail>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>com.ning.maven.plugins</groupId>
+        <artifactId>maven-duplicate-finder-plugin</artifactId>
+        <version>1.0.6</version>
+        <executions>
+          <execution>
+            <phase>verify</phase>
+            <goals>
+              <goal>check</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.jasig.maven</groupId>
+        <artifactId>maven-jasig-legal-plugin</artifactId>
+        <version>1.0.2</version>
+        <executions>
+          <execution>
+            <id>copy-files</id>
+            <goals>
+              <goal>copy-files</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.sonatype.plugins</groupId>
+        <artifactId>nexus-staging-maven-plugin</artifactId>
+        <version>1.6</version>
+        <extensions>true</extensions>
+        <configuration>
+          <nexusUrl>https://oss.sonatype.org/</nexusUrl>
+          <!-- Make sure you have the right credentials defined in your settings.xml -->
+          <serverId>sonatype-oss</serverId>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+  <profiles>
+    <profile>
+      <id>sonatype-oss-release</id><!-- Override plugin definitions from sonatype oss-parent. -->
+      <build>
+        <plugins>
+          <plugin>
+            <artifactId>maven-source-plugin</artifactId>
+            <version>2.2.1</version>
+            <executions>
+              <execution>
+                <id>attach-sources</id>
+                <goals>
+                  <goal>jar-no-fork</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+          <plugin>
+            <artifactId>maven-javadoc-plugin</artifactId>
+            <version>2.9.1</version>
+            <executions>
+              <execution>
+                <id>attach-javadocs</id>
+                <goals>
+                  <goal>jar</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+          <plugin>
+            <artifactId>maven-gpg-plugin</artifactId>
+            <version>1.5</version>
+            <executions>
+              <execution>
+                <id>sign-artifacts</id>
+                <phase>verify</phase>
+                <goals>
+                  <goal>sign</goal>
+                </goals>
+              </execution>
+            </executions>
+            <configuration>
+              <useAgent>true</useAgent>
+            </configuration>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+  </profiles>
+
+</project>

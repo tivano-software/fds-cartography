@@ -1,0 +1,31 @@
+<Context>
+    <Resource
+        name="jdbc/fds-database"
+        auth="Container"
+        type="javax.sql.DataSource"
+        driverClassName="org.postgresql.Driver"
+        url="${INSERT.POSTGRES.DATABASE.URL.HERE}"
+        username="${INSERT.DATABASE.USERNAME.HERE}"
+    />
+    <Parameter
+      name="openid.issuer"
+      value="${INSERT.OPENID.ISSUER.HERE}"
+    />
+    <Parameter
+      name="openid.callbackurl"
+      value="${INSERT.OPENID.CALLBACK.URL.HERE}"
+    />
+    <Parameter
+      name="openid.clientid"
+      value="${INSERT.OPENID.CLIENTID.HERE}"
+    />
+    <Parameter
+      name="openid.key"
+      value='${INSERT.OPENID.PRIVATE.JWK.OR.SHARED.SECRET.HERE}'
+    />
+
+    <Valve
+      className="org.apache.catalina.valves.RemoteIpValve"
+	    hostHeader="X-Forwarded-Host"
+    />
+</Context>

@@ -1,0 +1,15 @@
+.~lock*#
+pom.xml.new-version
+/repository/ch/unibe/germanistik/**
+/repository/**/resolver-status.properties
+/target/
+/model/target/
+/import/target/
+/webapp/target/
+/webapp/src/main/typescript/client/
+.local-config
+.classpath
+.settings
+.DS_STORE
+__pycache__/
+PythonImportHelper-v2-Completion.jsonrepository/ch/unibe/germanistik/namenatlas/

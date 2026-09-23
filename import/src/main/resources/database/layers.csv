@@ -1,0 +1,10 @@
+ID,NAME,DESCRIPTION
+0,2020 (CH),"Schweizer Staatsbürger 2020 nach Wohnort, aus Daten des Bundesamts für Statistik."
+1,2020 (sonstige),"Einwohner ohne schweizerische Staatsbürgerschaft 2020 nach Wohnort, aus Daten des Bundesamts für Statistik."
+2,ORIGIN REZENT,"Schweizer Staatsbürger nach Herkunfts-/Bürgerort, aus Daten des Bundesamts für Statistik."
+3,1901-1962,Zeitschnitt C (1901-1960) aus dem Familiennamenbuch nach Wohnort.
+4,1800-1900,Zeitschnitt B (1800-1900) aus dem Familiennamenbuch nach Wohnort.
+5,<1800,Zeitschnitt A (vor 1800) aus dem Familiennamenbuch nach Wohnort.
+6,ORIGIN,Zeitschnitte A und B aus dem Familiennamenbuch nach Herkunfts-/Bürgerort.
+7,TEST A,Testdaten Layer A
+8,TEST B,Testdaten Layer B

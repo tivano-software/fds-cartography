@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<header>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link href="css/custom.css" rel="stylesheet">
+    <script type='text/javascript' src='js/knockout.js'></script>
+    <script src="js/require.js"></script>
+    <script src="index.js"></script>
+    <title>Dashboard</title>
+</header>
+<body>
+    <div class="jumbotron bg-light bg-gradient">
+        <div class="container">
+            <h1 class="display-4">Namensatlas der Uni Bern</h1>
+            <p class="lead">
+                Willkommen im Namensatlas der Uni Bern.
+            </p>
+        </div>
+    </div>
+    <div class="container">
+        <h2 class="h2">Schnellzugriffe</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="filter-create.html" class="card btn my-2">
+                    <div class="card-body">
+                        <h5 class="card-title">Neuen <i>Filter</i> erstellen</h5>
+                        <i class="bi bi-funnel" style="font-size: 3rem; color: rgb(0, 0, 0);"></i>
+                    </div>
+                </a>
+            </div>
+            <div class="col-4">
+                <a href="query.html" class="card btn my-2">
+                    <div class="card-body">
+                        <h5 class="card-title">Neue <i>Abfrage</i> erstellen</h5>
+                        <i class="bi-map" style="font-size: 3rem; color: rgb(0, 0, 0);"></i>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <h2 class="h2">Bibliotheken</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="filter-overview.html" class="card btn my-2">
+                    <div class="card-body">
+                        <h5 class="card-title">Gespeicherte Filter</h5>
+                        <i class="bi bi-funnel-fill" style="font-size: 3rem; color: rgb(0, 0, 0);"></i>
+                    </div>
+                </a>
+            </div>
+            <!--
+            <div class="col-4">
+                <a href="query-overview.html" class="card btn my-2">
+                    <div class="card-body">
+                        <h5 class="card-title">Gespeicherte Abfragen</h5>
+                        <i class="bi bi-list" style="font-size: 3rem; color: rgb(0, 0, 0);"></i>
+                    </div>
+                </a>
+            </div>
+            -->
+            <div class="col-4">
+                <a href="map-overview.html" class="card btn my-2">
+                    <div class="card-body">
+                        <h5 class="card-title">Gespeicherte Karten</h5>
+                        <i class="bi bi-map-fill" style="font-size: 3rem; color: rgb(0, 0, 0);"></i>
+                    </div>
+                </a>
+            </div>
+            <!-- ko if: role.engine.hasUserAccessFor('ADMIN') -->
+            <div class="col-4">
+                <a href="user-management.html" class="card btn my-2 my-2">
+                    <div class="card-body">
+                        <h5 class="card-title">Nutzermanagement</h5>
+                        <i class="bi-people-fill" style="font-size: 3rem; color: rgb(0, 0, 0);"></i>
+                    </div>
+                </a>
+            </div>
+            <!-- /ko -->
+        </div>
+    </div>
+    <script>
+        var observable;
+        var controller;
+        var role;
+        require(['pages/dashboard/index'],
+            function (Dashboard) {
+                Dashboard.registerComponents(ko);
+                role = Dashboard.role;
+                role.init(ko);
+                ko.applyBindings({});
+            }
+        );
+    </script>
+</body>
+</html>

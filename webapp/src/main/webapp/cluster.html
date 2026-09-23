@@ -1,0 +1,234 @@
+<!doctype html>
+<html style="height: 100%; width: 100%;">
+<header>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <script type='text/javascript' src='js/knockout.js'></script>
+    <script src="js/require.js"></script>
+    <script src="index.js"></script>
+    <title>Cluster Matrix</title>
+    <style>
+        /* quick-and-dirty: show location name on hover */
+        svg g.location foreignObject {
+            overflow: visible;
+        }
+
+        svg g.location div {
+            display: none;
+        }
+
+        svg g.location foreignObject:hover div {
+            display: inline;
+            white-space: nowrap;
+            background-color: white;
+            color: black;
+            padding: 2px;
+            border: solid 1px;
+            border-color: grey;
+            position: relative;
+            top: -1em;
+            left: 1ex;
+        }
+    </style>
+</header>
+
+<body style="width: 100%; height: 100%;">
+    <custom-navbar params="messages: messages"></custom-navbar>
+    <div class="container my-2">
+        <custom-messagebar params="messages: messages"></custom-messagebar>
+    </div>
+    <div style="width: 100%; height: 80%; display: flex; justify-content: center;">
+        <svg id="clusterSvg" width="95%" height="95%" viewBox="-20 -20 1005 1005" preserveAspectRatio="xMidYMid"
+            version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <g id="clusterSvgTransformed" transform="translate(5,5) scale(0.9)">
+                <circle data-bind="attr: {
+                    r: clusterEdit.brush.radius,
+                    cx: clusterEdit.brush.x,
+                    cy: clusterEdit.brush.y,
+                    fill: $root.groups.currentGroupColor(),
+                    visibility: clusterEdit.brush.visible() ? 'visible' : 'hidden',
+                }">
+
+                </circle>
+                <g data-bind="foreach: clusterPoints">
+                    <circle r="20" fill="transparent" data-bind="attr: {cx: rel.x, cy: rel.y}, click: function() {
+                        $data.setGroup($root.groups.currentGroup());
+                    }" />
+                </g>
+                <g class="dots" data-bind="foreach: clusterPoints">
+                    <circle r="5" fill="blue" data-bind="attr: {cx: rel.x, cy: rel.y, fill: groupColor}, click: function() {
+                        $data.setGroup($root.groups.currentGroup());
+                    }" />
+                </g>
+                <g class="location" data-bind="foreach: clusterPoints">
+                    <foreignObject width="7.5" height="7.5" data-bind="attr: {x: rel.x, y: rel.y}">
+                        <div xmlns="http://www.w3.org/1999/xhtml" data-bind="text: name, click: function() {
+                            $data.setGroup($root.groups.currentGroup());
+                        }"></div>
+                    </foreignObject>
+                </g>
+            </g>
+        </svg>
+    </div>
+    <!-- ko if: showMenu -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="card-header">
+                        Steuerelemente Visualisierung
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            Schritte: <span data-bind="text: steps"></span>,
+                        </li>
+                        <li class="list-group-item">
+                            Kosten: <span data-bind="text: cost"></span>
+                        </li>
+                        <li class="list-group-item">
+                            <button class="btn btn-outline-secondary"
+                                data-bind="click: function() { controller.stop(); }">
+                                Stoppe Verfahren
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+                <br>
+                <div class="card">
+                    <div class="card-header">
+                        Steuerelemente Cluster
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <!-- ko if: showSaveButton -->
+                            <div class="btn-group" role="group" aria-label="Basic example">
+                                <button type="button" class="btn btn-secondary" data-bind="click: function() { controller.saveAndOpen(); }">
+                                    Neue Filter speichern und &ouml;ffnen
+                                </button>
+                            </div>
+                            <!-- /ko -->
+                            <!-- ko ifnot: showSaveButton -->
+                            <div class="alert alert-warning" role="alert">
+                                Der Cluster kann nicht gespeichert werden. Gegebenenfalls liegt das an der Benennung der
+                                Cluster oder des Pr&auml;fixes. &Auml;ndere diese f&uuml;r eine erneute
+                                &Uuml;berpr&uuml;fung.
+                            </div>
+                            <!-- /ko -->
+                        </li>
+                    </ul>
+                </div>
+                <br>
+                <div class="card">
+                    <div class="card-header">
+                        Neue Filternamen
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="input-group">
+                                <input type="text" data-bind="value: $root.groups.groupNamePrefix"
+                                    class="form-control w-25">
+                                <input type="text" data-bind="value: $root.groups.groupNameDelimiter"
+                                    class="form-control">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">&lt;ClusterName&gt;</span>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- ko foreach: groups.groups() -->
+                        <li class="list-group-item">
+                            <span data-bind="text: $data.nameFilter"></span>
+                        </li>
+                        <!-- /ko -->
+                    </ul>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-header">
+                        Einstellungen der Clustergruppen
+                    </div>
+                    <div class="card-body">
+                        <div>
+                            Stoppe das Verfahren bevor du mit dem Zeichnen beginnst!
+                        </div>
+                        <form data-bind="submit: function() { controller.addGroup(); }">
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="Gruppenname"
+                                    data-bind="textInput: groupInput.name">
+                                <button class="btn btn-outline-secondary" type="submit">Button</button>
+                            </div>
+                        </form>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <!-- ko foreach: groups.groups() -->
+                        <li class="list-group-item">
+                            <div class="input-group mb-3">
+                                <div class="input-group-text">
+                                    <input class="form-check-input mt-0" type="radio"
+                                        data-bind="checked: $root.groups.currentGroup, value: $data">
+                                </div>
+                                <input type="text" class="form-control" disabled data-bind="value: color, style: {
+                                        'background-color': color
+                                    }">
+                                <input type="text" class="form-control" data-bind="value: name">
+                            </div>
+                        </li>
+                        <!-- /ko -->
+                    </ul>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-header">
+                        Einstellungen des Pinsels
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="form-group row">
+                                <label class="col-sm-6" for="formControlRange">Pinselgr&ouml;&szlig;e</label>
+                                <div class="col-sm-6">
+                                    <div data-bind="template: {
+                                        name: 'combined-slider', data: {
+                                            min: 1, max: 200, step: 1, value: clusterEdit.brush.radius
+                                        }
+                                    }"></div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /ko -->
+
+    <script>
+        var controller;
+        require(['pages/cluster/index'],
+            function (Cluster) {
+                Cluster.registerComponents(ko);
+                controller = Cluster.createClusterController(ko);
+                controller.init();
+                ko.applyBindings(controller.viewmodel);
+            }
+        );
+
+    </script>
+
+    <script type="text/html" id="combined-slider">
+        <div class="row">
+            <div class="col-sm-6">
+                <input type="range" class="form-range" id="formControlRange"
+                    data-bind="attr: { min: min, max: max, step: step }, value: value">
+            </div>
+            <div class="col-sm-6">
+                <input type="number" class="form-control"
+                    data-bind="attr: { min: min, max: max, step: step }, value: value">
+            </div>
+        </div>
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+"ID";"NAME";"MUNICIPALITY";"DISTRICT";"CANTON";"COUNTRY";"COMMENT"
+10001;"Deutschland";;;;"DE";
+10002;"France";;;;"FR";
+10003;"Italia";;;;"IT";
+10004;"Österreich";;;;"AT";
+0;;;;;;"Temporary, remove when placeOfOrigin mapping is completed"

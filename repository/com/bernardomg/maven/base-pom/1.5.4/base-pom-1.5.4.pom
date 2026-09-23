@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+   <modelVersion>4.0.0</modelVersion>
+
+   <prerequisites>
+      <maven>${maven.version}</maven>
+   </prerequisites>
+
+   <!-- ********************************************** -->
+   <!-- **************** PROJECT INFO **************** -->
+   <!-- ********************************************** -->
+
+   <groupId>com.bernardomg.maven</groupId>
+   <artifactId>base-pom</artifactId>
+   <version>1.5.4</version>
+   <packaging>pom</packaging>
+
+   <name>Base POM</name>
+   <description>Generic base POM for Maven-based Java projects.</description>
+   <url>https://github.com/Bernardo-MG/base-pom</url>
+   <inceptionYear>2015</inceptionYear>
+
+   <licenses>
+      <license>
+         <name>MIT License</name>
+         <url>http://www.opensource.org/licenses/mit-license.php</url>
+         <distribution>repo</distribution>
+      </license>
+   </licenses>
+
+   <!-- ********************************************** -->
+   <!-- ************ RESOURCES AND SERVICES ********** -->
+   <!-- ********************************************** -->
+
+   <scm>
+      <connection>scm:git:https://github.com/Bernardo-MG/base-pom.git</connection>
+      <developerConnection>scm:git:https://github.com/Bernardo-MG/base-pom.git</developerConnection>
+      <tag>head</tag>
+      <url>https://www.github.com/Bernardo-MG/base-pom</url>
+   </scm>
+
+   <issueManagement>
+      <system>GitHub</system>
+      <url>https://www.github.com/Bernardo-MG/base-pom/issues</url>
+   </issueManagement>
+
+   <ciManagement>
+      <system>Github workflow</system>
+      <url>https://github.com/Bernardo-MG/base-pom/actions</url>
+      <notifiers />
+   </ciManagement>
+
+   <!-- ********************************************** -->
+   <!-- ****************** PROFILES ****************** -->
+   <!-- ********************************************** -->
+
+   <profiles>
+      <!-- ============================================== -->
+      <!-- ============ DEPLOYMENT PROFILES ============= -->
+      <!-- ============================================== -->
+      <profile>
+         <!-- Site deployment profile -->
+         <!-- Sets the site repository to point to the releases repo -->
+         <id>deployment-site</id>
+         <activation>
+            <!-- Active by default so the repository appears in the reports -->
+            <activeByDefault>true</activeByDefault>
+         </activation>
+         <properties>
+            <!-- Manifest data -->
+            <manifest.name>com/bernardomg/maven/pom/base</manifest.name>
+            <!-- Maven Site -->
+            <mavenURL>http://mvnrepository.com/artifact/com.bernardomg.maven/base-pom</mavenURL>
+            <githubArtifactURL><![CDATA[https://github.com/Bernardo-MG?tab=packages&amp;repo_name=base-pom]]></githubArtifactURL>
+         </properties>
+         <distributionManagement>
+            <site>
+               <id>site</id>
+               <name>Project Documentation Site</name>
+               <!-- The URL should be set externally -->
+               <url>${site.url}</url>
+            </site>
+         </distributionManagement>
+         <build>
+            <plugins>
+               <plugin>
+                  <!-- Site -->
+                  <!-- Generates the Maven Site -->
+                  <groupId>org.apache.maven.plugins</groupId>
+                  <artifactId>maven-site-plugin</artifactId>
+                  <dependencies>
+                     <dependency>
+                        <!-- Docs Maven Skin -->
+                        <groupId>com.bernardomg.maven.skins</groupId>
+                        <artifactId>docs-maven-skin</artifactId>
+                        <version>${site.skin.version}</version>
+                     </dependency>
+                  </dependencies>
+               </plugin>
+               <plugin>
+                  <!-- Changes -->
+                  <!-- Takes care of the changes log. -->
+                  <!-- It is set to also validate the changes log file. -->
+                  <groupId>org.apache.maven.plugins</groupId>
+                  <artifactId>maven-changes-plugin</artifactId>
+                  <executions>
+                     <!-- Changes plugin is bound to the pre-site phase -->
+                     <execution>
+                        <id>check-changes</id>
+                        <phase>pre-site</phase>
+                        <goals>
+                           <goal>changes-check</goal>
+                        </goals>
+                     </execution>
+                     <execution>
+                        <id>validate-changes</id>
+                        <phase>pre-site</phase>
+                        <goals>
+                           <goal>changes-validate</goal>
+                        </goals>
+                        <configuration>
+                           <failOnError>true</failOnError>
+                        </configuration>
+                     </execution>
+                  </executions>
+               </plugin>
+            </plugins>
+         </build>
+      </profile>
+      <profile>
+         <!-- Github deployment profile. -->
+         <id>deployment-github</id>
+         <properties>
+            <!-- Manifest data -->
+            <manifest.name>com/bernardomg/maven/pom/base</manifest.name>
+         </properties>
+         <distributionManagement>
+            <repository>
+               <!-- Github repository -->
+               <id>github</id>
+               <name>GitHub Packages</name>
+               <url>https://maven.pkg.github.com/Bernardo-MG/base-pom</url>
+            </repository>
+         </distributionManagement>
+      </profile>
+      <profile>
+         <!-- OSSRH deployment profile. -->
+         <id>deployment-ossrh</id>
+         <properties>
+            <!-- Manifest data -->
+            <manifest.name>com/bernardomg/maven/pom/base</manifest.name>
+         </properties>
+         <distributionManagement>
+            <repository>
+               <!-- OSSRH repository -->
+               <id>ossrh</id>
+               <name>Central Repository OSSRH</name>
+               <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            </repository>
+            <snapshotRepository>
+               <!-- OSSRH snapshots repository -->
+               <id>ossrh</id>
+               <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+            </snapshotRepository>
+         </distributionManagement>
+         <build>
+            <plugins>
+               <plugin>
+                  <!-- GPG -->
+                  <!-- Signs the artifacts -->
+                  <groupId>org.apache.maven.plugins</groupId>
+                  <artifactId>maven-gpg-plugin</artifactId>
+                  <executions>
+                     <execution>
+                        <id>sign-artifacts</id>
+                        <phase>verify</phase>
+                        <goals>
+                           <goal>sign</goal>
+                        </goals>
+                     </execution>
+                  </executions>
+                  <configuration>
+                     <!-- Prevent gpg from using pinentry programs -->
+                     <gpgArguments>
+                        <arg>--pinentry-mode</arg>
+                        <arg>loopback</arg>
+                     </gpgArguments>
+                  </configuration>
+               </plugin>
+            </plugins>
+         </build>
+      </profile>
+   </profiles>
+
+   <!-- ********************************************** -->
+   <!-- *********** ORGANIZATION AND MEMBERS ********* -->
+   <!-- ********************************************** -->
+
+   <organization>
+      <name>Bernardo Martínez Garrido</name>
+      <url>https://github.com/Bernardo-MG</url>
+   </organization>
+
+   <developers>
+      <developer>
+         <id>bmg</id>
+         <name>Bernardo Martínez Garrido</name>
+         <email>programming@bernardomg.com</email>
+         <url>https://github.com/Bernardo-MG</url>
+         <organization>Bernardo Martínez Garrido</organization>
+         <organizationUrl>https://github.com/Bernardo-MG</organizationUrl>
+         <roles>
+            <role>Developer</role>
+         </roles>
+         <timezone>+1</timezone>
+         <properties />
+      </developer>
+   </developers>
+
+   <!-- ********************************************** -->
+   <!-- **************** PROPERTIES ****************** -->
+   <!-- ********************************************** -->
+
+   <properties>
+      <!-- ============================================== -->
+      <!-- =============== MAVEN VERSION ================ -->
+      <!-- ============================================== -->
+      <maven.version>3.3.9</maven.version>
+      <!-- ============================================== -->
+      <!-- ================== ENCODING ================== -->
+      <!-- ============================================== -->
+      <files.encoding>UTF-8</files.encoding>
+      <project.build.sourceEncoding>${files.encoding}</project.build.sourceEncoding>
+      <project.reporting.outputEncoding>${project.build.sourceEncoding}</project.reporting.outputEncoding>
+      <!-- ============================================== -->
+      <!-- ================ JAVA VERSION ================ -->
+      <!-- ============================================== -->
+      <java.version>11</java.version>
+      <maven.compiler.source>${java.version}</maven.compiler.source>
+      <maven.compiler.target>${maven.compiler.source}</maven.compiler.target>
+      <plugin.enforcer.requireJavaVersion.jdk>${java.version}</plugin.enforcer.requireJavaVersion.jdk>
+      <plugin.enforcer.requireJavaVersion.pattern>[${plugin.enforcer.requireJavaVersion.jdk},)</plugin.enforcer.requireJavaVersion.pattern>
+      <!-- ============================================== -->
+      <!-- ============= COMPILER WARNINGS ============== -->
+      <!-- ============================================== -->
+      <!-- Deprecation warnings are logged -->
+      <maven.compiler.showDeprecation>true</maven.compiler.showDeprecation>
+      <!-- Compilation warnings are logged -->
+      <maven.compiler.showWarnings>true</maven.compiler.showWarnings>
+      <!-- ============================================== -->
+      <!-- ============== PLUGINS VERSIONS ============== -->
+      <!-- ============================================== -->
+      <plugin.ant.version>3.1.0</plugin.ant.version>
+      <plugin.assembly.version>3.6.0</plugin.assembly.version>
+      <plugin.buildhelp.version>3.4.0</plugin.buildhelp.version>
+      <plugin.changes.version>2.12.1</plugin.changes.version>
+      <plugin.checkstyle.version>3.3.0</plugin.checkstyle.version>
+      <plugin.checkstyle.lib.version>10.12.0</plugin.checkstyle.lib.version>
+      <plugin.clean.version>3.3.1</plugin.clean.version>
+      <plugin.compiler.version>3.11.0</plugin.compiler.version>
+      <plugin.dependency.version>3.6.0</plugin.dependency.version>
+      <plugin.deploy.version>3.1.1</plugin.deploy.version>
+      <plugin.enforcer.version>3.3.0</plugin.enforcer.version>
+      <plugin.failsafe.version>3.1.2</plugin.failsafe.version>
+      <plugin.gpg.version>3.1.0</plugin.gpg.version>
+      <plugin.install.version>3.1.1</plugin.install.version>
+      <plugin.jacoco.version>0.8.10</plugin.jacoco.version>
+      <plugin.jar.version>3.3.0</plugin.jar.version>
+      <plugin.javadoc.version>3.5.0</plugin.javadoc.version>
+      <plugin.jxr.version>3.3.0</plugin.jxr.version>
+      <plugin.pmd.version>3.21.0</plugin.pmd.version>
+      <plugin.release.version>3.0.1</plugin.release.version>
+      <plugin.reports.version>3.4.5</plugin.reports.version>
+      <plugin.resources.version>3.3.1</plugin.resources.version>
+      <plugin.site.version>3.12.1</plugin.site.version>
+      <plugin.source.version>3.3.0</plugin.source.version>
+      <plugin.spotbugs.version>4.7.3.5</plugin.spotbugs.version>
+      <plugin.surefire.version>3.1.2</plugin.surefire.version>
+      <plugin.taglist.version>3.0.0</plugin.taglist.version>
+      <plugin.versions.version>2.16.0</plugin.versions.version>
+      <plugin.war.version>3.4.0</plugin.war.version>
+      <!-- ============================================== -->
+      <!-- ============= EXTENSIONS VERSIONS ============ -->
+      <!-- ============================================== -->
+      <extension.wagon.version>3.5.1</extension.wagon.version>
+      <!-- ============================================== -->
+      <!-- ================= MAVEN SITE ================= -->
+      <!-- ============================================== -->
+      <!-- Relativizing the Maven Site links has a tendency to break them -->
+      <relativizeDecorationLinks>false</relativizeDecorationLinks>
+      <!-- Skin version -->
+      <site.skin.version>2.3.2</site.skin.version>
+   </properties>
+
+   <!-- ********************************************** -->
+   <!-- ******************* BUILD ******************** -->
+   <!-- ********************************************** -->
+
+   <build>
+      <defaultGoal>clean package install</defaultGoal>
+      <extensions>
+         <extension>
+            <!-- Wagon SSH -->
+            <!-- Enables the use of SSH. -->
+            <groupId>org.apache.maven.wagon</groupId>
+            <artifactId>wagon-ssh</artifactId>
+            <version>${extension.wagon.version}</version>
+         </extension>
+      </extensions>
+      <pluginManagement>
+         <plugins>
+            <!-- Plugin versions and configurations are enforced here. -->
+            <!-- Some of these plugins are added by default by Maven in some situations. Others are just useful. -->
+            <plugin>
+               <!-- Ant Run -->
+               <!-- Capable of handling Ant scripts. -->
+               <groupId>org.apache.maven.plugins</groupId>
+               <artifactId>maven-antrun-plugin</artifactId>
+               <version>${plugin.ant.version}</version>
+            </plugin>
+            <plugin>
+               <!-- Assembly -->
+               <!-- Builds a distributable file from all the project components. -->
+               <groupId>org.apache.maven.plugins</groupId>
+               <artifactId>maven-assembly-plugin</artifactId>
+               <version>${plugin.assembly.version}</version>
+            </plugin>
+            <plugin>
+               <!-- Build helper -->
+               <!-- Adds the generated files to the Maven classpath -->
+               <groupId>org.codehaus.mojo</groupId>
+               <artifactId>build-helper-maven-plugin</artifactId>
+               <version>${plugin.buildhelp.version}</version>
+            </plugin>
+            <plugin>
+               <!-- Changes -->
+               <!-- Generates the changes report from the changes log. -->
+               <groupId>org.apache.maven.plugins</groupId>
+               <artifactId>maven-changes-plugin</artifactId>
+               <version>${plugin.changes.version}</version>
+            </plugin>
+            <plugin>
+               <!-- Checkstyle -->
+               <!-- Checks that the source files comply with style standards. -->
+               <groupId>org.apache.maven.plugins</groupId>
+               <artifactId>maven-checkstyle-plugin</artifactId>
+               <version>${plugin.checkstyle.version}</version>
+            </plugin>
+            <plugin>
+               <!-- Clean -->
+               <!-- Cleans the output folder. -->
+               <groupId>org.apache.maven.plugins</groupId>
+               <artifactId>maven-clean-plugin</artifactId>
+               <version>${plugin.clean.version}</version>
+            </plugin>
+            <plugin>
+               <!-- Compiler -->
+               <!-- Compiles the source code. -->
+               <groupId>org.apache.maven.plugins</groupId>
+               <artifactId>maven-compiler-plugin</artifactId>
+               <version>${plugin.compiler.version}</version>
+            </plugin>
+            <plugin>
+               <!-- Dependency -->
+               <!-- Copies and manipulates the project dependencies. -->
+               <groupId>org.apache.maven.plugins</groupId>
+               <artifactId>maven-dependency-plugin</artifactId>
+               <version>${plugin.dependency.version}</version>
+            </plugin>
+            <plugin>
+               <!-- Deploy -->
+               <!-- Takes care of the deployment phase -->
+               <!-- It is set to generate and deploy a POM file along the artifact -->
+               <artifactId>maven-deploy-plugin</artifactId>
+               <version>${plugin.deploy.version}</version>
+            </plugin>
+            <plugin>
+               <!-- Enforcer -->
+               <!-- Stops the project from being built if it does not comply with a set of rules. -->
+               <groupId>org.apache.maven.plugins</groupId>
+               <artifactId>maven-enforcer-plugin</artifactId>
+               <version>${plugin.enforcer.version}</version>
+            </plugin>
+            <plugin>
+               <!-- Failsafe -->
+               <!-- Runs integration tests. -->
+               <groupId>org.apache.maven.plugins</groupId>
+               <artifactId>maven-failsafe-plugin</artifactId>
+               <version>${plugin.failsafe.version}</version>
+            </plugin>
+            <plugin>
+               <!-- GPG -->
+               <!-- Signs artifacts. -->
+               <groupId>org.apache.maven.plugins</groupId>
+               <artifactId>maven-gpg-plugin</artifactId>
+               <version>${plugin.gpg.version}</version>
+            </plugin>
+            <plugin>
+               <!-- Install -->
+               <!-- Installs the project into the local Maven repository. -->
+               <groupId>org.apache.maven.plugins</groupId>
+               <artifactId>maven-install-plugin</artifactId>
+               <version>${plugin.install.version}</version>
+            </plugin>
+            <plugin>
+               <!-- JaCoCo -->
+               <!-- Generates coverage data from Surefire and Failsafe. -->
+               <groupId>org.jacoco</groupId>
+               <artifactId>jacoco-maven-plugin</artifactId>
+               <version>${plugin.jacoco.version}</version>
+            </plugin>
+            <plugin>
+               <!-- Jar -->
+               <!-- Generates the JAR package. -->
+               <groupId>org.apache.maven.plugins</groupId>
+               <artifactId>maven-jar-plugin</artifactId>
+               <version>${plugin.jar.version}</version>
+            </plugin>
+            <plugin>
+               <!-- Javadoc -->
+               <!-- Handles the Javadocs. -->
+               <artifactId>maven-javadoc-plugin</artifactId>
+               <version>${plugin.javadoc.version}</version>
+            </plugin>
+            <plugin>
+               <!-- JXR -->
+               <!-- Generates references to the source files, used by other reports. -->
+               <groupId>org.apache.maven.plugins</groupId>
+               <artifactId>maven-jxr-plugin</artifactId>
+               <version>${plugin.jxr.version}</version>
+            </plugin>
+            <plugin>
+               <!-- Project Info -->
+               <!-- Generates general information reports. -->
+               <groupId>org.apache.maven.plugins</groupId>
+               <artifactId>maven-project-info-reports-plugin</artifactId>
+               <version>${plugin.reports.version}</version>
+            </plugin>
+            <plugin>
+               <!-- PMD -->
+               <!-- Checks that the code complies with a series of code quality rules. -->
+               <groupId>org.apache.maven.plugins</groupId>
+               <artifactId>maven-pmd-plugin</artifactId>
+               <version>${plugin.pmd.version}</version>
+            </plugin>
+            <plugin>
+               <!-- Release -->
+               <!-- Generates releases and updates the project. -->
+               <groupId>org.apache.maven.plugins</groupId>
+               <artifactId>maven-release-plugin</artifactId>
+               <version>${plugin.release.version}</version>
+            </plugin>
+            <plugin>
+               <!-- Resources -->
+               <!-- Handles the project resources. -->
+               <groupId>org.apache.maven.plugins</groupId>
+               <artifactId>maven-resources-plugin</artifactId>
+               <version>${plugin.resources.version}</version>
+            </plugin>
+            <plugin>
+               <!-- Site -->
+               <!-- Generates the Maven Site. -->
+               <groupId>org.apache.maven.plugins</groupId>
+               <artifactId>maven-site-plugin</artifactId>
+               <version>${plugin.site.version}</version>
+            </plugin>
+            <plugin>
+               <!-- Source -->
+               <!-- Bundles the source into the packaged project. -->
+               <artifactId>maven-source-plugin</artifactId>
+               <version>${plugin.source.version}</version>
+            </plugin>
+            <plugin>
+               <!-- SpotBugs -->
+               <!-- Checks for patterns which are prone to errors. -->
+               <groupId>com.github.spotbugs</groupId>
+               <artifactId>spotbugs-maven-plugin</artifactId>
+               <version>${plugin.spotbugs.version}</version>
+            </plugin>
+            <plugin>
+               <!-- Surefire -->
+               <!-- Runs unit tests. -->
+               <groupId>org.apache.maven.plugins</groupId>
+               <artifactId>maven-surefire-plugin</artifactId>
+               <version>${plugin.surefire.version}</version>
+            </plugin>
+            <plugin>
+               <!-- Surefire report -->
+               <!-- Generates the unit tests report. -->
+               <groupId>org.apache.maven.plugins</groupId>
+               <artifactId>maven-surefire-report-plugin</artifactId>
+               <version>${plugin.surefire.version}</version>
+            </plugin>
+            <plugin>
+               <!-- Taglist -->
+               <!-- Generates a report of all the temporal tags still on the code. -->
+               <groupId>org.codehaus.mojo</groupId>
+               <artifactId>taglist-maven-plugin</artifactId>
+               <version>${plugin.taglist.version}</version>
+            </plugin>
+            <plugin>
+               <!-- Versions -->
+               <!-- Generates a report with the versions of all plugins and dependencies. -->
+               <groupId>org.codehaus.mojo</groupId>
+               <artifactId>versions-maven-plugin</artifactId>
+               <version>${plugin.versions.version}</version>
+            </plugin>
+            <plugin>
+               <!-- WAR -->
+               <!-- Generates the WAR package. -->
+               <groupId>org.apache.maven.plugins</groupId>
+               <artifactId>maven-war-plugin</artifactId>
+               <version>${plugin.war.version}</version>
+               <configuration>
+                  <archive>
+                     <index>true</index>
+                     <manifest>
+                        <addClasspath>true</addClasspath>
+                        <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+                        <addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
+                        <packageName>${project.groupId}</packageName>
+                     </manifest>
+                     <manifestEntries>
+                        <name>${manifest.name}</name>
+                        <url>${project.url}</url>
+                     </manifestEntries>
+                  </archive>
+               </configuration>
+            </plugin>
+         </plugins>
+      </pluginManagement>
+      <plugins>
+         <!-- Specific plugins not added by default are included here. -->
+         <!-- Also, project specific configuration is added here. -->
+         <plugin>
+            <!-- Enforcer -->
+            <!-- Stops the project from being built if it does not comply with a set of rules. -->
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-enforcer-plugin</artifactId>
+            <executions>
+               <!-- The enforce goal is bound to the validate phase -->
+               <execution>
+                  <id>enforce-javaVersion</id>
+                  <goals>
+                     <goal>enforce</goal>
+                  </goals>
+                  <configuration>
+                     <rules>
+                        <!-- Not obsolete JDK. -->
+                        <requireJavaVersion>
+                           <version>${plugin.enforcer.requireJavaVersion.pattern}</version>
+                        </requireJavaVersion>
+                     </rules>
+                  </configuration>
+               </execution>
+               <execution>
+                  <id>enforce-convergence</id>
+                  <goals>
+                     <goal>enforce</goal>
+                  </goals>
+                  <configuration>
+                     <rules>
+                        <!-- Dependencies convergence. -->
+                        <!-- This variant of the rule requires less configuration, making use of Maven's dependency resolver. -->
+                        <requireUpperBoundDeps />
+                     </rules>
+                  </configuration>
+               </execution>
+               <execution>
+                  <id>enforce-pluginVersion</id>
+                  <goals>
+                     <goal>enforce</goal>
+                  </goals>
+                  <configuration>
+                     <rules>
+                        <!-- No plugin without version. -->
+                        <requirePluginVersions>
+                           <banLatest>true</banLatest>
+                           <banRelease>true</banRelease>
+                           <banSnapshots>true</banSnapshots>
+                           <phases>clean,deploy,site,test,verify</phases>
+                        </requirePluginVersions>
+                     </rules>
+                  </configuration>
+               </execution>
+               <execution>
+                  <id>enforce-manifest</id>
+                  <goals>
+                     <goal>enforce</goal>
+                  </goals>
+                  <configuration>
+                     <rules>
+                        <!-- Manifest name should be given. -->
+                        <requireProperty>
+                           <property>manifest.name</property>
+                           <message><![CDATA[Give a name for the manifest.]]></message>
+                           <regex>.*</regex>
+                           <regexMessage><![CDATA[It should be a valid name.]]></regexMessage>
+                        </requireProperty>
+                     </rules>
+                  </configuration>
+               </execution>
+               <execution>
+                  <id>enforce-maven</id>
+                  <goals>
+                     <goal>enforce</goal>
+                  </goals>
+                  <configuration>
+                     <rules>
+                        <!-- Check Maven version -->
+                        <requireMavenVersion>
+                           <version>[${maven.version},)</version>
+                           <message><![CDATA[Only Maven ${maven.version} or higher is supported.]]></message>
+                        </requireMavenVersion>
+                     </rules>
+                  </configuration>
+               </execution>
+            </executions>
+         </plugin>
+         <plugin>
+            <!-- Failsafe -->
+            <!-- Runs integration tests. -->
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-failsafe-plugin</artifactId>
+            <executions>
+               <!-- Failsafe is bound to the integration-test and verify phases -->
+               <execution>
+                  <id>failsafe-integration-tests</id>
+                  <goals>
+                     <goal>integration-test</goal>
+                  </goals>
+               </execution>
+               <execution>
+                  <id>failsafe-verify</id>
+                  <goals>
+                     <goal>verify</goal>
+                  </goals>
+               </execution>
+            </executions>
+         </plugin>
+         <plugin>
+            <!-- JaCoCo -->
+            <!-- Generates coverage data from Surefire and Failsafe. -->
+            <groupId>org.jacoco</groupId>
+            <artifactId>jacoco-maven-plugin</artifactId>
+            <executions>
+               <!-- Jacoco is bound to the initialize and verify phases -->
+               <execution>
+                  <id>jacoco-initialize</id>
+                  <goals>
+                     <goal>prepare-agent</goal>
+                  </goals>
+               </execution>
+               <execution>
+                  <id>jacoco-test-report</id>
+                  <goals>
+                     <goal>report</goal>
+                  </goals>
+               </execution>
+            </executions>
+         </plugin>
+         <plugin>
+            <!-- JAR -->
+            <!-- Generates the JAR package. -->
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-jar-plugin</artifactId>
+            <configuration>
+               <archive>
+                  <index>true</index>
+                  <manifest>
+                     <addClasspath>true</addClasspath>
+                     <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+                     <addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
+                     <packageName>${project.groupId}</packageName>
+                  </manifest>
+                  <manifestEntries>
+                     <name>${manifest.name}</name>
+                     <url>${project.url}</url>
+                  </manifestEntries>
+               </archive>
+            </configuration>
+         </plugin>
+         <plugin>
+            <!-- Source -->
+            <!-- Bundles the source into the packaged project. -->
+            <artifactId>maven-source-plugin</artifactId>
+            <executions>
+               <execution>
+                  <!-- Generates the jar for the deployment -->
+                  <!-- Source is bound to the package phase -->
+                  <id>attach-sources</id>
+                  <goals>
+                     <goal>jar-no-fork</goal>
+                  </goals>
+               </execution>
+            </executions>
+         </plugin>
+         <plugin>
+            <!-- Javadoc -->
+            <!-- Handles the Javadocs. -->
+            <artifactId>maven-javadoc-plugin</artifactId>
+            <executions>
+               <!-- Javadoc plugin is bound to the deploy phase -->
+               <execution>
+                  <!-- Generates the Javadocs for the deployment -->
+                  <id>attach-javadocs</id>
+                  <goals>
+                     <goal>jar</goal>
+                  </goals>
+               </execution>
+            </executions>
+         </plugin>
+         <plugin>
+            <!-- Checkstyle -->
+            <!-- Checks that the source files comply with style standards. -->
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-checkstyle-plugin</artifactId>
+            <dependencies>
+               <dependency>
+                  <groupId>com.puppycrawl.tools</groupId>
+                  <artifactId>checkstyle</artifactId>
+                  <version>${plugin.checkstyle.lib.version}</version>
+               </dependency>
+            </dependencies>
+         </plugin>
+      </plugins>
+   </build>
+
+   <!-- ********************************************** -->
+   <!-- ****************** REPORTS ******************* -->
+   <!-- ********************************************** -->
+
+   <reporting>
+      <plugins>
+         <plugin>
+            <!-- Project Info -->
+            <!-- Generates general information reports. -->
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-project-info-reports-plugin</artifactId>
+            <reportSets>
+               <reportSet>
+                  <reports>
+                     <report>summary</report>
+                     <report>licenses</report>
+                     <report>modules</report>
+                     <report>team</report>
+                     <report>dependencies</report>
+                     <report>dependency-info</report>
+                     <report>dependency-management</report>
+                     <report>distribution-management</report>
+                     <report>plugins</report>
+                     <report>plugin-management</report>
+                  </reports>
+               </reportSet>
+            </reportSets>
+         </plugin>
+         <plugin>
+            <!-- Dependency -->
+            <!-- Generates the dependencies analysis report. -->
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-dependency-plugin</artifactId>
+         </plugin>
+         <plugin>
+            <!-- JXR -->
+            <!-- Generates references to the source files, used by other reports. -->
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-jxr-plugin</artifactId>
+         </plugin>
+         <plugin>
+            <!-- Site -->
+            <!-- Generates the Maven Site. -->
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-site-plugin</artifactId>
+         </plugin>
+         <plugin>
+            <!-- Javadoc -->
+            <!-- Generates the Javadocs. -->
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-javadoc-plugin</artifactId>
+            <reportSets>
+               <reportSet>
+                  <reports>
+                     <report>javadoc</report>
+                  </reports>
+               </reportSet>
+            </reportSets>
+         </plugin>
+         <plugin>
+            <!-- Changes -->
+            <!-- Generates the changes report from the changes log. -->
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-changes-plugin</artifactId>
+            <reportSets>
+               <reportSet>
+                  <reports>
+                     <report>changes-report</report>
+                  </reports>
+               </reportSet>
+            </reportSets>
+         </plugin>
+         <plugin>
+            <!-- Taglist -->
+            <!-- Generates a report of all the temporal tags still on the code. -->
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>taglist-maven-plugin</artifactId>
+            <configuration>
+               <tagListOptions>
+                  <tagClasses>
+                     <tagClass>
+                        <displayName>Deprecation</displayName>
+                        <tags>
+                           <tag>
+                              <matchString>deprecated</matchString>
+                              <matchType>ignoreCase</matchType>
+                           </tag>
+                        </tags>
+                     </tagClass>
+                     <tagClass>
+                        <displayName>Todo Work</displayName>
+                        <tags>
+                           <tag>
+                              <matchString>todo</matchString>
+                              <matchType>ignoreCase</matchType>
+                           </tag>
+                           <tag>
+                              <matchString>FIXME</matchString>
+                              <matchType>exact</matchType>
+                           </tag>
+                        </tags>
+                     </tagClass>
+                  </tagClasses>
+               </tagListOptions>
+            </configuration>
+         </plugin>
+         <plugin>
+            <!-- Checkstyle -->
+            <!-- Checks that the source files comply with style standards. -->
+            <!-- It is using a customized rules file -->
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-checkstyle-plugin</artifactId>
+            <reportSets>
+               <reportSet>
+                  <reports>
+                     <report>checkstyle</report>
+                  </reports>
+               </reportSet>
+            </reportSets>
+         </plugin>
+         <plugin>
+            <!-- PMD -->
+            <!-- Checks that the code complies with a series of code quality rules. -->
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-pmd-plugin</artifactId>
+            <configuration>
+               <linkXref>true</linkXref>
+               <!-- This will generate always the report, even if empty -->
+               <skipEmptyReport>false</skipEmptyReport>
+               <excludes>
+                  <exclude>**/*Bean.java</exclude>
+                  <exclude>**/generated/*.java</exclude>
+               </excludes>
+               <excludeRoots>
+                  <excludeRoot>target/generated-sources/stubs</excludeRoot>
+               </excludeRoots>
+            </configuration>
+         </plugin>
+         <plugin>
+            <!-- Surefire report -->
+            <!-- Generates the unit tests report. -->
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-report-plugin</artifactId>
+         </plugin>
+         <plugin>
+            <!-- JaCoCo -->
+            <!-- Generates coverage reports from Surefire and Failsafe. -->
+            <groupId>org.jacoco</groupId>
+            <artifactId>jacoco-maven-plugin</artifactId>
+         </plugin>
+         <plugin>
+            <!-- SpotBugs -->
+            <!-- Checks for patterns which are prone to errors. -->
+            <groupId>com.github.spotbugs</groupId>
+            <artifactId>spotbugs-maven-plugin</artifactId>
+            <configuration>
+               <effort>Max</effort>
+               <threshold>Low</threshold>
+            </configuration>
+         </plugin>
+      </plugins>
+   </reporting>
+
+</project>

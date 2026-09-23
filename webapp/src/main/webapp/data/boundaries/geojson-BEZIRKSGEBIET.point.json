@@ -1,0 +1,1871 @@
+{
+  "type": "FeatureCollection",
+  "name": "DISTRICT",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Arrondissement administratif Jura bernois"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.18459716532106,
+          47.20294814848999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Aarau"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.063512440903839,
+          47.38774607103078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Affoltern"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.474268544673855,
+          47.26945654696065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Andelfingen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.678513862288497,
+          47.61082793034642
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Arbon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.343971639090089,
+          47.54079404970911
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Arlesheim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.586297302052857,
+          47.50928937233888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Baden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.306742949969989,
+          47.45285223004717
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Bremgarten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.317855830526119,
+          47.34827881870357
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Brig"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.021887916762415,
+          46.28158068130387
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Brugg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.171894627103944,
+          47.47541733305592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Bucheggberg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.461026532988311,
+          47.13180458563072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Bülach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.564721928248026,
+          47.51281589361229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Dielsdorf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.452734860469437,
+          47.48682249712175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Dietikon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.42908575167063,
+          47.38523277328328
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Dorneck"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.595024368976141,
+          47.45987955415972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Einsiedeln"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.77946175654091,
+          47.11738109559072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Frauenfeld"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.886694990019151,
+          47.607562516679955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Gersau"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.527317191584222,
+          47.00546090079578
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Goms"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.215530634237885,
+          46.4776980662793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Gäu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.77185879914943,
+          47.29489845284576
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Gösgen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.939461614309773,
+          47.39137494355944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Hinterland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.27796832822286,
+          47.33311511889986
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Hinwil"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.858716617582571,
+          47.30550334281622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Horgen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.60299129873638,
+          47.24048918945309
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Höfe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.740787252553124,
+          47.18464557915156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Kreuzlingen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.157935988519435,
+          47.62370836176114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Kulm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.134985560406795,
+          47.28635418824171
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Küssnacht (SZ)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.444991482012274,
+          47.08106527547197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Laufen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.492943113506585,
+          47.427249456540245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Laufenburg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.05615397448503,
+          47.51279514012291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Lebern"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.473652030484494,
+          47.222841020974364
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Lenzburg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.184084697657141,
+          47.36639153392338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Leuk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.664879954128199,
+          46.29965786200669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Liestal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.727878440131633,
+          47.4818026588104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk March"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.904804665802715,
+          47.13818492389437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Meilen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.669489079132255,
+          47.288642782232635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Mittelland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.443444652834732,
+          47.38763831695257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Muri"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.350174402731092,
+          47.24778305130962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Münchwilen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.970934782985942,
+          47.468823182490475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Oberklettgau"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.516538776664863,
+          47.69448181021781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Olten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.899646949919098,
+          47.338602825023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Pfäffikon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.793535785534932,
+          47.40252835104605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Raron"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.901283682239324,
+          46.37001722003671
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Reiat"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.683387451086272,
+          47.74809160183184
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Rheinfelden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.865684904842971,
+          47.536962787654936
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Schaffhausen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.599978819448562,
+          47.71162026169391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Schleitheim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.515499420641975,
+          47.74767061541799
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Schwyz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.73621800673684,
+          47.010042069549286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk See / District du Lac"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.143653636009865,
+          46.921520142120784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Sense"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.264633533798843,
+          46.78435997254998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Sissach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.864667607282386,
+          47.4544963502234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Solothurn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.53005189205104,
+          47.20834114599063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Stein"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.82578385908363,
+          47.69481669376309
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Thal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.625105250252465,
+          47.312986853806564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Thierstein"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.541041217399909,
+          47.38955816044669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Unterklettgau"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.461317247533824,
+          47.68262052526318
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Uster"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.680912833654322,
+          47.35667073981129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Visp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.843821853904917,
+          46.10505991644853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Vorderland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.537295364519988,
+          47.43492615422928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Waldenburg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.747749312144853,
+          47.39119438803553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Wasseramt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.599618272381986,
+          47.18743363915892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Weinfelden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.147899625877914,
+          47.54329318867647
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Winterthur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.776939912857662,
+          47.50289475197341
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Zofingen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.95224136149742,
+          47.28522980817814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Zurzach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.28871593473566,
+          47.561922670789386
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bezirk Zürich"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.530795219270857,
+          47.38280059828635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Canton de Genève"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.124535184812764,
+          46.2132277194725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Canton de Neuchâtel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.767752454063714,
+          47.00218161655896
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Distretto di Bellinzona"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.023325413545065,
+          46.19801798490915
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Distretto di Blenio"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.953709143523202,
+          46.499556152142546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Distretto di Leventina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.711578269697375,
+          46.474707017329635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Distretto di Locarno"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.753007533209448,
+          46.22790576551729
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Distretto di Lugano"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.942664687610515,
+          46.04028026869495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Distretto di Mendrisio"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.997861093148492,
+          45.877588724031696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Distretto di Riviera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.997280048701993,
+          46.33129274357271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Distretto di Vallemaggia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.607634515107508,
+          46.34995646634825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "District d'Aigle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.054057977148012,
+          46.324358232248635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "District d'Entremont"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.224933262197297,
+          45.98572239372365
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "District d'Hérens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.460798473856128,
+          46.119326686669574
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "District de Conthey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.269013554727603,
+          46.2113765413152
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "District de Delémont"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.332634344863729,
+          47.35061520244011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "District de Lausanne"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.643754195031679,
+          46.555606089621506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "District de Lavaux-Oron"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.767561531549614,
+          46.539950981993876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "District de Martigny"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1139734830579,
+          46.11731228103082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "District de Monthey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.874529802783583,
+          46.25669538291537
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "District de Morges"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.415012158231256,
+          46.571218311433796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "District de Nyon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.200239105824112,
+          46.443394079430384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "District de Porrentruy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.07944973557054,
+          47.41117912251884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "District de Saint-Maurice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.974256053468345,
+          46.141758952130665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "District de Sierre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.564704740724886,
+          46.212927852948944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "District de Sion"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.337366853055715,
+          46.28221068411347
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "District de l'Ouest lausannois"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.570234389157583,
+          46.54181361072542
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "District de la Broye"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.903466673140866,
+          46.82331727359401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "District de la Broye-Vully"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.897960096824335,
+          46.77895173152459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "District de la Glâne"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.917509625947284,
+          46.67515511464698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "District de la Gruyère"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.121657847882117,
+          46.60095037713646
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "District de la Riviera-Pays-d'Enhaut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.063147079743569,
+          46.463968507965866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "District de la Sarine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.093862563951133,
+          46.7671109959338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "District de la Veveyse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.919909765961895,
+          46.55202310583103
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "District des Franches-Montagnes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.017378579935295,
+          47.24954960999707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "District du Gros-de-Vaud"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.65423547986605,
+          46.650860183109835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "District du Jura-Nord vaudois"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.494856383053475,
+          46.73794896495076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Kanton Appenzell Innerrhoden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.41639751285041,
+          47.31718791284545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Kanton Basel-Stadt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.615280330937782,
+          47.564900614964316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Kanton Glarus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.065867496425499,
+          46.980375011316866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Kanton Nidwalden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.40154359007631,
+          46.91873680906136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Kanton Obwalden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.243757799882955,
+          46.851821252031996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Kanton Uri"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.629544116690937,
+          46.769324632911704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Kanton Zug"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54083006824499,
+          47.15932687039923
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Region Albula"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.65025141407463,
+          46.60149963010669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Region Bernina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.072238135565946,
+          46.333713239091956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Region Engiadina Bassa / Val Müstair"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.258967802922694,
+          46.7509080248432
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Region Imboden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.361004418831845,
+          46.847464778808494
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Region Landquart"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.562376979152186,
+          46.9627227162929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Region Maloja"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.830733744969153,
+          46.47371401454132
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Region Moesa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.177493864337423,
+          46.350770341107705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Region Plessur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.624134310595649,
+          46.81690715503097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Region Prättigau / Davos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.818800384531523,
+          46.86601375009517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Region Surselva"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.047899885110349,
+          46.69477320256662
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Region Viamala"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.399136827549537,
+          46.58640400977104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Verwaltungskreis Bern-Mittelland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.463602394585261,
+          46.895196557456664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Verwaltungskreis Biel/Bienne"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.270017634684024,
+          47.13772056180941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Verwaltungskreis Emmental"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.738590674735893,
+          46.988407067966556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Verwaltungskreis Frutigen-Niedersimmental"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6209357499093,
+          46.56505037694494
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Verwaltungskreis Interlaken-Oberhasli"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.0891765378665,
+          46.65444800267133
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Verwaltungskreis Oberaargau"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.757878254785153,
+          47.181171454274335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Verwaltungskreis Obersimmental-Saanen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.361195147045663,
+          46.4780160369767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Verwaltungskreis Seeland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.275313959290283,
+          47.05748026606322
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Verwaltungskreis Thun"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.652393339781954,
+          46.75877089257797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Wahlkreis Entlebuch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.013228987389308,
+          46.924582521446595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Wahlkreis Hochdorf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.287066652443446,
+          47.16790905016676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Wahlkreis Luzern-Land"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.29825756896921,
+          47.0403475044149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Wahlkreis Luzern-Stadt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.292197789522632,
+          47.053264888086225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Wahlkreis Rheintal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.57217909657359,
+          47.364859213778814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Wahlkreis Rorschach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.472752725947364,
+          47.4726375943864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Wahlkreis Sarganserland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.348210866075812,
+          47.01543502722409
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Wahlkreis See-Gaster"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.030142221597227,
+          47.21262855558125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Wahlkreis St. Gallen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.333083691293325,
+          47.44730904030374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Wahlkreis Sursee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.135098399127997,
+          47.15495643416645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Wahlkreis Toggenburg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.15394850104546,
+          47.28843950134155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Wahlkreis Werdenberg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.44193011913399,
+          47.16683038435485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Wahlkreis Wil"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.14404172015717,
+          47.44363188467424
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Wahlkreis Willisau"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.958301021541722,
+          47.139626148858675
+        ]
+      }
+    }
+  ]
+}

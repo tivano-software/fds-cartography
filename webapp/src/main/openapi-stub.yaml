@@ -1,0 +1,9 @@
+# General OpenAPI information for the statically generated file
+# Main reason for existence is to silence warnings about a missing "info"
+# section from the typescript-fetch generator
+openapi: 3.0
+info:
+  title: ""
+  version: 0
+servers:
+- url: /api

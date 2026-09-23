@@ -1,0 +1,36 @@
+{
+    "java.codeGeneration.hashCodeEquals.useJava7Objects": true,
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "maven.terminal.customEnv" : [
+        { "environmentVariable": "JAVA_HOME", "value": "${config:java.jdt.ls.java.home}"}
+    ],
+    "maven.executable.preferMavenWrapper": false,
+    "maven.showInExplorerContextMenu": true,
+    "java.completion.overwrite": false,
+    "maven.terminal.useJavaHome": true,
+    "java.saveActions.organizeImports": true,
+    "java.codeGeneration.useBlocks": true,
+    "java.completion.guessMethodArguments": true,
+    "java.templates.fileHeader": [
+        "/* © ${year} Tivano Software GmbH */"
+    ],
+    "maven.view": "hierarchical",
+    "maven.pomfile.autoUpdateEffectivePOM": true,
+    "java.autobuild.enabled": false,
+    "files.trimTrailingWhitespace": true,
+    "conventionalCommits.scopes": [
+        "General",
+        "Query",
+        "GUI",
+        "Backend",
+        "LIB",
+        "DATA",
+        "MAP",
+        "HTML",
+        "OVERVIEW",
+        "SETTINGS",
+        "FILTER",
+        "CLUSTER",
+        "GIT"
+    ]
+}

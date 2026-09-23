@@ -1,0 +1,238 @@
+<!doctype html>
+<html>
+<header>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <script type='text/javascript' src='js/knockout.js'></script>
+    <script src="js/require.js"></script>
+    <script src="index.js"></script>
+    <title>Filtererstellung</title>
+</header>
+
+<body>
+    <custom-navbar params="messages: messages"></custom-navbar>
+    <div class="container">
+        <h1 class="h1">
+            <span data-bind="text: data.name"></span>
+            <!-- ko ifnot: data.isNew -->
+            <span class="text-muted">(ID<span data-bind="text: data.id"></span>)</span>
+            <!-- /ko -->
+        </h1>
+        <fieldset>
+            <custom-messagebar params="messages: messages"></custom-messagebar>
+            <div class="row mb-3">
+                <div class="col-sm-6">
+                    <input data-bind="textInput: data.name, enable: $root.data.editable()" type="text"
+                        class="form-control" id="titel" placeholder="Das ist ein Beispielfiltertitel">
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" data-bind="checked: $root.data.editable"
+                            id="editableBox">
+                        <label class="form-check-label" for="editableBox">
+                            Ist Filter bearbeitbar?
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div data-bind="if: filterIsEmpty">
+                <p>Bitte w&auml;hle den ersten Baustein:</p>
+                <div class="btn-group btn-group-sm" role="group">
+                    <button data-bind="click: function() {data.setFilterToMatchNot();}, enable: $root.data.editable()"
+                        type="button" class="btn btn-outline-secondary">Nicht</button>
+                    <button data-bind="click: function() {data.setFilterToMatchAll();}, enable: $root.data.editable()"
+                        type="button" class="btn btn-outline-secondary">Alle</button>
+                    <button data-bind="click: function() {data.setFilterToMatchAny();}, enable: $root.data.editable()"
+                        type="button" class="btn btn-outline-secondary">Einer</button>
+                    <button
+                        data-bind="click: function() {data.setFilterToTypesDescriptionRegex();}, enable: $root.data.editable()"
+                        type="button" class="btn btn-outline-secondary">etym. Beschreibung</button>
+                    <button
+                        data-bind="click: function() {data.setFilterToLanguageCategory();}, enable: $root.data.editable()"
+                        type="button" class="btn btn-outline-secondary">Sprachkategorie</button>
+                    <button
+                        data-bind="click: function() {data.setFilterToNamingMotive();}, enable: $root.data.editable()"
+                        type="button" class="btn btn-outline-secondary">Namentyp</button>
+                    <button data-bind="click: function() {data.setFilterToRegex();}, enable: $root.data.editable()"
+                        type="button" class="btn btn-outline-secondary">Regex</button>
+                    <button data-bind="click: function() {data.setFilterToLocation();}, enable: $root.data.editable()"
+                        type="button" class="btn btn-outline-secondary">Location</button>
+                    <button data-bind="click: function() {data.setFilterToLayer();}, enable: $root.data.editable()"
+                        type="button" class="btn btn-outline-secondary">Layer</button>
+                    <button
+                        data-bind="click: function() {data.setFilterToMatchSameTypeAs();}, enable: $root.data.editable()"
+                        type="button" class="btn btn-outline-secondary">Gleicher Type</button>
+                    <button
+                        data-bind="click: function() {data.setFilterToMatchSameLocationAs();}, enable: $root.data.editable()"
+                        type="button" class="btn btn-outline-secondary">Gleiche Location</button>
+                </div>
+            </div>
+            <div data-bind="ifnot: filterIsEmpty">
+                <div class="list-group">
+                    <div data-bind="foreach: filterEditorList()">
+                        <div class="row">
+                            <div data-bind="class: styleColPrefix()">
+
+                            </div>
+                            <div data-bind="class: styleColContent()"
+                                class="list-group-item d-flex bg-light justify-content-between">
+                                <span data-bind="text: humanReadable()"></span>
+                                <span>
+                                    <span role="toolbar">
+                                        <!-- ko if: controller.showAddChilds($data) -->
+                                        <div class="btn-group btn-group-sm" role="group">
+                                            <button
+                                                data-bind="click: $data.createMatchNot, enable: $root.data.editable()"
+                                                type="button" class="btn btn-outline-secondary">Nicht</button>
+                                            <button
+                                                data-bind="click: $data.createMatchAll, enable: $root.data.editable()"
+                                                type="button" class="btn btn-outline-secondary">Alle</button>
+                                            <button
+                                                data-bind="click: $data.createMatchAny, enable: $root.data.editable()"
+                                                type="button" class="btn btn-outline-secondary">Einer</button>
+                                            <button
+                                                data-bind="click: $data.createMatchTypesDescriptionRegex, enable: $root.data.editable()"
+                                                type="button" class="btn btn-outline-secondary">etym.
+                                                Beschreibung</button>
+                                            <button
+                                                data-bind="click: $data.createMatchLanguageCategory, enable: $root.data.editable()"
+                                                type="button" class="btn btn-outline-secondary">Sprachkategorie</button>
+                                            <button
+                                                data-bind="click: $data.createMatchNamingMotive, enable: $root.data.editable()"
+                                                type="button" class="btn btn-outline-secondary">Namentyp</button>
+                                            <button
+                                                data-bind="click: $data.createMatchRegex, enable: $root.data.editable()"
+                                                type="button" class="btn btn-outline-secondary">Regex</button>
+                                            <button
+                                                data-bind="click: $data.createMatchLocation, enable: $root.data.editable()"
+                                                type="button" class="btn btn-outline-secondary">Location</button>
+                                            <button
+                                                data-bind="click: $data.createMatchLayer, enable: $root.data.editable()"
+                                                type="button" class="btn btn-outline-secondary">Layer</button>
+                                            <!-- ko if: $data.getFilterSchema() != 'MatchSameTypeAs' -->
+                                            <button
+                                                data-bind="click: $data.createMatchSameTypeAs, enable: $root.data.editable()"
+                                                type="button" class="btn btn-outline-secondary">Gleicher Type</button>
+                                            <!-- /ko -->
+                                            <!-- ko if: $data.getFilterSchema() != 'MatchSameLocationAs' -->
+                                            <button
+                                                data-bind="click: $data.createMatchSameLocationAs, enable: $root.data.editable()"
+                                                type="button" class="btn btn-outline-secondary">Gleiche
+                                                Location</button>
+                                            <!-- /ko -->
+                                        </div>
+                                        <!-- /ko -->
+                                        <!-- ko if: controller.showRegexInput($data) -->
+                                        <div class="btn-group btn-group-sm">
+                                            <a target="_blank"
+                                                href="https://www.postgresql.org/docs/12/functions-matching.html">Doc</a>
+                                            <input data-bind="
+                                                    value: filter.regexp,
+                                                    css: { 'is-invalid': filter.regexp.isError && filter.regexp.isError() },
+                                                    enable: $root.data.editable()
+                                                " type="text" class="form-control" size="36" placeholder="Regex">
+                                        </div>
+                                        <!-- /ko -->
+                                        <!-- ko if: controller.showLayerInput($data) -->
+                                        <div class="btn-group btn-group-sm">
+                                            <select data-bind="
+                                                options: $root.ressources.layerList, value: filter.layer,
+                                                enable: $root.data.editable()"
+                                                class="form-select form-select-sm"></select>
+                                        </div>
+                                        <!-- /ko -->
+                                        <!-- ko if: controller.showNamingMotiveInput($data) -->
+                                        <div class="btn-group btn-group-sm">
+                                            <select data-bind="
+                                                options: $root.ressources.namingMotiveList, value: filter.namingMotive,
+                                                enable: $root.data.editable()"
+                                                class="form-select form-select-sm"></select>
+                                        </div>
+                                        <!-- /ko -->
+                                        <!-- ko if: controller.showLanguageCategoryInput($data) -->
+                                        <div class="btn-group btn-group-sm">
+                                            <select data-bind="
+                                                options: $root.ressources.languageCategoryList, value: filter.languageCategory,
+                                                enable: $root.data.editable()"
+                                                class="form-select form-select-sm"></select>
+                                        </div>
+                                        <!-- /ko -->
+                                        <!-- ko if: controller.showLocationInput($data) -->
+                                        <div class="btn-group btn-group-sm">
+                                            <select data-bind="
+                                                    options: $root.ressources.locationFieldList,
+                                                    value: filter.field,
+                                                    enable: $root.data.editable()
+                                                " class="form-select form-select-sm"></select>
+                                        </div>
+                                        <div class="btn-group btn-group-sm">
+                                            <input data-bind="
+                                                    value: filter.match,
+                                                    css: { 'is-invalid': filter.match.isError && filter.match.isError() },
+                                                    enable: $root.data.editable()
+                                                " type="text" class="form-control"
+                                                placeholder="z.B. Bern, Zug (kein Regex)">
+                                        </div>
+                                        <!-- /ko -->
+                                        <!-- ko if: controller.isRoot($data) -->
+                                        <div class="btn-group btn-group-sm" role="group">
+                                            <button class="btn btn-danger btn-sm" data-bind="
+                                                click: $data.delete,
+                                                enable: $root.data.editable()
+                                            ">
+                                                <i class="bi bi-trash"></i>
+                                            </button>
+                                        </div>
+                                        <!-- /ko -->
+                                        <!-- ko ifnot: controller.isRoot($data) -->
+                                        <div class="btn-group btn-group-sm" role="group">
+                                            <button class="btn btn-danger btn-sm" data-bind="
+                                                click: function() { $root.data.setFilterToUndefined(); },
+                                                enable: $root.data.editable()
+                                            ">
+                                                <i class="bi bi-trash"></i>
+                                            </button>
+                                        </div>
+                                        <!-- /ko -->
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br />
+                <div class="form-group">
+                    <label>Beschreibung</label>
+                    <textarea data-bind="textInput: data.description" class="form-control" rows="4"></textarea>
+                </div>
+                <br />
+
+                <button type="submit" class="btn btn-primary" onclick="controller.submitSaveFilter()">
+                    Speichern
+                </button>
+                <button type="submit" class="btn btn-primary" onclick="controller.submitSaveAndOpenFilter()">
+                    Speichern und &ouml;ffnen
+                </button>
+            </div>
+        </fieldset>
+
+    </div>
+
+    <script>
+        var controller;
+        require(['pages/filter-create/index'],
+            function (UserAdministration) {
+                UserAdministration.registerComponents(ko);
+                var observable = UserAdministration.createCreateFilter(ko);
+                controller = UserAdministration.filterControllerOf(observable, ko);
+                controller.init();
+                ko.applyBindings(observable);
+            }
+        );
+    </script>
+</body>
+
+</html>

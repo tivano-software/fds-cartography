@@ -1,0 +1,28 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>de.tototec</groupId>
+  <artifactId>de.tototec.cmdoption</artifactId>
+  <packaging>jar</packaging>
+  <version>0.2.0</version>
+  <name>CmdOption</name>
+  <description>CmdOption is a simple annotation-driven command line parser toolkit for Java 5 applications that is configured through annotations.</description>
+  <url>http://cmdoption.tototec.de</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>http://cmdoption.tototec.de/svn/cmdoption</url>
+    <connection>http://cmdoption.tototec.de/svn/cmdoption</connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>TobiasRoeser</id>
+      <name>Tobias Roeser</name>
+      <email>tobias.roeser@tototec.de</email>
+    </developer>
+  </developers>
+</project>

@@ -1,0 +1,1 @@
+export type ToHref<Id extends string> = `#${Id}`

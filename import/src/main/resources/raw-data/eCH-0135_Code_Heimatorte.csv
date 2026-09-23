@@ -1,0 +1,4243 @@
+"ns1:validTo";"ns1:placeOfOriginId";"ns1:historyMunicipalityId";"ns1:placeOfOriginName";"ns1:cantonAbbreviation";"ns1:successorId";"ns1:validFrom"
+31.12.1975;1;11348;"Aeugst";"ZH";1;
+;1;13256;"Aeugst am Albis";"ZH";;01.01.1976
+;2;11742;"Affoltern am Albis";"ZH";;
+;3;11801;"Bonstetten";"ZH";;
+;4;11992;"Hausen am Albis";"ZH";;
+;5;12249;"Hedingen";"ZH";;
+;6;12671;"Kappel am Albis";"ZH";;
+;7;12674;"Knonau";"ZH";;
+;8;12738;"Maschwanden";"ZH";;
+;9;12433;"Mettmenstetten";"ZH";;
+;10;12497;"Obfelden";"ZH";;
+;11;13124;"Ottenbach";"ZH";;
+;12;12891;"Rifferswil";"ZH";;
+;13;10575;"Stallikon";"ZH";;
+31.12.1975;14;11349;"Wettswil";"ZH";14;
+;14;13255;"Wettswil am Albis";"ZH";;01.01.1976
+;21;11735;"Adlikon";"ZH";;
+;22;11862;"Benken";"ZH";;
+;23;11855;"Berg am Irchel";"ZH";;
+;24;15513;"Buch am Irchel";"ZH";;
+;25;11573;"Dachsen";"ZH";;
+;26;12182;"Dorf";"ZH";;
+;27;11973;"Feuerthalen";"ZH";;
+;28;11997;"Flaach";"ZH";;
+;29;11935;"Flurlingen";"ZH";;
+31.12.1969;30;11197;"Grossandelfingen";"ZH";30;
+;30;13214;"Andelfingen";"ZH";;01.01.1970
+;31;12240;"Henggart";"ZH";;
+;32;12173;"Humlikon";"ZH";;
+;33;12699;"Kleinandelfingen";"ZH";;
+;34;12635;"Laufen-Uhwiesen";"ZH";;
+;35;12742;"Marthalen";"ZH";;
+31.12.2018;36;12457;"Oberstammheim";"ZH";292;
+;37;13128;"Ossingen";"ZH";;
+;38;12912;"Rheinau";"ZH";;
+;39;10563;"Thalheim an der Thur";"ZH";;
+;40;10898;"Trüllikon";"ZH";;
+;41;10899;"Truttikon";"ZH";;
+31.12.2018;42;10845;"Unterstammheim";"ZH";292;
+;43;10365;"Volken";"ZH";;
+31.12.2018;44;10467;"Waltalingen";"ZH";292;
+;51;11683;"Bachenbülach";"ZH";;
+;52;11685;"Bassersdorf";"ZH";;
+;53;11461;"Bülach";"ZH";;
+;54;11563;"Dietlikon";"ZH";;
+;55;12168;"Eglisau";"ZH";;
+31.12.1930;56;;"Unterembrach";"ZH";56;
+;56;12292;"Embrach";"ZH";;01.01.1931
+31.12.1957;57;;"Freienstein";"ZH";57;
+;57;11960;"Freienstein-Teufen";"ZH";;01.01.1958
+;58;12056;"Glattfelden";"ZH";;
+;59;12166;"Hochfelden";"ZH";;
+;60;12220;"Höri";"ZH";;
+;61;12178;"Hüntwangen";"ZH";;
+;62;12673;"Kloten";"ZH";;
+;63;12720;"Lufingen";"ZH";;
+;64;12547;"Nürensdorf";"ZH";;
+;65;12524;"Oberembrach";"ZH";;
+;66;12483;"Opfikon";"ZH";;
+;67;13090;"Rafz";"ZH";;
+;68;12919;"Rorbas";"ZH";;
+;69;10451;"Wallisellen";"ZH";;
+;70;10443;"Wasterkingen";"ZH";;
+;71;10268;"Wil";"ZH";;
+;72;10331;"Winkel";"ZH";;
+;81;11704;"Bachs";"ZH";;
+;82;11786;"Boppelsen";"ZH";;
+;83;11456;"Buchs";"ZH";;
+;84;11578;"Dällikon";"ZH";;
+;85;11581;"Dänikon";"ZH";;
+;86;11567;"Dielsdorf";"ZH";;
+;87;12181;"Hüttikon";"ZH";;
+;88;12537;"Neerach";"ZH";;
+;89;12534;"Niederglatt";"ZH";;
+;90;12560;"Niederhasli";"ZH";;
+;91;12568;"Niederweningen";"ZH";;
+;92;12469;"Oberglatt";"ZH";;
+;93;12447;"Oberweningen";"ZH";;
+;94;13126;"Otelfingen";"ZH";;
+;95;13166;"Regensberg";"ZH";;
+;96;13168;"Regensdorf";"ZH";;
+;97;12834;"Rümlang";"ZH";;
+;98;13046;"Schleinikon";"ZH";;
+;99;13037;"Schöfflisdorf";"ZH";;
+;100;10383;"Stadel";"ZH";;
+;101;10597;"Steinmaur";"ZH";;
+;102;10448;"Weiach";"ZH";;
+;111;11709;"Bäretswil";"ZH";;
+;112;11478;"Bubikon";"ZH";;
+;113;12159;"Dürnten";"ZH";;
+;114;12002;"Fischenthal";"ZH";;
+;115;12023;"Gossau";"ZH";;
+;116;11970;"Grüningen";"ZH";;
+;117;12156;"Hinwil";"ZH";;
+;118;12883;"Rüti";"ZH";;
+;119;12951;"Seegräben";"ZH";;
+;120;10459;"Wald";"ZH";;
+;121;10277;"Wetzikon";"ZH";;
+;131;11745;"Adliswil";"ZH";;
+31.12.2017;132;12160;"Hirzel";"ZH";295;
+31.12.2017;133;12203;"Horgen";"ZH";295;
+31.12.2018;134;12180;"Hütten";"ZH";293;
+;135;12701;"Kilchberg";"ZH";;
+;136;12637;"Langnau am Albis";"ZH";;
+;137;12461;"Oberrieden";"ZH";;
+;138;12907;"Richterswil";"ZH";;
+;139;12832;"Rüschlikon";"ZH";;
+31.12.2018;140;13020;"Schönenberg";"ZH";293;
+;141;10691;"Thalwil";"ZH";;
+31.12.2018;142;10455;"Wädenswil";"ZH";293;
+;151;12301;"Erlenbach";"ZH";;
+;152;12316;"Herrliberg";"ZH";;
+;153;12143;"Hombrechtikon";"ZH";;
+;154;12592;"Küsnacht";"ZH";;
+;155;12754;"Männedorf";"ZH";;
+;156;12408;"Meilen";"ZH";;
+;157;12501;"Oetwil am See";"ZH";;
+;158;10363;"Stäfa";"ZH";;
+31.12.1976;159;11342;"Uetikon";"ZH";159;
+;159;13259;"Uetikon am See";"ZH";;01.01.1977
+;160;10326;"Zumikon";"ZH";;
+;161;13683;"Zollikon";"ZH";;
+31.12.2014;171;11699;"Bauma";"ZH";297;
+;172;11989;"Fehraltorf";"ZH";;
+;173;12161;"Hittnau";"ZH";;
+31.12.1973;174;11208;"Illnau";"ZH";174;
+31.12.2015;174;13235;"Illnau-Effretikon";"ZH";296;01.01.1974
+31.12.2015;175;12605;"Kyburg";"ZH";296;
+;176;12821;"Lindau";"ZH";;
+;177;13137;"Pfäffikon";"ZH";;
+;178;12831;"Russikon";"ZH";;
+31.12.2014;179;10596;"Sternenberg";"ZH";297;
+;180;10389;"Weisslingen";"ZH";;
+;181;10242;"Wila";"ZH";;
+;182;10334;"Wildberg";"ZH";;
+;191;12205;"Dübendorf";"ZH";;
+;192;12123;"Egg";"ZH";;
+;193;12248;"Fällanden";"ZH";;
+;194;12073;"Greifensee";"ZH";;
+;195;12620;"Maur";"ZH";;
+;196;12427;"Mönchaltorf";"ZH";;
+;197;12956;"Schwerzenbach";"ZH";;
+;198;10940;"Uster";"ZH";;
+;199;10368;"Volketswil";"ZH";;
+31.12.1975;200;11350;"Wangen";"ZH";200;
+;200;13250;"Wangen-Brüttisellen";"ZH";;01.01.1976
+;211;11777;"Altikon";"ZH";;
+01.01.2014;212;11865;"Bertschikon";"ZH";298;
+;213;11467;"Brütten";"ZH";;
+;214;11574;"Dägerlen";"ZH";;
+;215;11583;"Dättlikon";"ZH";;
+;216;11565;"Dinhard";"ZH";;
+31.12.2017;217;12148;"Elgg";"ZH";294;
+;218;12144;"Ellikon an der Thur";"ZH";;
+;219;12294;"Elsau";"ZH";;
+;220;12001;"Hagenbuch";"ZH";;
+;221;12283;"Hettlingen";"ZH";;
+09.04.2000;222;12125;"Hofstetten bei Elgg";"ZH";222;
+31.12.2017;222;14364;"Hofstetten";"ZH";294;10.04.2000
+;223;15514;"Neftenbach";"ZH";;
+;224;13145;"Pfungen";"ZH";;
+;225;12889;"Rickenbach";"ZH";;
+;226;14120;"Schlatt";"ZH";;
+;227;12977;"Seuzach";"ZH";;
+;228;10857;"Turbenthal";"ZH";;
+01.01.2014;229;10279;"Wiesendangen";"ZH";298;
+;230;10347;"Winterthur";"ZH";;
+;231;10312;"Zell";"ZH";;
+22.07.2000;241;13689;"Aesch bei Birmensdorf";"ZH";241;
+;241;14365;"Aesch";"ZH";;23.07.2000
+;242;13690;"Birmensdorf";"ZH";;
+;243;13691;"Dietikon";"ZH";;
+;244;13692;"Geroldswil";"ZH";;
+;245;13693;"Oberengstringen";"ZH";;
+;246;13694;"Oetwil an der Limmat";"ZH";;
+;247;13695;"Schlieren";"ZH";;
+;248;13696;"Uitikon";"ZH";;
+;249;13697;"Unterengstringen";"ZH";;
+;250;13698;"Urdorf";"ZH";;
+;251;13699;"Weiningen";"ZH";;
+;261;13688;"Zürich";"ZH";;
+;292;16122;"Stammheim";"ZH";;01.01.2019
+;293;16123;"Wädenswil";"ZH";;01.01.2019
+;294;16081;"Elgg";"ZH";;01.01.2018
+;295;16080;"Horgen";"ZH";;01.01.2018
+;296;15671;"Illnau-Effretikon";"ZH";;01.01.2016
+;297;15653;"Bauma";"ZH";;01.01.2015
+;298;15631;"Wiesendangen";"ZH";;02.01.2014
+;301;14995;"Aarberg";"BE";;
+;302;14996;"Bargen";"BE";;
+;303;14997;"Grossaffoltern";"BE";;
+;304;16124;"Kallnach";"BE";;
+;305;14999;"Kappelen";"BE";;
+;306;15474;"Lyss";"BE";;
+;307;15001;"Meikirch";"BE";;
+31.12.2012;308;15002;"Niederried bei Kallnach";"BE";304;
+;309;15003;"Radelfingen";"BE";;
+;310;15672;"Rapperswil";"BE";;
+;311;15005;"Schüpfen";"BE";;
+;312;15006;"Seedorf";"BE";;
+;321;15007;"Aarwangen";"BE";;
+;322;15008;"Auswil";"BE";;
+;323;15009;"Bannwil";"BE";;
+;324;15010;"Bleienbach";"BE";;
+;325;15011;"Busswil bei Melchnau";"BE";;
+;326;15012;"Gondiswil";"BE";;
+31.12.2006;327;11942;"Gutenburg";"BE";332;
+31.12.2010;328;15013;"Kleindietwil";"BE";332;
+;329;16606;"Langenthal";"BE";;
+31.12.2010;330;15014;"Leimiswil";"BE";332;
+;331;15015;"Lotzwil";"BE";;
+;332;15475;"Madiswil";"BE";;
+;333;15017;"Melchnau";"BE";;
+31.12.2020;334;15018;"Obersteckholz";"BE";329;
+;335;15019;"Oeschenbach";"BE";;
+;336;15020;"Reisiswil";"BE";;
+;337;15021;"Roggwil";"BE";;
+;338;15022;"Rohrbach";"BE";;
+;339;15023;"Rohrbachgraben";"BE";;
+;340;15024;"Rütschelen";"BE";;
+;341;15025;"Schwarzhäusern";"BE";;
+;342;15026;"Thunstetten";"BE";;
+31.12.2009;343;10948;"Untersteckholz";"BE";329;
+;344;15027;"Ursenbach";"BE";;
+;345;15028;"Wynau";"BE";;
+;351;15029;"Bern";"BE";;
+;352;15030;"Bolligen";"BE";;
+;353;15031;"Bremgarten bei Bern";"BE";;
+;354;15032;"Kirchlindach";"BE";;
+;355;15033;"Köniz";"BE";;
+;356;15034;"Muri bei Bern";"BE";;
+;357;15035;"Oberbalm";"BE";;
+;358;15036;"Stettlen";"BE";;
+;359;15037;"Vechigen";"BE";;
+;360;15038;"Wohlen bei Bern";"BE";;
+;361;15039;"Zollikofen";"BE";;
+;362;15040;"Ittigen";"BE";;01.01.1983
+;363;15041;"Ostermundigen";"BE";;01.01.1983
+;371;15042;"Biel/Bienne";"BE";;
+;372;15043;"Evilard";"BE";;
+;381;15044;"Arch";"BE";;
+;382;15045;"Büetigen";"BE";;
+;383;15046;"Büren an der Aare";"BE";;
+31.12.2010;384;15047;"Busswil bei Büren";"BE";306;
+;385;15048;"Diessbach bei Büren";"BE";;
+;386;15049;"Dotzigen";"BE";;
+;387;15050;"Lengnau";"BE";;
+;388;15051;"Leuzigen";"BE";;
+;389;15052;"Meienried";"BE";;
+;390;15053;"Meinisberg";"BE";;
+;391;15054;"Oberwil bei Büren";"BE";;
+;392;15055;"Pieterlen";"BE";;
+;393;15056;"Rüti bei Büren";"BE";;
+;394;15057;"Wengi";"BE";;
+;401;15058;"Aefligen";"BE";;
+;402;15059;"Alchenstorf";"BE";;
+;403;15060;"Bäriswil";"BE";;
+;404;15061;"Burgdorf";"BE";;
+;405;15673;"Ersigen";"BE";;
+;406;15063;"Hasle bei Burgdorf";"BE";;
+;407;15064;"Heimiswil";"BE";;
+;408;15065;"Hellsau";"BE";;
+;409;16607;"Hindelbank";"BE";;
+;410;15067;"Höchstetten";"BE";;
+;411;15068;"Kernenried";"BE";;
+;412;15069;"Kirchberg";"BE";;
+;413;15070;"Koppigen";"BE";;
+;414;15071;"Krauchthal";"BE";;
+;415;15072;"Lyssach";"BE";;
+31.12.2020;416;15073;"Mötschwil";"BE";409;
+31.12.2015;417;15074;"Niederösch";"BE";405;
+;418;15075;"Oberburg";"BE";;
+31.12.2015;419;15076;"Oberösch";"BE";405;
+;420;15077;"Rüdtligen-Alchenflüh";"BE";;
+;421;15078;"Rumendingen";"BE";;
+;422;15079;"Rüti bei Lyssach";"BE";;
+;423;15080;"Willadingen";"BE";;
+;424;15081;"Wynigen";"BE";;
+;431;15082;"Corgémont";"BE";;
+;432;15083;"Cormoret";"BE";;
+;433;15084;"Cortébert";"BE";;
+;434;15085;"Courtelary";"BE";;
+;435;15086;"La Ferrière";"BE";;
+31.12.2014;436;15087;"La Heutte";"BE";450;
+;437;15088;"Mont-Tramelan";"BE";;
+;438;15089;"Orvin";"BE";;
+31.12.2014;439;15090;"Péry";"BE";450;
+31.12.2013;440;15091;"Plagne";"BE";449;
+;441;15092;"Renan";"BE";;
+;442;15093;"Romont";"BE";;
+;443;15094;"Saint-Imier";"BE";;
+;444;15095;"Sonceboz-Sombeval";"BE";;
+;445;15096;"Sonvilier";"BE";;
+;446;15097;"Tramelan";"BE";;
+31.12.2013;447;15098;"Vauffelin";"BE";449;
+;448;15099;"Villeret";"BE";;
+;449;15632;"Sauge";"BE";;01.01.2014
+;450;15658;"Péry-La Heutte";"BE";;01.01.2015
+;491;15100;"Brüttelen";"BE";;
+;492;15101;"Erlach";"BE";;
+;493;15102;"Finsterhennen";"BE";;
+;494;15103;"Gals";"BE";;
+;495;15104;"Gampelen";"BE";;
+;496;15105;"Ins";"BE";;
+;497;15106;"Lüscherz";"BE";;
+;498;15107;"Müntschemier";"BE";;
+;499;15108;"Siselen";"BE";;
+;500;15109;"Treiten";"BE";;
+;501;15110;"Tschugg";"BE";;
+;502;15111;"Vinelz";"BE";;
+31.12.2009;531;13366;"Ballmoos";"BE";540;
+31.12.2015;532;15112;"Bangerten";"BE";310;
+;533;15113;"Bätterkinden";"BE";;
+31.12.2013;534;15114;"Büren zum Hof";"BE";538;
+;535;15115;"Deisswil bei Münchenbuchsee";"BE";;
+;536;15116;"Diemerswil";"BE";;
+31.12.2013;537;15117;"Etzelkofen";"BE";538;
+;538;15633;"Fraubrunnen";"BE";;
+31.12.2013;539;15119;"Grafenried";"BE";538;
+;540;15634;"Jegenstorf";"BE";;
+;541;15120;"Iffwil";"BE";;
+31.12.2013;542;15121;"Limpach";"BE";538;
+;543;15122;"Mattstetten";"BE";;
+;544;15123;"Moosseedorf";"BE";;
+31.12.2013;545;15124;"Mülchi";"BE";538;
+;546;15125;"Münchenbuchsee";"BE";;
+31.12.2013;547;15126;"Münchringen";"BE";540;
+31.12.2012;548;15127;"Ruppoldsried";"BE";310;
+31.12.2013;549;15128;"Schalunen";"BE";538;
+31.12.2013;550;15129;"Scheunen";"BE";540;
+11.12.2001;551;13386;"Urtenen";"BE";551;
+;551;15130;"Urtenen-Schönbühl";"BE";;12.12.2001
+;552;15131;"Utzenstorf";"BE";;
+;553;15132;"Wiggiswil";"BE";;
+;554;15133;"Wiler bei Utzenstorf";"BE";;
+31.12.2013;555;15134;"Zauggenried";"BE";538;
+;556;15135;"Zielebach";"BE";;
+;557;15136;"Zuzwil";"BE";;
+;561;15137;"Adelboden";"BE";;
+;562;15138;"Aeschi bei Spiez";"BE";;
+;563;15139;"Frutigen";"BE";;
+;564;15140;"Kandergrund";"BE";;
+;565;15141;"Kandersteg";"BE";;
+;566;15142;"Krattigen";"BE";;
+31.12.1956;567;;"Reichenbach bei Frutigen";"BE";567;
+;567;15143;"Reichenbach im Kandertal";"BE";;01.01.1957
+;571;15144;"Beatenberg";"BE";;
+;572;15145;"Bönigen";"BE";;
+;573;15146;"Brienz";"BE";;
+;574;15147;"Brienzwiler";"BE";;
+;575;15148;"Därligen";"BE";;
+;576;15149;"Grindelwald";"BE";;
+;577;15150;"Gsteigwiler";"BE";;
+;578;15151;"Gündlischwand";"BE";;
+;579;15152;"Habkern";"BE";;
+;580;15153;"Hofstetten bei Brienz";"BE";;
+;581;15154;"Interlaken";"BE";;
+;582;15155;"Iseltwald";"BE";;
+31.12.1972;583;11226;"Isenfluh";"BE";584;
+;584;15156;"Lauterbrunnen";"BE";;
+;585;15157;"Leissigen";"BE";;
+;586;15158;"Lütschental";"BE";;
+;587;15159;"Matten bei Interlaken";"BE";;
+;588;15160;"Niederried bei Interlaken";"BE";;
+;589;15161;"Oberried am Brienzersee";"BE";;
+;590;15162;"Ringgenberg";"BE";;
+;591;15163;"Saxeten";"BE";;
+;592;15164;"Schwanden bei Brienz";"BE";;
+;593;15165;"Unterseen";"BE";;
+;594;15166;"Wilderswil";"BE";;
+31.12.2009;601;13423;"Aeschlen";"BE";619;
+;602;15167;"Arni";"BE";;
+;603;15168;"Biglen";"BE";;
+31.12.2013;604;15169;"Bleiken bei Oberdiessbach";"BE";619;
+;605;15170;"Bowil";"BE";;
+;606;15171;"Brenzikofen";"BE";;
+;607;15172;"Freimettigen";"BE";;
+;608;16082;"Grosshöchstetten";"BE";;
+;609;15174;"Häutligen";"BE";;
+;610;15175;"Herbligen";"BE";;
+;611;15176;"Kiesen";"BE";;
+;612;15177;"Konolfingen";"BE";;
+;613;15178;"Landiswil";"BE";;
+;614;15179;"Linden";"BE";;
+;615;15180;"Mirchel";"BE";;
+;616;15688;"Münsingen";"BE";;
+;617;15182;"Niederhünigen";"BE";;
+31.12.2003;618;13440;"Niederwichtrach";"BE";632;
+;619;15635;"Oberdiessbach";"BE";;
+;620;15183;"Oberthal";"BE";;
+31.12.2003;621;13443;"Oberwichtrach";"BE";632;
+;622;15184;"Oppligen";"BE";;
+;623;15185;"Rubigen";"BE";;
+31.12.2017;624;15186;"Schlosswil";"BE";608;
+31.12.2016;625;15187;"Tägertschi";"BE";616;
+;626;15188;"Walkringen";"BE";;
+;627;15189;"Worb";"BE";;
+;628;15190;"Zäziwil";"BE";;
+;629;15191;"Oberhünigen";"BE";;01.01.1980
+;630;15192;"Allmendingen";"BE";;01.01.1993
+31.12.2012;631;15193;"Trimstein";"BE";616;01.01.1993
+;632;15194;"Wichtrach";"BE";;01.01.2004
+;661;15195;"Clavaleyres";"BE";;
+;662;15196;"Ferenbalm";"BE";;
+;663;15197;"Frauenkappelen";"BE";;
+31.12.2018;664;15198;"Golaten";"BE";304;
+;665;15199;"Gurbrü";"BE";;
+31.12.1958;666;;"Dicki";"BE";666;
+;666;15200;"Kriechenwil";"BE";;01.01.1959
+;667;15201;"Laupen";"BE";;
+;668;15202;"Mühleberg";"BE";;
+;669;15203;"Münchenwiler";"BE";;
+;670;15204;"Neuenegg";"BE";;
+;671;15205;"Wileroltigen";"BE";;
+;681;15206;"Belprahon";"BE";;
+31.12.2014;682;15207;"Bévilard";"BE";717;
+;683;15208;"Champoz";"BE";;
+31.12.2014;684;15209;"Châtelat";"BE";716;
+;687;15210;"Corcelles";"BE";;
+;690;15211;"Court";"BE";;
+;691;15212;"Crémines";"BE";;
+;692;15213;"Eschert";"BE";;
+;694;15214;"Grandval";"BE";;
+;696;15215;"Loveresse";"BE";;
+31.12.2014;697;15216;"Malleray";"BE";717;
+31.12.2014;699;15217;"Monible";"BE";716;
+;700;15218;"Moutier";"BE";;
+;701;15219;"Perrefitte";"BE";;
+31.12.2014;702;15220;"Pontenet";"BE";717;
+;703;15221;"Reconvilier";"BE";;
+;704;15222;"Roches";"BE";;
+;706;15223;"Saicourt";"BE";;
+;707;15224;"Saules";"BE";;
+;708;15225;"Schelten";"BE";;
+;709;15226;"Seehof";"BE";;
+31.12.2014;710;15227;"Sornetan";"BE";716;
+;711;15228;"Sorvilier";"BE";;
+31.12.2014;712;15229;"Souboz";"BE";716;
+;713;15230;"Tavannes";"BE";;
+;715;15231;"Rebévelier";"BE";;
+;716;15662;"Petit-Val";"BE";;01.01.2015
+;717;15661;"Valbirse";"BE";;01.01.2015
+31.12.2013;721;15232;"Diesse";"BE";726;
+31.12.2013;722;15233;"Lamboing";"BE";726;
+31.12.1947;723;;"La Neuveville";"BE";723;
+;723;15234;"La Neuveville";"BE";;01.01.1948
+;724;15235;"Nods";"BE";;
+31.12.2013;725;15236;"Prêles";"BE";726;
+;726;15636;"Plateau de Diesse";"BE";;01.01.2014
+;731;15237;"Aegerten";"BE";;
+;732;15238;"Bellmund";"BE";;
+;733;15239;"Brügg";"BE";;
+;734;15240;"Bühl";"BE";;
+;735;15241;"Epsach";"BE";;
+;736;15242;"Hagneck";"BE";;
+;737;15243;"Hermrigen";"BE";;
+;738;15244;"Jens";"BE";;
+;739;15245;"Ipsach";"BE";;
+;740;15246;"Ligerz";"BE";;
+;741;15247;"Merzligen";"BE";;
+;742;15248;"Mörigen";"BE";;
+;743;15249;"Nidau";"BE";;
+;744;15250;"Orpund";"BE";;
+;745;15251;"Port";"BE";;
+;746;15252;"Safnern";"BE";;
+;747;15253;"Scheuren";"BE";;
+;748;15254;"Schwadernau";"BE";;
+;749;15255;"Studen";"BE";;
+;750;15256;"Sutz-Lattrigen";"BE";;
+;751;15257;"Täuffelen";"BE";;
+31.12.2009;752;13916;"Tüscherz-Alfermée";"BE";756;
+31.12.2009;753;13917;"Twann";"BE";756;
+;754;15258;"Walperswil";"BE";;
+;755;15259;"Worben";"BE";;
+;756;14978;"Twann-Tüscherz";"BE";;01.01.2010
+;761;15260;"Därstetten";"BE";;
+;762;15261;"Diemtigen";"BE";;
+;763;15262;"Erlenbach im Simmental";"BE";;
+31.12.2013;764;15263;"Niederstocken";"BE";770;
+31.12.2013;765;15264;"Oberstocken";"BE";770;
+;766;15265;"Oberwil im Simmental";"BE";;
+;767;15266;"Reutigen";"BE";;
+;768;15267;"Spiez";"BE";;
+;769;15268;"Wimmis";"BE";;
+;770;15637;"Stocken-Höfen";"BE";;01.01.2014
+31.12.2013;781;15269;"Gadmen";"BE";784;
+;782;15270;"Guttannen";"BE";;
+;783;15271;"Hasliberg";"BE";;
+;784;15638;"Innertkirchen";"BE";;
+;785;15273;"Meiringen";"BE";;
+;786;15274;"Schattenhalb";"BE";;
+;791;15275;"Boltigen";"BE";;
+;792;15276;"Lenk";"BE";;
+;793;15277;"St. Stephan";"BE";;
+;794;15278;"Zweisimmen";"BE";;
+;841;15279;"Gsteig";"BE";;
+;842;15280;"Lauenen";"BE";;
+;843;15281;"Saanen";"BE";;
+31.12.2010;851;15282;"Albligen";"BE";855;
+;852;15283;"Guggisberg";"BE";;
+;853;15284;"Rüschegg";"BE";;
+31.12.2010;854;15285;"Wahlern";"BE";855;
+;855;15476;"Schwarzenburg";"BE";;01.01.2011
+;861;15498;"Belp";"BE";;
+31.12.2011;862;15287;"Belpberg";"BE";861;
+;863;15288;"Burgistein";"BE";;
+31.12.2003;864;13949;"Englisberg";"BE";888;
+31.12.2017;865;15289;"Gelterfingen";"BE";872;
+;866;15290;"Gerzensee";"BE";;
+;867;15291;"Gurzelen";"BE";;
+;868;15292;"Jaberg";"BE";;
+;869;15293;"Kaufdorf";"BE";;
+;870;15294;"Kehrsatz";"BE";;
+31.12.2013;871;15295;"Kienersrüti";"BE";885;
+;872;16083;"Kirchdorf";"BE";;
+31.12.2019;873;15297;"Kirchenthurnen";"BE";889;
+31.12.2019;874;15298;"Lohnstorf";"BE";889;
+31.12.2017;875;15299;"Mühledorf";"BE";872;
+31.12.2019;876;15300;"Mühlethurnen";"BE";889;
+;877;15301;"Niedermuhlern";"BE";;
+31.12.2017;878;15302;"Noflen";"BE";872;
+;879;16608;"Riggisberg";"BE";;
+;880;15304;"Rüeggisberg";"BE";;
+31.12.2020;881;15305;"Rümligen";"BE";879;
+31.12.2008;882;13967;"Rüti bei Riggisberg";"BE";879;
+;883;15306;"Seftigen";"BE";;
+;884;15307;"Toffen";"BE";;
+;885;15639;"Uttigen";"BE";;
+;886;15309;"Wattenwil";"BE";;
+31.12.2003;887;13972;"Zimmerwald";"BE";888;
+;888;15310;"Wald";"BE";;01.01.2004
+;889;16128;"Thurnen";"BE";;01.01.2020
+;901;15311;"Eggiwil";"BE";;
+;902;15312;"Langnau im Emmental";"BE";;
+;903;15313;"Lauperswil";"BE";;
+;904;15314;"Röthenbach im Emmental";"BE";;
+;905;15315;"Rüderswil";"BE";;
+;906;15316;"Schangnau";"BE";;
+;907;15317;"Signau";"BE";;
+;908;15318;"Trub";"BE";;
+;909;15319;"Trubschachen";"BE";;
+;921;15320;"Amsoldingen";"BE";;
+;922;15321;"Blumenstein";"BE";;
+;923;15322;"Buchholterberg";"BE";;
+;924;15323;"Eriz";"BE";;
+;925;15324;"Fahrni";"BE";;
+31.12.2006;926;13987;"Forst";"BE";948;
+;927;15325;"Heiligenschwendi";"BE";;
+;928;15326;"Heimberg";"BE";;
+;929;15327;"Hilterfingen";"BE";;
+31.12.2013;930;15328;"Höfen";"BE";770;
+;931;15329;"Homberg";"BE";;
+;932;15330;"Horrenbach-Buchen";"BE";;
+31.12.2006;933;13994;"Längenbühl";"BE";948;
+;934;15331;"Oberhofen am Thunersee";"BE";;
+;935;15332;"Oberlangenegg";"BE";;
+;936;15333;"Pohlern";"BE";;
+31.12.2019;937;15334;"Schwendibach";"BE";939;
+;938;15335;"Sigriswil";"BE";;
+;939;16129;"Steffisburg";"BE";;
+;940;15337;"Teuffenthal";"BE";;
+;941;15338;"Thierachern";"BE";;
+;942;15339;"Thun";"BE";;
+;943;15340;"Uebeschi";"BE";;
+;944;15341;"Uetendorf";"BE";;
+;945;15342;"Unterlangenegg";"BE";;
+;946;15343;"Wachseldorn";"BE";;
+;947;15344;"Zwieselberg";"BE";;
+;948;15345;"Forst-Längenbühl";"BE";;01.01.2007
+;951;15346;"Affoltern im Emmental";"BE";;
+;952;15347;"Dürrenroth";"BE";;
+;953;15348;"Eriswil";"BE";;
+;954;15349;"Huttwil";"BE";;
+;955;15350;"Lützelflüh";"BE";;
+;956;15351;"Rüegsau";"BE";;
+;957;15352;"Sumiswald";"BE";;
+;958;15353;"Trachselwald";"BE";;
+;959;15354;"Walterswil";"BE";;
+;960;15355;"Wyssachen";"BE";;
+;971;15356;"Attiswil";"BE";;
+;972;15357;"Berken";"BE";;
+;973;15477;"Bettenhausen";"BE";;
+31.12.2010;974;15359;"Bollodingen";"BE";973;
+;975;15360;"Farnern";"BE";;
+;976;15361;"Graben";"BE";;
+;977;15362;"Heimenhausen";"BE";;
+31.12.2015;978;15363;"Hermiswil";"BE";988;
+;979;15364;"Herzogenbuchsee";"BE";;
+;980;15365;"Inkwil";"BE";;
+;981;16130;"Niederbipp";"BE";;
+;982;15367;"Niederönz";"BE";;
+;983;15368;"Oberbipp";"BE";;
+31.12.2007;984;14032;"Oberönz";"BE";979;
+;985;15369;"Ochlenberg";"BE";;
+31.12.2008;986;14034;"Röthenbach bei Herzogenbuchsee";"BE";977;
+;987;15370;"Rumisberg";"BE";;
+;988;15674;"Seeberg";"BE";;
+;989;15372;"Thörigen";"BE";;
+;990;15373;"Walliswil bei Niederbipp";"BE";;
+;991;15374;"Walliswil bei Wangen";"BE";;
+;992;15375;"Wangen an der Aare";"BE";;
+;993;15376;"Wangenried";"BE";;
+31.12.2008;994;14042;"Wanzwil";"BE";977;
+;995;15377;"Wiedlisbach";"BE";;
+31.12.2019;996;15378;"Wolfisberg";"BE";981;
+;1001;15557;"Doppleschwand";"LU";;
+;1002;15561;"Entlebuch";"LU";;
+31.12.2012;1003;12227;"Escholzmatt";"LU";1010;
+;1004;15543;"Flühli";"LU";;
+;1005;15547;"Hasle";"LU";;
+31.12.2012;1006;12750;"Marbach";"LU";1010;
+;1007;15582;"Romoos";"LU";;
+;1008;15585;"Schüpfheim";"LU";;
+;1009;15522;"Werthenstein";"LU";;
+;1010;15518;"Escholzmatt-Marbach";"LU";;01.01.2013
+;1021;15539;"Aesch";"LU";;
+31.12.2020;1022;15542;"Altwis";"LU";1030;
+;1023;15536;"Ballwil";"LU";;
+;1024;15563;"Emmen";"LU";;
+;1025;15564;"Ermensee";"LU";;
+;1026;15560;"Eschenbach";"LU";;
+31.12.2008;1027;12108;"Gelfingen";"LU";1030;
+31.12.2008;1028;12012;"Hämikon";"LU";1030;
+31.12.2004;1029;12305;"Herlisberg";"LU";1039;
+;1030;16590;"Hitzkirch";"LU";;
+;1031;15556;"Hochdorf";"LU";;
+;1032;15597;"Hohenrain";"LU";;
+;1033;15574;"Inwil";"LU";;
+31.12.2006;1034;12817;"Lieli";"LU";1032;
+31.12.2008;1035;12381;"Mosen";"LU";1030;
+31.12.2008;1036;12528;"Müswangen";"LU";1030;
+;1037;15590;"Rain";"LU";;
+31.12.2008;1038;12916;"Retschwil";"LU";1030;
+;1039;15592;"Römerswil";"LU";;
+;1040;15579;"Rothenburg";"LU";;
+;1041;15586;"Schongau";"LU";;
+31.12.2008;1042;10544;"Sulz";"LU";1030;
+;1051;15538;"Adligenswil";"LU";;
+;1052;15532;"Buchrain";"LU";;
+;1053;15535;"Dierikon";"LU";;
+;1054;15552;"Ebikon";"LU";;
+;1055;15550;"Gisikon";"LU";;
+;1056;15551;"Greppen";"LU";;
+;1057;15558;"Honau";"LU";;
+;1058;15559;"Horw";"LU";;
+;1059;15576;"Kriens";"LU";;
+31.12.2009;1060;12827;"Littau";"LU";1061;
+;1061;15600;"Luzern";"LU";;
+;1062;15578;"Malters";"LU";;
+;1063;15568;"Meggen";"LU";;
+;1064;15567;"Meierskappel";"LU";;
+;1065;15581;"Root";"LU";;
+;1066;15584;"Schwarzenberg";"LU";;
+;1067;15530;"Udligenswil";"LU";;
+;1068;15526;"Vitznau";"LU";;
+;1069;15528;"Weggis";"LU";;
+13.05.1934;1081;;"Münster";"LU";1081;
+;1081;15663;"Beromünster";"LU";;14.05.1934
+;1082;15534;"Büron";"LU";;
+;1083;15533;"Buttisholz";"LU";;
+;1084;15554;"Eich";"LU";;
+;1085;15548;"Geuensee";"LU";;
+;1086;15545;"Grosswangen";"LU";;
+31.12.2008;1087;11939;"Gunzwil";"LU";1081;
+;1088;15562;"Hildisrieden";"LU";;
+;1089;15575;"Knutwil";"LU";;
+31.12.2004;1090;12630;"Kulmerau";"LU";1104;
+;1091;15573;"Mauensee";"LU";;
+31.12.2012;1092;12513;"Neudorf";"LU";1081;
+;1093;15570;"Neuenkirch";"LU";;
+;1094;15572;"Nottwil";"LU";;
+;1095;15569;"Oberkirch";"LU";;
+31.12.2012;1096;13160;"Pfeffikon";"LU";1097;
+;1097;15520;"Rickenbach";"LU";;
+;1098;15580;"Ruswil";"LU";;
+;1099;15664;"Schenkon";"LU";;
+;1100;15588;"Schlierbach";"LU";;
+31.08.2004;1101;12976;"Schwarzenbach";"LU";1081;
+;1102;15587;"Sempach";"LU";;
+;1103;15529;"Sursee";"LU";;
+;1104;15599;"Triengen";"LU";;
+31.12.2004;1105;10339;"Wilihof";"LU";1104;
+31.12.2008;1106;10345;"Winikon";"LU";1104;
+;1107;15525;"Wolhusen";"LU";;
+;1121;15537;"Alberswil";"LU";;
+;1122;15540;"Altbüron";"LU";;
+;1123;16131;"Altishofen";"LU";;
+31.12.2005;1124;11455;"Buchs";"LU";1125;
+;1125;15593;"Dagmersellen";"LU";;
+31.12.2019;1126;15553;"Ebersecken";"LU";1123;
+;1127;15555;"Egolzwil";"LU";;
+;1128;15594;"Ettiswil";"LU";;
+;1129;15546;"Fischbach";"LU";;
+31.12.2020;1130;15549;"Gettnau";"LU";1151;
+;1131;15544;"Grossdietwil";"LU";;
+;1132;15565;"Hergiswil bei Willisau";"LU";;
+31.12.2005;1133;12680;"Kottwil";"LU";1128;
+31.12.2005;1134;12629;"Langnau bei Reiden";"LU";1140;
+;1135;15577;"Luthern";"LU";;
+;1136;15566;"Menznau";"LU";;
+;1137;15571;"Nebikon";"LU";;
+31.12.2012;1138;12504;"Ohmstal";"LU";1143;
+;1139;15591;"Pfaffnau";"LU";;
+;1140;15596;"Reiden";"LU";;
+31.12.2005;1141;12908;"Richenthal";"LU";1140;
+;1142;15583;"Roggliswil";"LU";;
+;1143;15521;"Schötz";"LU";;
+31.12.2005;1144;10854;"Uffikon";"LU";1125;
+;1145;15531;"Ufhusen";"LU";;
+;1146;15527;"Wauwil";"LU";;
+;1147;15523;"Wikon";"LU";;
+31.12.2005;1148;10341;"Willisau-Land";"LU";1151;
+31.12.2005;1149;10342;"Willisau-Stadt";"LU";1151;
+;1150;15524;"Zell";"LU";;
+;1151;16591;"Willisau";"LU";;01.01.2006
+;1201;11773;"Altdorf";"UR";;
+;1202;11784;"Andermatt";"UR";;
+;1203;11678;"Attinghausen";"UR";;
+31.12.2020;1204;11697;"Bauen";"UR";1214;
+;1205;11506;"Bürglen";"UR";;
+;1206;12238;"Erstfeld";"UR";;
+;1207;11940;"Flüelen";"UR";;
+;1208;12032;"Göschenen";"UR";;
+;1209;11941;"Gurtnellen";"UR";;
+;1210;12213;"Hospental";"UR";;
+;1211;12661;"Isenthal";"UR";;
+;1212;13165;"Realp";"UR";;
+;1213;13055;"Schattdorf";"UR";;
+;1214;16592;"Seedorf";"UR";;
+;1215;12950;"Seelisberg";"UR";;
+;1216;12985;"Silenen";"UR";;
+;1217;12981;"Sisikon";"UR";;
+;1218;10364;"Spiringen";"UR";;
+;1219;10869;"Unterschächen";"UR";;
+;1220;10442;"Wassen";"UR";;
+;1301;12152;"Einsiedeln";"SZ";;
+;1311;12033;"Gersau";"SZ";;
+;1321;12007;"Feusisberg";"SZ";;
+;1322;11961;"Freienbach";"SZ";;
+;1323;10314;"Wollerau";"SZ";;
+;1331;14470;"Küssnacht";"SZ";;
+;1341;11774;"Altendorf";"SZ";;
+;1342;12075;"Galgenen";"SZ";;
+;1343;12658;"Innerthal";"SZ";;
+;1344;12607;"Lachen";"SZ";;
+;1345;13181;"Reichenburg";"SZ";;
+;1346;12968;"Schübelbach";"SZ";;
+;1347;10859;"Tuggen";"SZ";;
+;1348;10371;"Vorderthal";"SZ";;
+;1349;10471;"Wangen";"SZ";;
+;1361;11778;"Alpthal";"SZ";;
+;1362;11670;"Arth";"SZ";;
+;1363;12192;"Illgau";"SZ";;
+;1364;12657;"Ingenbohl";"SZ";;
+;1365;12634;"Lauerz";"SZ";;
+;1366;12371;"Morschach";"SZ";;
+;1367;12362;"Muotathal";"SZ";;
+;1368;12475;"Oberiberg";"SZ";;
+;1369;12894;"Riemenstalden";"SZ";;
+;1370;12853;"Rothenthurm";"SZ";;
+;1371;13022;"Sattel";"SZ";;
+;1372;12955;"Schwyz";"SZ";;
+;1373;10594;"Steinen";"SZ";;
+;1374;10571;"Steinerberg";"SZ";;
+;1375;10865;"Unteriberg";"SZ";;
+;1401;11753;"Alpnach";"OW";;
+;1402;12287;"Engelberg";"OW";;
+;1403;12063;"Giswil";"OW";;
+;1404;12688;"Kerns";"OW";;
+;1405;12718;"Lungern";"OW";;
+;1406;12859;"Sachseln";"OW";;
+;1407;13009;"Sarnen";"OW";;
+;1501;11792;"Beckenried";"NW";;
+;1502;11465;"Buochs";"NW";;
+;1503;11568;"Dallenwil";"NW";;
+;1504;12290;"Emmetten";"NW";;
+;1505;12276;"Ennetbürgen";"NW";;
+;1506;12275;"Ennetmoos";"NW";;
+;1507;12300;"Hergiswil";"NW";;
+;1508;12556;"Oberdorf";"NW";;
+;1509;10576;"Stans";"NW";;
+;1510;10577;"Stansstad";"NW";;
+;1511;10357;"Wolfenschiessen";"NW";;
+31.12.2010;1601;11879;"Betschwanden";"GL";1631;
+31.12.2010;1602;11891;"Bilten";"GL";1630;
+31.12.2010;1603;11843;"Braunwald";"GL";1631;01.01.1939
+31.12.2003;1604;11551;"Diesbach";"GL";1614;
+31.12.2010;1605;12232;"Elm";"GL";1631;
+31.12.2010;1606;12285;"Engi";"GL";1631;
+31.12.2010;1607;12279;"Ennenda";"GL";1632;
+31.12.2010;1608;12011;"Filzbach";"GL";1630;
+31.12.2010;1609;12070;"Glarus";"GL";1632;
+31.12.2010;1610;14537;"Haslen";"GL";1631;
+31.12.2003;1611;11971;"Hätzingen";"GL";1614;
+30.06.2006;1612;12766;"Leuggelbach";"GL";1610;
+31.12.2010;1613;12824;"Linthal";"GL";1631;
+31.12.2010;1614;14473;"Luchsingen";"GL";1631;
+31.12.2010;1615;12745;"Matt";"GL";1631;
+31.12.2010;1616;12418;"Mitlödi";"GL";1631;
+31.12.2010;1617;12425;"Mollis";"GL";1630;
+31.12.2010;1618;12352;"Mühlehorn";"GL";1630;
+31.12.2010;1619;12541;"Näfels";"GL";1630;
+31.12.2010;1620;12532;"Netstal";"GL";1632;
+30.06.2006;1621;12523;"Nidfurn";"GL";1610;
+31.12.2010;1622;12558;"Niederurnen";"GL";1630;
+31.12.2010;1623;12459;"Oberurnen";"GL";1630;
+31.12.2010;1624;12498;"Obstalden";"GL";1630;
+31.12.2010;1625;12898;"Riedern";"GL";1632;
+31.12.2010;1626;12884;"Rüti";"GL";1631;
+31.12.2010;1627;12948;"Schwanden";"GL";1631;
+31.12.2010;1628;12962;"Schwändi";"GL";1631;
+31.12.2010;1629;10413;"Sool";"GL";1631;
+;1630;15479;"Glarus Nord";"GL";;01.01.2011
+;1631;15478;"Glarus Süd";"GL";;01.01.2011
+;1632;15480;"Glarus";"GL";;01.01.2011
+;1701;11711;"Baar";"ZG";;
+;1702;11397;"Cham";"ZG";;
+;1703;12176;"Hünenberg";"ZG";;
+;1704;12389;"Menzingen";"ZG";;
+;1705;12517;"Neuheim";"ZG";;
+;1706;12551;"Oberägeri";"ZG";;
+;1707;12931;"Risch";"ZG";;
+;1708;10598;"Steinhausen";"ZG";;
+;1709;10844;"Unterägeri";"ZG";;
+;1710;10457;"Walchwil";"ZG";;
+;1711;10323;"Zug";"ZG";;
+31.12.2003;2001;11682;"Aumont";"FR";2050;
+31.12.2005;2002;11656;"Autavaux";"FR";2052;
+31.12.2005;2003;11787;"Bollion";"FR";2025;
+31.12.2016;2004;11491;"Bussy";"FR";2054;
+31.12.2016;2005;11394;"Châbles";"FR";2055;
+31.08.1994;2006;11450;"Chandon";"FR";2024;
+31.12.1952;2007;;"Chapelle-près-Surpierre";"FR";2007;
+31.12.2004;2007;11434;"Chapelle (Broye)";"FR";2009;01.01.1953
+;2008;11419;"Châtillon";"FR";;
+31.12.2020;2009;14509;"Cheiry";"FR";7545;
+31.12.2016;2010;11613;"Cheyres";"FR";2055;
+;2011;14510;"Cugy";"FR";;
+31.12.2004;2012;11558;"Delley";"FR";2051;
+31.12.2015;2013;12191;"Domdidier";"FR";2053;
+31.12.2015;2014;12189;"Dompierre";"FR";2053;
+31.12.2016;2015;15499;"Estavayer-le-Lac";"FR";2054;
+;2016;11974;"Fétigny";"FR";;
+31.12.2011;2017;11921;"Font";"FR";2015;
+31.12.2005;2018;11926;"Forel";"FR";2052;
+31.12.1991;2019;11934;"Franex";"FR";2034;
+31.12.2003;2020;11965;"Frasses";"FR";2050;
+31.12.1990;2021;12774;"Les Friques";"FR";2041;
+;2022;12055;"Gletterens";"FR";;
+31.12.2003;2023;12096;"Granges-de-Vesin";"FR";2050;
+31.12.2015;2024;14045;"Léchelles";"FR";2053;
+;2025;14526;"Lully";"FR";;
+31.12.1952;2026;;"Mannens";"FR";2026;
+31.12.2003;2026;12755;"Mannens-Grandsivaz";"FR";2029;01.01.1953
+;2027;12387;"Ménières";"FR";;
+31.12.1999;2028;12337;"Montagny-la-Ville";"FR";2029;
+31.12.1999;2029;12338;"Montagny-les-Monts";"FR";2029;
+;2029;14475;"Montagny";"FR";;01.01.2000
+31.12.1980;2030;11366;"Montborget";"FR";2034;
+31.12.2005;2031;12344;"Montbrelloz";"FR";2052;
+31.12.2003;2032;12324;"Montet (Broye)";"FR";2050;
+31.12.2016;2033;12319;"Morens";"FR";2054;
+31.12.2016;2034;13744;"Murist";"FR";2054;
+;2035;12549;"Nuvilly";"FR";;
+31.12.2004;2036;13074;"Portalban";"FR";2051;
+31.12.2004;2037;13068;"Praratoud";"FR";2044;
+;2038;13105;"Prévondavaux";"FR";;
+31.12.2016;2039;12841;"Rueyres-les-Prés";"FR";2054;
+31.12.2015;2040;12845;"Russy";"FR";2053;
+;2041;13702;"Saint-Aubin";"FR";;
+31.12.2005;2042;12963;"Seiry";"FR";2025;
+;2043;12991;"Sévaz";"FR";;
+;2044;16593;"Surpierre";"FR";;
+;2045;10944;"Vallon";"FR";;
+31.12.2004;2046;10922;"Vesin";"FR";2011;
+31.12.2016;2047;10202;"Villeneuve";"FR";2044;
+31.12.1980;2048;11359;"La Vounaise";"FR";2034;
+31.12.2016;2049;10422;"Vuissens";"FR";2054;
+;2050;14474;"Les Montets";"FR";;01.01.2004
+;2051;14511;"Delley-Portalban";"FR";;01.01.2005
+31.12.2016;2052;14525;"Vernay";"FR";2054;01.01.2006
+;2053;15675;"Belmont-Broye";"FR";;01.01.2016
+;2054;15689;"Estavayer";"FR";;01.01.2017
+;2055;15690;"Cheyres-Châbles";"FR";;01.01.2017
+;2061;11680;"Auboranges";"FR";;
+31.12.2003;2062;11859;"Berlens";"FR";2087;
+31.12.1997;2063;11890;"Billens";"FR";2063;
+;2063;14103;"Billens-Hennens";"FR";;01.01.1998
+31.12.2000;2064;11897;"Bionnens";"FR";2102;
+31.12.1992;2065;11802;"Blessens";"FR";2097;
+31.12.1952;2066;;"Chapelle-sur-Gillarens";"FR";2066;
+;2066;11444;"Chapelle (Glâne)";"FR";;01.01.1953
+;2067;12611;"Le Châtelard";"FR";;
+;2068;11420;"Châtonnaye";"FR";;
+31.12.2003;2069;11425;"Chavannes-les-Forts";"FR";2099;
+31.12.2000;2070;11427;"Chavannes-sous-Orsonnens";"FR";2114;
+31.12.2002;2071;12796;"Les Ecasseys";"FR";2113;
+;2072;13211;"Ecublens";"FR";;
+28.02.1969;2073;11258;"Eschiens";"FR";2072;
+31.12.2005;2074;12226;"Esmonts";"FR";2112;
+31.12.2002;2075;12266;"Estévenens";"FR";2113;
+31.12.1977;2076;11377;"Fuyens";"FR";2111;
+31.12.2000;2077;12057;"Gillarens";"FR";2097;
+31.12.1980;2078;11361;"Les Glânes";"FR";2096;
+;2079;12113;"Grangettes";"FR";;
+31.12.1997;2080;12241;"Hennens";"FR";2063;
+31.12.2002;2081;12577;"La Joux";"FR";2113;
+31.12.2002;2082;12816;"Lieffrens";"FR";2113;
+31.12.2004;2083;12731;"Lussy";"FR";2116;
+31.12.1972;2084;11216;"Macconnens";"FR";2109;
+31.12.2002;2085;12578;"La Magne";"FR";2113;
+;2086;12734;"Massonnens";"FR";;
+;2087;14476;"Mézières";"FR";;
+31.12.2003;2088;12443;"Middes";"FR";2115;
+;2089;12340;"Montet (Glâne)";"FR";;
+31.12.1990;2090;12368;"Morlens";"FR";2112;
+31.12.2000;2091;12366;"Mossel";"FR";2102;
+31.12.2003;2092;12579;"La Neirigue";"FR";2113;
+31.12.2000;2093;13133;"Orsonnens";"FR";2114;
+31.12.2003;2094;13102;"Prez-vers-Siviriez";"FR";2099;
+31.12.2000;2095;13112;"Promasens";"FR";2097;
+;2096;13663;"Romont";"FR";;
+;2097;14140;"Rue";"FR";;
+31.12.1977;2098;11344;"Le Saulgy";"FR";2099;
+;2099;14477;"Siviriez";"FR";;
+31.12.2002;2100;10391;"Sommentier";"FR";2113;
+31.12.2003;2101;10878;"Torny-le-Grand";"FR";2115;
+;2102;15500;"Ursy";"FR";;
+31.12.2000;2103;10913;"Vauderens";"FR";2102;
+28.02.1969;2104;11259;"Villangeaux";"FR";2072;
+31.12.2003;2105;10759;"Villaraboud";"FR";2099;
+31.12.1977;2106;11334;"Villaranon";"FR";2099;
+31.12.2000;2107;10762;"Villargiroud";"FR";2114;
+31.12.2002;2108;10763;"Villariaz";"FR";2113;
+31.12.2004;2109;13229;"Villarimboud";"FR";2116;
+31.12.2000;2110;10151;"Villarsiviriaux";"FR";2114;
+31.12.2019;2111;13268;"Villaz-Saint-Pierre";"FR";2117;
+31.12.2011;2112;14527;"Vuarmarens";"FR";2102;
+;2113;14480;"Vuisternens-devant-Romont";"FR";;
+;2114;14137;"Villorsonnens";"FR";;
+;2115;14478;"Torny";"FR";;01.01.2004
+31.12.2019;2116;14513;"La Folliaz";"FR";2117;01.01.2005
+;2117;16132;"Villaz";"FR";;01.01.2020
+;2121;14362;"Haut-Intyamon";"FR";;01.01.2002
+;2122;14368;"Pont-en-Ogoz";"FR";;01.01.2003
+;2123;14530;"Botterens";"FR";;
+;2124;11871;"Broc";"FR";;
+;2125;14528;"Bulle";"FR";;
+31.12.2013;2126;11389;"Cerniat";"FR";2163;
+31.12.2013;2127;11447;"Charmey";"FR";2163;
+;2128;11424;"Châtel-sur-Montsalvens";"FR";;
+;2129;15481;"Corbières";"FR";;
+;2130;11533;"Crésuz";"FR";;
+;2131;12135;"Echarlens";"FR";;
+31.12.2003;2132;12306;"Enney";"FR";2162;
+31.12.2003;2133;12269;"Estavannens";"FR";2162;
+;2134;12106;"Grandvillard";"FR";;
+;2135;11958;"Gruyères";"FR";;
+31.12.2002;2136;11967;"Gumefens";"FR";2122;
+;2137;12247;"Hauteville";"FR";;
+;2138;12668;"Jaun";"FR";;
+31.12.2001;2139;12773;"Lessoc";"FR";2121;
+;2140;14135;"Marsens";"FR";;
+31.12.2000;2141;12364;"Maules";"FR";2152;
+31.12.2001;2142;12343;"Montbovon";"FR";2121;
+;2143;12369;"Morlon";"FR";;
+31.12.2001;2144;12540;"Neirivue";"FR";2121;
+;2145;12618;"Le Pâquier";"FR";;
+31.12.2002;2146;13216;"Le Bry";"FR";2122;
+;2147;13080;"Pont-la-Ville";"FR";;
+;2148;12909;"Riaz";"FR";;
+;2149;12574;"La Roche";"FR";;
+31.12.2000;2150;12928;"Romanens";"FR";2152;
+31.12.2000;2151;12839;"Rueyres-Treyfayes";"FR";2152;
+31.12.2000;2152;13021;"Sâles (Gruyère)";"FR";2152;
+;2152;14138;"Sâles";"FR";;01.01.2001
+;2153;10416;"Sorens";"FR";;
+31.12.2005;2154;12587;"La Tour-de-Trême";"FR";2125;
+;2155;10906;"Vaulruz";"FR";;
+31.12.2005;2156;10761;"Villarbeney";"FR";2123;
+31.01.1970;2157;11195;"Villars-d'Avry";"FR";2146;
+31.12.2003;2158;10775;"Villars-sous-Mont";"FR";2162;
+31.12.2010;2159;10167;"Villarvolard";"FR";2129;
+;2160;10373;"Vuadens";"FR";;
+31.12.2000;2161;10388;"Vuippens";"FR";2140;
+;2162;14479;"Bas-Intyamon";"FR";;01.01.2004
+;2163;15640;"Val-de-Charmey";"FR";;01.01.2014
+31.12.2020;2171;11762;"Arconciel";"FR";7539;
+31.12.2015;2172;11655;"Autafond";"FR";2175;
+;2173;11657;"Autigny";"FR";;
+;2174;14143;"Avry";"FR";;01.01.2001
+;2175;15676;"Belfaux";"FR";;
+31.12.2002;2176;13687;"Bonnefontaine";"FR";2220;
+;2177;11502;"Chénens";"FR";;
+31.12.1975;2178;11354;"Chésalles";"FR";2206;
+31.12.2016;2179;11617;"Chésopelloz";"FR";2183;
+31.12.2003;2180;12582;"La Corbaz";"FR";2235;
+31.12.2000;2181;11623;"Corjolens";"FR";2174;
+31.12.2003;2182;11624;"Cormagens";"FR";2235;
+;2183;15692;"Corminboeuf";"FR";;
+31.12.1998;2184;11629;"Corpataux";"FR";2184;
+31.12.2015;2184;14127;"Corpataux-Magnedens";"FR";2236;01.01.1999
+31.12.2019;2185;11633;"Corserey";"FR";2237;
+;2186;11540;"Cottens";"FR";;
+31.12.1976;2187;11358;"Cutterwyl";"FR";2175;
+31.12.2000;2188;12128;"Ecuvillens";"FR";2233;
+31.12.2020;2189;13257;"Ependes";"FR";7540;
+31.12.2002;2190;12225;"Essert";"FR";2220;
+31.12.2002;2191;12268;"Estavayer-le-Gibloux";"FR";2223;
+31.12.2015;2192;14085;"Farvagny";"FR";2236;
+31.12.1995;2193;12149;"Farvagny-le-Petit";"FR";2192;
+;2194;11978;"Ferpicloz";"FR";;
+31.12.1981;2195;11303;"Formangueires";"FR";2203;
+;2196;11954;"Fribourg";"FR";;
+;2197;12060;"Givisiez";"FR";;
+;2198;12111;"Granges-Paccot";"FR";;
+31.12.1995;2199;12081;"Grenilles";"FR";2192;
+;2200;14129;"Grolley";"FR";;
+31.05.1972;2201;11187;"Illens";"FR";2222;
+31.12.2000;2202;12789;"Lentigny";"FR";2234;
+31.12.2003;2203;13665;"Lossy-Formangueires";"FR";2235;
+31.12.2000;2204;12812;"Lovens";"FR";2234;
+31.12.1998;2205;12715;"Magnedens";"FR";2184;
+31.01.1970;2206;11192;"Marly-le-Grand";"FR";2206;
+;2206;13249;"Marly";"FR";;01.02.1970
+31.01.1970;2207;11193;"Marly-le-Petit";"FR";2206;
+;2208;12744;"Matran";"FR";;
+31.12.1988;2209;12348;"Montécu";"FR";2176;
+31.12.2002;2210;12320;"Montévraz";"FR";2220;
+;2211;12521;"Neyruz";"FR";;
+31.12.1980;2212;11362;"Nierlet-les-Bois";"FR";2217;
+31.12.2019;2213;12550;"Noréaz";"FR";2237;
+31.12.2002;2214;12451;"Oberried";"FR";2220;
+31.12.2000;2215;12500;"Onnens";"FR";2234;
+;2216;13141;"Pierrafortscha";"FR";;
+;2217;13662;"Ponthaux";"FR";;
+31.12.1995;2218;13072;"Posat";"FR";2192;
+31.12.2000;2219;13071;"Posieux";"FR";2233;
+;2220;14369;"Le Mouret";"FR";;01.01.2003
+31.12.2019;2221;13103;"Prez-vers-Noréaz";"FR";2237;
+31.12.2015;2222;13225;"Rossens";"FR";2236;
+31.12.2015;2223;14372;"Le Glèbe";"FR";2236;01.01.2003
+01.11.1976;2224;11333;"Sales (Sarine)";"FR";2189;
+31.12.2020;2225;12997;"Senèdes";"FR";7542;
+;2226;10889;"Treyvaux";"FR";;
+31.12.2002;2227;10764;"Villarlod";"FR";2223;
+;2228;10162;"Villars-sur-Glâne";"FR";;
+31.12.2002;2229;10180;"Villarsel-le-Gibloux";"FR";2223;
+;2230;10165;"Villarsel-sur-Marly";"FR";;
+31.12.2015;2231;10406;"Vuisternens-en-Ogoz";"FR";2236;
+31.12.2002;2232;10313;"Zénauva";"FR";2220;
+;2233;14141;"Hauterive";"FR";;
+;2234;14136;"La Brillaz";"FR";;
+;2235;14481;"La Sonnaz";"FR";;01.01.2004
+;2236;15677;"Gibloux";"FR";;01.01.2016
+;2237;16133;"Prez";"FR";;01.01.2020
+;2238;16594;"Bois-d'Amont";"FR";;01.01.2021
+31.12.2005;2241;11724;"Agriswil";"FR";2276;
+31.12.1990;2242;11750;"Altavilla";"FR";2275;
+31.12.2016;2243;11694;"Barberêche";"FR";2254;
+31.12.2012;2244;11466;"Büchslen";"FR";2275;
+31.12.1974;2245;11205;"Burg bei Murten";"FR";2275;
+31.12.1982;2246;11297;"Chandossel";"FR";2279;
+31.12.2004;2247;11620;"Cordast";"FR";2262;
+31.12.1996;2248;11634;"Cormérod";"FR";2272;
+31.12.1999;2249;11631;"Corsalettes";"FR";2200;
+;2250;11534;"Courgevaux";"FR";;
+31.12.2015;2251;13234;"Courlevon";"FR";2275;
+31.12.1996;2252;11834;"Cournillens";"FR";2272;
+31.12.2002;2253;11545;"Courtaman";"FR";2254;
+;2254;15693;"Courtepin";"FR";;
+31.12.1996;2255;11548;"Courtion";"FR";2272;
+14.02.1974;2256;11209;"Coussiberlé";"FR";2251;
+;2257;11522;"Cressier";"FR";;
+;2258;11969;"Fräschels";"FR";;
+;2259;12107;"Galmiz";"FR";;
+;2260;12102;"Gempenach";"FR";;
+;2261;12078;"Greng";"FR";;
+;2262;14514;"Gurmels";"FR";;
+31.12.2002;2263;13266;"Guschelmuth";"FR";2262;
+31.12.2015;2264;12646;"Jeuss";"FR";2275;
+;2265;12689;"Kerzers";"FR";;
+;2266;12700;"Kleinbösingen";"FR";;
+31.12.1999;2267;12676;"Kleingurmels";"FR";2262;
+31.12.1977;2268;11336;"Kleinguschelmuth";"FR";2263;
+31.12.2002;2269;12815;"Liebistorf";"FR";2262;
+31.12.2015;2270;12728;"Lurtigen";"FR";2275;
+;2271;12437;"Meyriez";"FR";;
+;2272;14096;"Misery-Courtion";"FR";;
+31.12.1977;2273;11338;"Monterschu";"FR";2262;
+;2274;12361;"Muntelier";"FR";;
+;2275;15678;"Murten";"FR";;
+;2276;14529;"Ried bei Kerzers";"FR";;
+31.12.2015;2277;13015;"Salvenach";"FR";2275;
+;2278;10856;"Ulmiz";"FR";;
+31.12.2016;2279;13670;"Villarepos";"FR";2254;
+31.12.1976;2280;11365;"Vully-le-Bas";"FR";2280;
+31.12.2015;2280;13261;"Bas-Vully";"FR";2284;01.01.1977
+31.12.1976;2281;11341;"Vully-le-Haut";"FR";2281;
+31.12.2015;2281;13260;"Haut-Vully";"FR";2284;01.01.1977
+31.12.2002;2282;10463;"Wallenbuch";"FR";2262;
+31.12.2016;2283;10480;"Wallenried";"FR";2254;
+;2284;15679;"Mont-Vully";"FR";;01.01.2016
+31.12.2020;2291;11775;"Alterswil";"FR";7543;
+;2292;11473;"Brünisried";"FR";;
+;2293;12204;"Düdingen";"FR";;
+;2294;12024;"Giffers";"FR";;
+31.12.1961;2295;11235;"Grossbösingen";"FR";2295;
+;2295;13193;"Bösingen";"FR";;01.01.1962
+;2296;12260;"Heitenried";"FR";;
+31.12.1970;2297;11186;"Neuhaus";"FR";2300;
+31.12.2016;2298;12455;"Oberschrot";"FR";2299;
+;2299;15694;"Plaffeien";"FR";;
+;2300;13218;"Plasselb";"FR";;
+;2301;13175;"Rechthalten";"FR";;
+31.12.2020;2302;10367;"St. Antoni";"FR";7544;
+;2303;10378;"St. Silvester";"FR";;
+;2304;10380;"St. Ursen";"FR";;
+;2305;13041;"Schmitten";"FR";;
+;2306;16595;"Tafers";"FR";;
+;2307;10559;"Tentlingen";"FR";;
+;2308;10848;"Ueberstorf";"FR";;
+31.12.1973;2309;11207;"Wünnewil";"FR";2309;
+;2309;13232;"Wünnewil-Flamatt";"FR";;01.01.1974
+31.12.2016;2310;10325;"Zumholz";"FR";2299;
+;2321;11676;"Attalens";"FR";;
+31.12.2003;2322;11854;"Besencens";"FR";2335;
+;2323;11799;"Bossonnens";"FR";;
+31.12.2003;2324;11836;"Bouloz";"FR";2337;
+;2325;11426;"Châtel-Saint-Denis";"FR";;
+31.12.2003;2326;12613;"Le Crêt";"FR";2338;
+31.12.2003;2327;11984;"Fiaugères";"FR";2335;
+;2328;12120;"Granges (Veveyse)";"FR";;
+31.12.2003;2329;12116;"Grattavache";"FR";2338;
+31.12.2003;2330;13081;"Pont (Veveyse)";"FR";2337;
+31.12.2003;2331;13088;"Porsel";"FR";2337;
+31.12.2003;2332;13100;"Progens";"FR";2338;
+;2333;13172;"Remaufens";"FR";;
+31.12.1967;2334;11267;"La Rougève";"FR";2336;
+;2335;14484;"Saint-Martin";"FR";;
+;2336;13207;"Semsales";"FR";;
+;2337;14482;"Le Flon";"FR";;01.01.2004
+;2338;14483;"La Verrerie";"FR";;01.01.2004
+;2401;13703;"Egerkingen";"SO";;
+;2402;13704;"Härkingen";"SO";;
+;2403;13705;"Kestenholz";"SO";;
+;2404;13706;"Neuendorf";"SO";;
+;2405;13707;"Niederbuchsiten";"SO";;
+;2406;13708;"Oberbuchsiten";"SO";;
+;2407;13709;"Oensingen";"SO";;
+;2408;13710;"Wolfwil";"SO";;
+;2421;13711;"Aedermannsdorf";"SO";;
+;2422;13712;"Balsthal";"SO";;
+31.12.2020;2423;13713;"Gänsbrunnen";"SO";2430;
+;2424;13714;"Herbetswil";"SO";;
+;2425;13715;"Holderbank";"SO";;
+;2426;13716;"Laupersdorf";"SO";;
+;2427;13717;"Matzendorf";"SO";;
+;2428;13718;"Mümliswil-Ramiswil";"SO";;
+31.12.2020;2429;13719;"Welschenrohr";"SO";7559;
+;2430;16596;"Welschenrohr-Gänsbrunnen";"SO";;01.01.2021
+31.12.2013;2441;11749;"Aetigkofen";"SO";7961;
+31.12.2013;2442;11727;"Aetingen";"SO";7962;
+31.12.2009;2443;11712;"Balm bei Messen";"SO";2443;
+;2443;;"Balm bei Messen";"SO";;01.01.2010
+31.12.2013;2444;11915;"Bibern";"SO";7963;
+;2445;11911;"Biezwil";"SO";;
+31.12.2013;2446;11471;"Brügglen";"SO";7964;
+31.12.2009;2447;11483;"Brunnenthal";"SO";2447;
+;2447;;"Brunnenthal";"SO";;01.01.2010
+31.12.1994;2448;12095;"Gächliwil";"SO";2456;
+31.12.2013;2449;12028;"Gossliwil";"SO";7965;
+31.12.2013;2450;12273;"Hessigkofen";"SO";7966;
+31.12.1960;2451;11245;"Ichertswil";"SO";2455;
+31.12.2013;2452;12595;"Küttigkofen";"SO";7967;
+31.12.2013;2453;12597;"Kyburg-Buchegg";"SO";2465;
+31.12.2012;2454;12730;"Lüsslingen";"SO";7952;
+;2455;13187;"Lüterkofen-Ichertswil";"SO";;
+;2456;14067;"Lüterswil-Gächliwil";"SO";;
+;2457;15380;"Messen";"SO";;
+31.12.2013;2458;12372;"Mühledorf";"SO";7968;
+31.12.2012;2459;12516;"Nennigkofen";"SO";7953;
+31.12.2009;2460;12450;"Oberramsern";"SO";2457;
+;2461;13039;"Schnottwil";"SO";;
+31.12.2013;2462;10900;"Tscheppach";"SO";7969;
+;2463;10868;"Unterramsern";"SO";;
+;2464;15602;"Lüsslingen-Nennigkofen";"SO";;01.01.2013
+;2465;15642;"Buchegg";"SO";;01.01.2014
+;2471;11696;"Bättwil";"SO";;
+;2472;11510;"Büren";"SO";;
+;2473;12219;"Dornach";"SO";;
+;2474;12103;"Gempen";"SO";;
+;2475;12134;"Hochwald";"SO";;
+;2476;13684;"Hofstetten-Flüh";"SO";;
+31.12.2002;2477;12434;"Metzerlen";"SO";2477;
+;2477;14469;"Metzerlen-Mariastein";"SO";;01.01.2003
+;2478;12545;"Nuglar-St. Pantaleon";"SO";;
+;2479;12940;"Rodersdorf";"SO";;
+;2480;12990;"Seewen";"SO";;
+;2481;10352;"Witterswil";"SO";;
+;2491;11985;"Hauenstein-Ifenthal";"SO";;
+;2492;12691;"Kienberg";"SO";;
+;2493;12808;"Lostorf";"SO";;
+31.12.2005;2494;12543;"Niedererlinsbach";"SO";2503;
+;2495;12559;"Niedergösgen";"SO";;
+31.12.2005;2496;12466;"Obererlinsbach";"SO";2496;
+;2496;;"Obererlinsbach";"SO";;01.01.2006
+;2497;12462;"Obergösgen";"SO";;
+31.12.2020;2498;12935;"Rohr";"SO";2499;
+;2499;16597;"Stüsslingen";"SO";;
+;2500;10894;"Trimbach";"SO";;
+;2501;10348;"Winznau";"SO";;
+;2502;10349;"Wisen";"SO";;
+;2503;14531;"Erlinsbach";"SO";;01.01.2006
+;2511;15508;"Aeschi";"SO";;
+;2513;13722;"Biberist";"SO";;
+;2514;13723;"Bolken";"SO";;
+31.12.1993;2515;13724;"Burgäschi";"SO";2511;
+;2516;13725;"Deitingen";"SO";;
+;2517;13726;"Derendingen";"SO";;
+;2518;13727;"Etziken";"SO";;
+;2519;13728;"Gerlafingen";"SO";;
+;2520;13729;"Halten";"SO";;
+31.12.2012;2522;13731;"Hersiwil";"SO";2535;
+;2523;13732;"Horriwil";"SO";;
+;2524;13733;"Hüniken";"SO";;
+;2525;13734;"Kriegstetten";"SO";;
+;2527;13736;"Luterbach";"SO";;
+;2528;13737;"Obergerlafingen";"SO";;
+;2529;13738;"Oekingen";"SO";;
+;2530;13739;"Recherswil";"SO";;
+31.12.2011;2531;13740;"Steinhof";"SO";2511;
+;2532;13741;"Subingen";"SO";;
+31.12.1992;2533;13742;"Winistorf";"SO";7861;
+;2534;13743;"Zuchwil";"SO";;
+;2535;15603;"Drei Höfe";"SO";;01.01.2013
+;2541;11702;"Balm bei Günsberg";"SO";;
+;2542;11878;"Bellach";"SO";;
+;2543;11908;"Bettlach";"SO";;
+;2544;11986;"Feldbrunnen-St. Niklaus";"SO";;
+;2545;11937;"Flumenthal";"SO";;
+;2546;12076;"Grenchen";"SO";;
+;2547;11923;"Günsberg";"SO";;
+;2548;12215;"Hubersdorf";"SO";;
+;2549;12650;"Kammersrohr";"SO";;
+;2550;12626;"Langendorf";"SO";;
+;2551;12803;"Lommiswil";"SO";;
+31.12.2010;2552;12570;"Niederwil";"SO";2552;
+;2552;;"Niederwil";"SO";;01.01.2011
+;2553;12502;"Oberdorf";"SO";;
+;2554;15482;"Riedholz";"SO";;
+;2555;12879;"Rüttenen";"SO";;
+;2556;13003;"Selzach";"SO";;
+;2571;11789;"Boningen";"SO";;
+;2572;11580;"Däniken";"SO";;
+;2573;12199;"Dulliken";"SO";;
+;2574;12309;"Eppenberg-Wöschnau";"SO";;
+;2575;12092;"Fulenbach";"SO";;
+;2576;13230;"Gretzenbach";"SO";;
+31.12.1972;2577;11200;"Grod";"SO";2576;
+;2578;11936;"Gunzgen";"SO";;
+;2579;12003;"Hägendorf";"SO";;
+;2580;12651;"Kappel";"SO";;
+;2581;12486;"Olten";"SO";;
+;2582;12905;"Rickenbach";"SO";;
+;2583;12971;"Schönenwerd";"SO";;
+;2584;10578;"Starrkirch-Wil";"SO";;
+;2585;10469;"Walterswil";"SO";;
+;2586;10472;"Wangen bei Olten";"SO";;
+;2601;10384;"Solothurn";"SO";;
+;2611;11690;"Bärschwil";"SO";;
+;2612;11876;"Beinwil";"SO";;
+;2613;11822;"Breitenbach";"SO";;
+;2614;11511;"Büsserach";"SO";;
+;2615;12274;"Erschwil";"SO";;
+;2616;11988;"Fehren";"SO";;
+;2617;12009;"Grindel";"SO";;
+;2618;12154;"Himmelried";"SO";;
+;2619;12692;"Kleinlützel";"SO";;
+;2620;12385;"Meltingen";"SO";;
+;2621;12546;"Nunningen";"SO";;
+;2622;10324;"Zullwil";"SO";;
+;2701;11693;"Basel";"BS";;
+;2702;11907;"Bettingen";"BS";;
+;2703;12895;"Riehen";"BS";;
+;2761;13824;"Aesch";"BL";;
+;2762;13825;"Allschwil";"BL";;
+;2763;13826;"Arlesheim";"BL";;
+;2764;13827;"Biel-Benken";"BL";;
+;2765;13828;"Binningen";"BL";;
+;2766;13829;"Birsfelden";"BL";;
+;2767;13830;"Bottmingen";"BL";;
+;2768;13831;"Ettingen";"BL";;
+;2769;13832;"Münchenstein";"BL";;
+;2770;13833;"Muttenz";"BL";;
+;2771;13834;"Oberwil";"BL";;
+;2772;13835;"Pfeffingen";"BL";;
+;2773;13836;"Reinach";"BL";;
+;2774;13837;"Schönenbuch";"BL";;
+;2775;13838;"Therwil";"BL";;
+31.12.1993;2781;;"Blauen";"BE";2781;
+;2781;13839;"Blauen";"BL";;01.01.1994
+31.12.1993;2782;13452;"Brislach";"BE";2782;
+;2782;13840;"Brislach";"BL";;01.01.1994
+31.12.1993;2783;;"Burg im Leimental";"BE";2783;
+;2783;13841;"Burg im Leimental";"BL";;01.01.1994
+31.12.1993;2784;;"Dittingen";"BE";2784;
+;2784;13842;"Dittingen";"BL";;01.01.1994
+31.12.1993;2785;;"Duggingen";"BE";2785;
+;2785;13843;"Duggingen";"BL";;01.01.1994
+31.12.1993;2786;13456;"Grellingen";"BE";2786;
+;2786;13844;"Grellingen";"BL";;01.01.1994
+31.12.1993;2787;13457;"Laufen";"BE";2787;
+;2787;13845;"Laufen";"BL";;01.01.1994
+31.12.1993;2788;13458;"Liesberg";"BE";2788;
+;2788;13846;"Liesberg";"BL";;01.01.1994
+31.12.1993;2789;13459;"Nenzlingen";"BE";2789;
+;2789;13847;"Nenzlingen";"BL";;01.01.1994
+31.12.1993;2790;;"Roggenburg";"BE";2790;
+;2790;13848;"Roggenburg";"BL";;01.01.1994
+31.12.1993;2791;;"Röschenz";"BE";2791;
+;2791;13849;"Röschenz";"BL";;01.01.1994
+31.12.1993;2792;;"Wahlen";"BE";2792;
+;2792;13850;"Wahlen";"BL";;01.01.1994
+31.12.1993;2793;;"Zwingen";"BE";2793;
+;2793;13851;"Zwingen";"BL";;01.01.1994
+31.12.1971;2804;11184;"Benken";"BL";2764;
+31.12.1971;2805;11183;"Biel";"BL";2764;
+;2821;13766;"Arisdorf";"BL";;
+;2822;13767;"Augst";"BL";;
+;2823;13768;"Bubendorf";"BL";;
+;2824;13769;"Frenkendorf";"BL";;
+;2825;13770;"Füllinsdorf";"BL";;
+;2826;13771;"Giebenach";"BL";;
+;2827;13772;"Hersberg";"BL";;
+;2828;13773;"Lausen";"BL";;
+;2829;13774;"Liestal";"BL";;
+;2830;13775;"Lupsingen";"BL";;
+;2831;13776;"Pratteln";"BL";;
+;2832;13777;"Ramlinsburg";"BL";;
+;2833;13778;"Seltisberg";"BL";;
+;2834;13779;"Ziefen";"BL";;
+;2841;13780;"Anwil";"BL";;
+;2842;13781;"Böckten";"BL";;
+;2843;13782;"Buckten";"BL";;
+;2844;13783;"Buus";"BL";;
+;2845;13784;"Diepflingen";"BL";;
+;2846;13785;"Gelterkinden";"BL";;
+;2847;13786;"Häfelfingen";"BL";;
+;2848;13787;"Hemmiken";"BL";;
+;2849;13788;"Itingen";"BL";;
+;2850;13789;"Känerkinden";"BL";;
+;2851;13790;"Kilchberg";"BL";;
+;2852;13791;"Läufelfingen";"BL";;
+;2853;13792;"Maisprach";"BL";;
+;2854;13793;"Nusshof";"BL";;
+;2855;13794;"Oltingen";"BL";;
+;2856;13795;"Ormalingen";"BL";;
+;2857;13796;"Rickenbach";"BL";;
+;2858;13797;"Rothenfluh";"BL";;
+;2859;13798;"Rümlingen";"BL";;
+;2860;13799;"Rünenberg";"BL";;
+;2861;13800;"Sissach";"BL";;
+;2862;13801;"Tecknau";"BL";;
+;2863;13802;"Tenniken";"BL";;
+;2864;13803;"Thürnen";"BL";;
+;2865;13804;"Wenslingen";"BL";;
+;2866;13805;"Wintersingen";"BL";;
+;2867;13806;"Wittinsburg";"BL";;
+;2868;13807;"Zeglingen";"BL";;
+;2869;13808;"Zunzgen";"BL";;
+;2881;13809;"Arboldswil";"BL";;
+;2882;13810;"Bennwil";"BL";;
+;2883;13811;"Bretzwil";"BL";;
+;2884;13812;"Diegten";"BL";;
+;2885;13813;"Eptingen";"BL";;
+;2886;13814;"Hölstein";"BL";;
+;2887;13815;"Lampenberg";"BL";;
+;2888;13816;"Langenbruck";"BL";;
+;2889;13817;"Lauwil";"BL";;
+;2890;13818;"Liedertswil";"BL";;
+;2891;13819;"Niederdorf";"BL";;
+;2892;13820;"Oberdorf";"BL";;
+;2893;13821;"Reigoldswil";"BL";;
+;2894;13822;"Titterten";"BL";;
+;2895;13823;"Waldenburg";"BL";;
+;2901;12071;"Gächlingen";"SH";;
+31.12.2012;2902;11933;"Guntmadingen";"SH";2932;
+;2903;12801;"Löhningen";"SH";;
+;2904;12519;"Neunkirch";"SH";;
+31.12.2004;2905;13127;"Osterfingen";"SH";2974;
+31.12.2008;2911;11772;"Altdorf";"SH";2920;
+31.12.2003;2912;11691;"Barzheim";"SH";2920;
+31.12.2008;2913;11914;"Bibern";"SH";2920;
+;2914;11486;"Büttenhardt";"SH";;
+;2915;12184;"Dörflingen";"SH";;
+31.12.2008;2916;12124;"Hofen";"SH";2920;
+;2917;12800;"Lohn";"SH";;
+31.12.2008;2918;12482;"Opfertshofen";"SH";2920;
+;2919;10586;"Stetten";"SH";;
+;2920;14948;"Thayngen";"SH";;
+;2931;11688;"Bargen";"SH";;
+;2932;15604;"Beringen";"SH";;
+;2933;11474;"Buchberg";"SH";;
+31.12.2008;2934;12221;"Hemmental";"SH";2939;
+31.12.1963;2935;11233;"Herblingen";"SH";2939;
+;2936;12395;"Merishausen";"SH";;
+31.12.1937;2937;;"Neuhausen";"SH";2937;
+;2937;12525;"Neuhausen am Rheinfall";"SH";;01.01.1938
+;2938;12846;"Rüdlingen";"SH";;
+;2939;14949;"Schaffhausen";"SH";;
+;2951;11873;"Beggingen";"SH";;
+;2952;13045;"Schleitheim";"SH";;
+;2953;12989;"Siblingen";"SH";;
+;2961;11479;"Buch";"SH";;
+;2962;12233;"Hemishofen";"SH";;
+;2963;13170;"Ramsen";"SH";;
+;2964;10592;"Stein am Rhein";"SH";;
+31.12.1933;2971;;"Unterhallau";"SH";2971;
+;2971;12020;"Hallau";"SH";;01.01.1934
+;2972;12471;"Oberhallau";"SH";;
+;2973;10882;"Trasadingen";"SH";;
+;2974;14515;"Wilchingen";"SH";;
+;3001;12304;"Herisau";"AR";;
+;3002;12175;"Hundwil";"AR";;
+;3003;12972;"Schönengrund";"AR";;
+;3004;12957;"Schwellbrunn";"AR";;
+;3005;10583;"Stein";"AR";;
+;3006;10946;"Urnäsch";"AR";;
+;3007;10461;"Waldstatt";"AR";;
+;3021;11451;"Bühler";"AR";;
+;3022;12077;"Gais";"AR";;
+;3023;10157;"Speicher";"AR";;
+;3024;10561;"Teufen";"AR";;
+;3025;10895;"Trogen";"AR";;
+;3031;11956;"Grub";"AR";;
+;3032;12253;"Heiden";"AR";;
+;3033;12705;"Lutzenberg";"AR";;
+;3034;13169;"Rehetobel";"AR";;
+;3035;12915;"Reute";"AR";;
+;3036;10458;"Wald";"AR";;
+;3037;10470;"Walzenhausen";"AR";;
+;3038;10358;"Wolfhalden";"AR";;
+;3101;14097;"Appenzell";"AI";;
+;3111;14102;"Oberegg";"AI";;
+;3201;14378;"Häggenschwil";"SG";;
+;3202;14379;"Muolen";"SG";;
+;3203;14380;"St. Gallen";"SG";;
+;3204;14381;"Wittenbach";"SG";;
+;3211;14382;"Berg";"SG";;
+;3212;14383;"Eggersriet";"SG";;
+;3213;14384;"Goldach";"SG";;
+;3214;14385;"Mörschwil";"SG";;
+;3215;14386;"Rorschach";"SG";;
+;3216;14387;"Rorschacherberg";"SG";;
+;3217;14388;"Steinach";"SG";;
+;3218;14389;"Tübach";"SG";;
+;3219;14390;"Untereggen";"SG";;
+;3231;14391;"Au";"SG";;
+;3232;14392;"Balgach";"SG";;
+;3233;14393;"Berneck";"SG";;
+;3234;14394;"Diepoldsau";"SG";;
+;3235;14395;"Rheineck";"SG";;
+;3236;14396;"St. Margrethen";"SG";;
+;3237;14397;"Thal";"SG";;
+;3238;14398;"Widnau";"SG";;
+;3251;14399;"Altstätten";"SG";;
+;3252;14400;"Eichberg";"SG";;
+;3253;14401;"Marbach";"SG";;
+;3254;14402;"Oberriet";"SG";;
+;3255;14403;"Rebstein";"SG";;
+31.12.1992;3256;12885;"Rüthi (Rheintal)";"SG";3256;
+;3256;14404;"Rüthi";"SG";;01.01.1993
+;3271;14405;"Buchs";"SG";;
+;3272;14406;"Gams";"SG";;
+;3273;14407;"Grabs";"SG";;
+;3274;14408;"Sennwald";"SG";;
+;3275;14409;"Sevelen";"SG";;
+;3276;14410;"Wartau";"SG";;
+31.12.1936;3291;;"Ragaz";"SG";3291;
+;3291;14411;"Bad Ragaz";"SG";;01.01.1937
+;3293;14413;"Mels";"SG";;
+;3294;14414;"Pfäfers";"SG";;
+;3295;14415;"Quarten";"SG";;
+;3296;14416;"Sargans";"SG";;
+31.12.1951;3298;;"Wallenstadt";"SG";3298;
+;3298;14418;"Walenstadt";"SG";;01.01.1952
+;3311;14419;"Amden";"SG";;
+;3312;14420;"Benken";"SG";;
+;3313;14421;"Kaltbrunn";"SG";;
+31.12.2012;3314;14422;"Rieden";"SG";7955;
+;3315;14423;"Schänis";"SG";;
+;3316;14424;"Weesen";"SG";;
+31.12.2012;3331;14425;"Ernetschwil";"SG";3341;
+31.12.2012;3332;14426;"Eschenbach";"SG";3342;
+31.12.2012;3333;14427;"Goldingen";"SG";3342;
+31.12.2012;3334;14428;"Gommiswald";"SG";7954;
+31.12.2006;3335;14429;"Jona";"SG";3340;
+31.12.2006;3336;14430;"Rapperswil";"SG";3340;
+31.12.2012;3337;14431;"St. Gallenkappel";"SG";3342;
+;3338;14432;"Schmerikon";"SG";;
+;3339;14433;"Uznach";"SG";;
+;3340;14925;"Rapperswil-Jona";"SG";;01.01.2007
+;3341;15605;"Gommiswald";"SG";;01.01.2013
+;3342;15606;"Eschenbach";"SG";;01.01.2013
+31.12.2009;3351;14434;"Alt St. Johann";"SG";7921;
+31.12.2010;3352;14435;"Ebnat-Kappel";"SG";3352;
+;3352;14435;"Ebnat-Kappel";"SG";;01.01.2011
+31.12.2004;3354;14436;"Krummenau";"SG";7916;
+31.12.2004;3355;14437;"Nesslau";"SG";7915;
+31.12.1992;3356;10584;"Stein (Toggenburg)";"SG";3356;
+31.12.2012;3356;14438;"Stein";"SG";7956;01.01.1993
+31.12.2009;3357;14439;"Wildhaus";"SG";7920;
+;3360;15607;"Nesslau";"SG";;01.01.2013
+31.12.2008;3371;14440;"Brunnadern";"SG";7917;
+;3372;14441;"Hemberg";"SG";;
+31.12.2012;3373;14442;"Krinau";"SG";3379;
+;3374;14443;"Lichtensteig";"SG";;
+;3375;14444;"Oberhelfenschwil";"SG";;
+31.12.2008;3376;14445;"St. Peterzell";"SG";7918;
+31.12.2012;3377;14446;"Wattwil";"SG";3379;
+;3378;14950;"Neckertal";"SG";;01.01.2009
+;3379;15608;"Wattwil";"SG";;01.01.2013
+31.12.2012;3391;14447;"Bütschwil";"SG";7959;
+;3392;14448;"Kirchberg";"SG";;
+;3393;14449;"Lütisburg";"SG";;
+;3394;14450;"Mosnang";"SG";;
+;3401;14451;"Degersheim";"SG";;
+;3402;14452;"Flawil";"SG";;
+31.12.2012;3403;14453;"Ganterschwil";"SG";7960;
+31.12.1963;3404;11229;"Henau";"SG";3408;
+;3405;14454;"Jonschwil";"SG";;
+31.12.2008;3406;14455;"Mogelsberg";"SG";3378;
+;3407;14456;"Oberuzwil";"SG";;
+;3408;14457;"Uzwil";"SG";;
+31.12.2012;3421;14458;"Bronschhofen";"SG";3427;
+;3422;14459;"Niederbüren";"SG";;
+;3423;14460;"Niederhelfenschwil";"SG";;
+;3424;14461;"Oberbüren";"SG";;
+31.12.2012;3425;14462;"Wil";"SG";3427;
+;3426;14463;"Zuzwil";"SG";;
+;3427;15610;"Wil";"SG";;01.01.2013
+;3441;14464;"Andwil";"SG";;
+;3442;14465;"Gaiserwald";"SG";;
+;3443;14466;"Gossau";"SG";;
+;3444;14467;"Waldkirch";"SG";;
+31.12.2014;3501;14144;"Alvaschein";"GR";3542;
+31.12.1942;3502;;"Mons";"GR";3502;
+31.12.2014;3502;14145;"Mon";"GR";3542;01.01.1943
+31.12.2017;3503;15961;"Mutten";"GR";3668;
+31.12.1942;3504;;"Stürvis";"GR";3504;
+31.12.2014;3504;14147;"Stierva";"GR";3542;01.01.1943
+31.12.2014;3505;14148;"Tiefencastel";"GR";3542;
+31.12.1942;3506;;"Obervaz";"GR";3506;
+;3506;15962;"Vaz/Obervaz";"GR";;01.01.1943
+31.12.2014;3511;14150;"Alvaneu";"GR";3542;
+31.12.1965;3512;11830;"Brienz";"GR";3512;
+31.12.2014;3512;14151;"Brienz/Brinzauls";"GR";3542;01.01.1966
+31.12.1942;3513;;"Lenz";"GR";3513;
+;3513;15963;"Lantsch/Lenz";"GR";;01.01.1943
+;3514;15964;"Schmitten";"GR";;
+31.12.2014;3515;14154;"Surava";"GR";3542;
+31.12.1942;3521;;"Bergün";"GR";3521;
+31.12.2017;3521;15965;"Bergün/Bravuogn";"GR";3544;01.01.1943
+31.12.2017;3522;15966;"Filisur";"GR";3544;
+31.12.2008;3523;14157;"Wiesen";"GR";3851;
+31.12.2015;3531;14158;"Bivio";"GR";3543;
+31.12.1942;3532;;"Conters im Oberhalbstein";"GR";3532;
+31.12.2015;3532;14159;"Cunter";"GR";3543;01.01.1943
+31.12.2015;3533;14160;"Marmorera";"GR";3543;
+31.12.1942;3534;;"Mühlen";"GR";3534;
+31.12.2015;3534;14161;"Mulegns";"GR";3543;01.01.1943
+31.12.1942;3535;;"Präsanz";"GR";3535;
+31.12.1978;3535;11374;"Parsonz";"GR";3536;01.01.1943
+31.12.1942;3536;;"Reams";"GR";3536;
+31.12.1978;3536;11373;"Riom";"GR";3536;01.01.1943
+31.12.2015;3536;14162;"Riom-Parsonz";"GR";3543;01.01.1979
+30.06.1998;3537;12923;"Rona";"GR";3541;
+31.12.1942;3538;;"Salux";"GR";3538;
+31.12.2015;3538;14163;"Salouf";"GR";3543;01.01.1943
+31.12.2015;3539;14164;"Savognin";"GR";3543;
+31.12.2015;3540;14165;"Sur";"GR";3543;
+31.12.1942;3541;;"Tinzen";"GR";3541;
+31.12.1943;3541;;"Tinizun";"GR";3541;01.01.1943
+31.12.1998;3541;14117;"Tinizong";"GR";3541;01.01.1944
+31.12.2015;3541;14166;"Tinizong-Rona";"GR";3543;01.01.1999
+;3542;16062;"Albula/Alvra";"GR";;01.01.2015
+;3543;16068;"Surses";"GR";;01.01.2016
+;3544;16085;"Bergün Filisur";"GR";;01.01.2018
+;3551;15967;"Brusio";"GR";;
+;3561;15968;"Poschiavo";"GR";;
+31.12.1942;3571;;"Kästris";"GR";3571;
+31.12.2013;3571;14169;"Castrisch";"GR";3619;01.01.1943
+31.12.1968;3572;11256;"Fellers";"GR";3572;
+;3572;15969;"Falera";"GR";;01.01.1969
+31.12.2008;3573;14171;"Flond";"GR";3617;
+31.12.2013;3574;14172;"Ilanz";"GR";3619;
+;3575;15970;"Laax";"GR";;
+31.12.2013;3576;14174;"Ladir";"GR";3619;
+31.12.1942;3577;;"Luvis";"GR";3577;
+31.12.2013;3577;14175;"Luven";"GR";3619;01.01.1943
+31.12.2013;3578;14176;"Pitasch";"GR";3619;
+31.12.2013;3579;14177;"Riein";"GR";3619;
+31.12.2013;3580;14178;"Ruschein";"GR";3619;
+31.12.1942;3581;;"Sagens";"GR";3581;
+;3581;15971;"Sagogn";"GR";;01.01.1943
+31.12.1982;3582;11306;"Schleuis";"GR";3582;
+;3582;15972;"Schluein";"GR";;01.01.1983
+31.12.2013;3583;14181;"Schnaus";"GR";3619;
+31.12.1942;3584;;"Seewis im Oberland";"GR";3584;
+31.12.2013;3584;14182;"Sevgein";"GR";3619;01.01.1943
+31.12.1977;3585;11340;"Strada";"GR";3574;
+31.12.2012;3586;14183;"Valendas";"GR";3672;
+31.12.2012;3587;14184;"Versam";"GR";3672;
+31.12.2001;3591;14185;"Camuns";"GR";3599;
+31.12.1982;3592;11290;"Cumbels";"GR";3592;
+31.12.2012;3592;14186;"Cumbel";"GR";3618;01.01.1983
+31.12.2013;3593;14187;"Duvin";"GR";3619;
+31.12.1982;3594;11291;"Igels";"GR";3594;
+31.12.2012;3594;14188;"Degen";"GR";3618;01.01.1983
+31.12.2012;3595;14189;"Lumbrein";"GR";3618;
+31.12.2012;3596;14190;"Morissen";"GR";3618;
+31.12.1962;3597;11231;"Peiden";"GR";3602;
+31.12.2014;3598;14191;"St. Martin";"GR";3603;
+31.12.2012;3599;14363;"Suraua";"GR";3618;01.01.2002
+31.12.1942;3600;;"Neukirch bei Ilanz";"GR";3600;
+31.12.2008;3600;14193;"Surcuolm";"GR";3617;01.01.1943
+31.12.2001;3601;14194;"Tersnaus";"GR";3599;
+31.12.1962;3602;11230;"Uors (Lumnezia)";"GR";3602;
+31.12.2001;3602;14195;"Uors-Peiden";"GR";3599;01.01.1963
+;3603;16063;"Vals";"GR";;
+31.12.1982;3604;11293;"Vigens";"GR";3604;
+31.12.2012;3604;14197;"Vignogn";"GR";3618;01.01.1983
+31.12.1986;3605;10757;"Villa";"GR";3605;
+31.12.2012;3605;14198;"Vella";"GR";3618;01.01.1987
+31.12.2012;3606;14199;"Vrin";"GR";3618;
+31.12.1942;3611;;"Andest";"GR";3611;
+31.12.2017;3611;15973;"Andiast";"GR";3981;01.01.1943
+31.12.2015;3612;14201;"Obersaxen";"GR";3988;
+31.12.1942;3613;;"Panix";"GR";3613;
+31.12.1983;3613;11287;"Pigniu/Panix";"GR";3613;01.01.1943
+31.12.2013;3613;14202;"Pigniu";"GR";3619;01.01.1984
+31.12.1942;3614;;"Ruis";"GR";3614;
+31.12.2013;3614;14203;"Rueun";"GR";3619;01.01.1943
+31.12.1942;3615;;"Seth";"GR";3615;
+31.12.2013;3615;14204;"Siat";"GR";3619;01.01.1943
+31.12.1942;3616;;"Waltensburg";"GR";3616;
+31.12.2017;3616;15974;"Waltensburg/Vuorz";"GR";3981;01.01.1943
+31.12.2015;3617;14952;"Mundaun";"GR";3988;01.01.2009
+;3618;16058;"Lumnezia";"GR";;01.01.2013
+;3619;16061;"Ilanz/Glion";"GR";;01.01.2014
+31.12.2014;3631;14206;"Almens";"GR";3673;
+31.12.1942;3632;;"Feldis";"GR";3632;
+31.12.2008;3632;14207;"Feldis/Veulden";"GR";3671;01.01.1943
+;3633;15975;"Fürstenau";"GR";;
+31.12.2014;3634;14209;"Paspels";"GR";3673;
+31.12.2014;3635;14210;"Pratval";"GR";3673;
+31.12.2014;3636;14211;"Rodels";"GR";3673;
+;3637;15976;"Rothenbrunnen";"GR";;
+;3638;15977;"Scharans";"GR";;
+31.12.2008;3639;14214;"Scheid";"GR";3671;
+;3640;15978;"Sils im Domleschg";"GR";;
+31.12.2008;3641;14216;"Trans";"GR";3671;
+31.12.1942;3642;;"Tomils";"GR";3642;
+31.12.2008;3642;14217;"Tumegl/Tomils";"GR";3671;01.01.1943
+31.12.2012;3651;14218;"Safien";"GR";3672;
+31.12.2012;3652;14219;"Tenna";"GR";3672;
+;3661;16051;"Cazis";"GR";;
+;3662;15979;"Flerden";"GR";;
+;3663;15980;"Masein";"GR";;
+31.12.2009;3664;14223;"Portein";"GR";3661;
+31.12.2009;3665;14224;"Präz";"GR";3661;
+31.12.2009;3666;14225;"Sarn";"GR";3661;
+31.12.2009;3667;14226;"Tartar";"GR";3661;
+;3668;16084;"Thusis";"GR";;
+;3669;15982;"Tschappina";"GR";;
+;3670;15983;"Urmein";"GR";;
+31.12.2014;3671;14953;"Tomils";"GR";3673;01.01.2009
+;3672;16057;"Safiental";"GR";;01.01.2013
+;3673;16064;"Domleschg";"GR";;01.01.2015
+;3681;15984;"Avers";"GR";;
+31.12.2018;3691;15985;"Hinterrhein";"GR";3714;
+31.12.2005;3692;14232;"Medels im Rheinwald";"GR";3694;
+31.12.2018;3693;15986;"Nufenen";"GR";3714;
+31.12.2018;3694;16044;"Splügen";"GR";3714;
+;3695;15987;"Sufers";"GR";;
+;3701;16048;"Andeer";"GR";;
+31.12.2007;3702;14237;"Ausserferrera";"GR";3713;
+31.12.2020;3703;15988;"Casti-Wergenstein";"GR";7546;
+31.12.2008;3704;14239;"Clugin";"GR";3701;
+31.12.2002;3705;14240;"Donath";"GR";3705;
+31.12.2020;3705;16043;"Donat";"GR";7549;01.01.2003
+31.12.2007;3706;14241;"Innerferrera";"GR";3713;
+31.12.2020;3707;15989;"Lohn";"GR";7552;
+31.12.2020;3708;15990;"Mathon";"GR";7553;
+31.12.2002;3709;14244;"Patzen-Fardün";"GR";3705;
+31.12.1952;3710;;"Pignieu";"GR";3710;
+31.12.2008;3710;14245;"Pignia";"GR";3701;01.01.1953
+;3711;15991;"Rongellen";"GR";;
+;3712;15992;"Zillis-Reischen";"GR";;
+;3713;16045;"Ferrera";"GR";;01.01.2008
+;3714;16125;"Rheinwald";"GR";;01.01.2019
+;3715;16598;"Muntogna da Schons";"GR";;01.01.2021
+;3721;15993;"Bonaduz";"GR";;
+31.12.1942;3722;;"Ems";"GR";3722;
+;3722;15994;"Domat/Ems";"GR";;01.01.1943
+;3723;15995;"Rhäzüns";"GR";;
+;3731;15996;"Felsberg";"GR";;
+;3732;15997;"Flims";"GR";;
+;3733;15998;"Tamins";"GR";;
+31.12.1942;3734;;"Trins";"GR";3734;
+;3734;15999;"Trin";"GR";;01.01.1943
+31.12.2014;3741;14255;"Ardez";"GR";3762;
+31.12.2014;3742;14256;"Guarda";"GR";3762;
+31.12.2014;3743;14257;"Lavin";"GR";3746;
+31.12.1942;3744;;"Süs";"GR";3744;
+31.12.2014;3744;14258;"Susch";"GR";3746;01.01.1943
+31.12.2014;3745;14259;"Tarasp";"GR";3762;
+;3746;16066;"Zernez";"GR";;
+31.12.1942;3751;;"Remüs";"GR";3751;
+31.12.2012;3751;14261;"Ramosch";"GR";3764;01.01.1943
+;3752;16000;"Samnaun";"GR";;
+31.12.1942;3753;;"Schleins";"GR";3753;
+31.12.2012;3753;14263;"Tschlin";"GR";3764;01.01.1943
+31.12.1942;3761;;"Fetan";"GR";3761;
+31.12.2014;3761;14264;"Ftan";"GR";3762;01.01.1943
+31.12.1942;3762;;"Schuls";"GR";3762;
+31.12.1969;3762;11196;"Scuol/Schuls";"GR";3762;01.01.1943
+;3762;16065;"Scuol";"GR";;01.01.1970
+31.12.2014;3763;14266;"Sent";"GR";3762;
+;3764;16059;"Valsot";"GR";;01.01.2013
+31.12.2009;3771;14267;"Bondo";"GR";3792;
+31.12.1970;3772;11188;"Casaccia";"GR";3776;
+31.12.2009;3773;14268;"Castasegna";"GR";3792;
+31.12.2009;3774;14269;"Soglio";"GR";3792;
+31.12.2009;3775;14270;"Stampa";"GR";3792;
+31.12.2009;3776;14271;"Vicosoprano";"GR";3792;
+31.12.1942;3781;;"Bevers";"GR";3781;
+;3781;16001;"Bever";"GR";;01.01.1943
+31.12.1942;3782;;"Celerina";"GR";3782;
+31.12.1949;3782;;"Schlarigna/Celerina";"GR";3782;01.01.1943
+;3782;16002;"Celerina/Schlarigna";"GR";;01.01.1950
+31.12.1942;3783;;"Madulein";"GR";3783;
+;3783;16003;"Madulain";"GR";;01.01.1943
+;3784;16004;"Pontresina";"GR";;
+31.12.1942;3785;;"Ponte-Campovasto";"GR";3785;
+30.09.2020;3785;16005;"La Punt-Chamues-ch";"GR";3785;01.01.1943
+;3785;16586;"La Punt Chamues-ch";"GR";;01.10.2020
+31.12.1942;3786;;"Samaden";"GR";3786;
+;3786;16006;"Samedan";"GR";;01.01.1943
+;3787;16007;"St. Moritz";"GR";;
+31.12.1942;3788;;"Scanfs";"GR";3788;
+;3788;16008;"S-chanf";"GR";;01.01.1943
+31.12.1942;3789;;"Sils im Engadin";"GR";3789;
+;3789;16009;"Sils im Engadin/Segl";"GR";;01.01.1943
+;3790;16010;"Silvaplana";"GR";;
+;3791;16011;"Zuoz";"GR";;
+;3792;16052;"Bregaglia";"GR";;01.01.2010
+31.12.2014;3801;14283;"Arvigo";"GR";3837;
+31.12.1981;3802;11305;"Augio";"GR";3808;
+31.12.2014;3803;14284;"Braggio";"GR";3837;
+31.12.1942;3804;;"Busen";"GR";3804;
+;3804;16012;"Buseno";"GR";;01.01.1943
+;3805;16013;"Castaneda";"GR";;
+31.12.2014;3806;14287;"Cauco";"GR";3837;
+31.12.1979;3807;11369;"Landarenca";"GR";3801;
+;3808;16014;"Rossa";"GR";;
+31.12.1981;3809;11282;"Santa Domenica";"GR";3808;
+;3810;16015;"Santa Maria in Calanca";"GR";;
+31.12.2014;3811;14290;"Selma";"GR";3837;
+;3821;16016;"Lostallo";"GR";;
+;3822;16017;"Mesocco";"GR";;
+;3823;16018;"Soazza";"GR";;
+;3831;16019;"Cama";"GR";;
+;3832;15695;"Grono";"GR";;
+31.12.2016;3833;14296;"Leggia";"GR";3832;
+;3834;16020;"Roveredo";"GR";;
+;3835;16021;"San Vittore";"GR";;
+31.12.2016;3836;14299;"Verdabbio";"GR";3832;
+;3837;16067;"Calanca";"GR";;01.01.2015
+31.12.2008;3841;14300;"Fuldera";"GR";3847;
+31.12.2008;3842;14301;"Lü";"GR";3847;
+31.12.1942;3843;;"Münster (GR)";"GR";3843;
+31.12.2008;3843;14302;"Müstair";"GR";3847;01.01.1943
+31.12.1994;3844;13748;"Santa Maria im Münstertal";"GR";3844;
+31.12.2008;3844;14303;"Sta. Maria Val Müstair";"GR";3847;01.01.1995
+31.12.1942;3845;;"Cierfs";"GR";3845;
+31.12.2008;3845;14304;"Tschierv";"GR";3847;01.01.1943
+31.12.1942;3846;;"Valcava";"GR";3846;
+31.12.2008;3846;14305;"Valchava";"GR";3847;01.01.1943
+;3847;16049;"Val Müstair";"GR";;01.01.2009
+;3851;16047;"Davos";"GR";;
+;3861;16022;"Fideris";"GR";;
+;3862;16023;"Furna";"GR";;
+;3863;16024;"Jenaz";"GR";;
+31.12.1972;3871;11299;"Klosters";"GR";3871;
+19.02.2021;3871;16610;"Klosters-Serneus";"GR";3871;01.01.1973
+;3871;16610;"Klosters";"GR";;20.02.2021
+;3881;16025;"Conters im Prättigau";"GR";;
+;3882;16026;"Küblis";"GR";;
+31.12.2015;3883;14313;"Saas";"GR";3871;
+;3891;16071;"Luzein";"GR";;
+31.12.1952;3892;;"Ascharina";"GR";3892;
+31.12.2006;3892;14315;"St. Antönien Ascharina";"GR";3893;01.01.1953
+31.12.2015;3893;14926;"St. Antönien";"GR";3891;
+31.12.1952;3894;;"Rüti im Prättigau";"GR";9030;
+;3901;16599;"Chur";"GR";;
+;3911;16053;"Churwalden";"GR";;
+31.12.2009;3912;14319;"Malix";"GR";3911;
+31.12.2009;3913;14320;"Parpan";"GR";3911;
+31.12.2008;3914;14321;"Praden";"GR";3932;
+31.12.2008;3915;14322;"Tschiertschen";"GR";3932;
+;3921;16060;"Arosa";"GR";;
+31.12.2012;3922;14324;"Calfreisen";"GR";3921;
+31.12.2012;3923;14325;"Castiel";"GR";3921;
+31.12.2012;3924;14326;"Langwies";"GR";3921;
+31.12.2012;3925;14327;"Lüen";"GR";3921;
+31.12.2019;3926;16028;"Maladers";"GR";3901;
+31.12.2012;3927;14329;"Molinis";"GR";3921;
+31.12.2007;3928;14330;"Pagig";"GR";3931;
+31.12.2012;3929;14331;"Peist";"GR";3921;
+31.12.2007;3930;14332;"St. Peter";"GR";3931;
+31.12.2012;3931;14933;"St. Peter-Pagig";"GR";3921;01.01.2008
+;3932;16050;"Tschiertschen-Praden";"GR";;01.01.2009
+31.12.2020;3941;16029;"Haldenstein";"GR";7554;
+31.12.2011;3942;14334;"Igis";"GR";3955;
+31.12.2011;3943;14335;"Mastrils";"GR";3955;
+31.12.2007;3944;14336;"Says";"GR";3945;
+;3945;16046;"Trimmis";"GR";;
+;3946;16030;"Untervaz";"GR";;
+;3947;16031;"Zizers";"GR";;
+;3951;16032;"Fläsch";"GR";;
+;3952;16033;"Jenins";"GR";;
+;3953;16034;"Maienfeld";"GR";;
+;3954;16035;"Malans";"GR";;
+;3955;16055;"Landquart";"GR";;01.01.2012
+;3961;16054;"Grüsch";"GR";;
+;3962;16036;"Schiers";"GR";;
+31.12.2010;3971;14346;"Fanas";"GR";3961;
+;3972;16037;"Seewis im Prättigau";"GR";;
+31.12.2010;3973;14348;"Valzeina";"GR";3961;
+31.12.1942;3981;;"Brigels";"GR";3981;
+;3981;16086;"Breil/Brigels";"GR";;01.01.1943
+31.12.1962;3982;11234;"Disentis";"GR";3982;
+;3982;16039;"Disentis/Mustér";"GR";;01.01.1963
+31.12.1942;3983;;"Medels im Oberland";"GR";3983;
+;3983;16040;"Medel (Lucmagn)";"GR";;01.01.1943
+31.12.2011;3984;14352;"Schlans";"GR";3987;
+31.12.1985;3985;10407;"Somvix";"GR";3985;
+;3985;16041;"Sumvitg";"GR";;01.01.1986
+31.12.1975;3986;11351;"Tavetsch";"GR";3986;
+;3986;16042;"Tujetsch";"GR";;01.01.1976
+31.12.1942;3987;;"Truns";"GR";3987;
+;3987;16056;"Trun";"GR";;01.01.1943
+;3988;16069;"Obersaxen Mundaun";"GR";;01.01.2016
+;4001;15385;"Aarau";"AG";;
+;4002;11916;"Biberstein";"AG";;
+;4003;11454;"Buchs";"AG";;
+;4004;11556;"Densbüren";"AG";;
+;4005;14533;"Erlinsbach";"AG";;
+;4006;12115;"Gränichen";"AG";;
+;4007;12158;"Hirschthal";"AG";;
+;4008;12594;"Küttigen";"AG";;
+;4009;12380;"Muhen";"AG";;
+;4010;12465;"Oberentfelden";"AG";;
+31.12.2009;4011;12936;"Rohr";"AG";4001;
+;4012;10585;"Suhr";"AG";;
+;4013;10888;"Unterentfelden";"AG";;
+;4021;13189;"Baden";"AG";;
+;4022;11881;"Bellikon";"AG";;
+;4023;11856;"Bergdietikon";"AG";;
+;4024;11899;"Birmenstorf";"AG";;
+31.12.1961;4025;11227;"Dättwil";"AG";4021;
+;4026;12277;"Ennetbaden";"AG";;
+;4027;11998;"Fislisbach";"AG";;
+;4028;11946;"Freienwil";"AG";;
+;4029;12110;"Gebenstorf";"AG";;
+;4030;12693;"Killwangen";"AG";;
+;4031;12652;"Künten";"AG";;
+;4032;12712;"Mägenwil";"AG";;
+;4033;12384;"Mellingen";"AG";;
+;4034;12514;"Neuenhof";"AG";;
+;4035;12565;"Niederrohrdorf";"AG";;
+31.12.2005;4036;12460;"Oberehrendingen";"AG";4049;
+;4037;12453;"Oberrohrdorf";"AG";;
+;4038;12456;"Obersiggenthal";"AG";;
+;4039;13164;"Remetschwil";"AG";;
+;4040;10366;"Spreitenbach";"AG";;
+;4041;10595;"Stetten";"AG";;
+;4042;10886;"Turgi";"AG";;
+31.12.2005;4043;10862;"Unterehrendingen";"AG";4049;
+;4044;10871;"Untersiggenthal";"AG";;
+;4045;10275;"Wettingen";"AG";;
+;4046;10356;"Wohlenschwil";"AG";;
+;4047;10344;"Würenlingen";"AG";;
+;4048;10303;"Würenlos";"AG";;
+;4049;14534;"Ehrendingen";"AG";;01.01.2006
+;4061;13668;"Arni";"AG";;
+;4062;11857;"Berikon";"AG";;
+;4063;15644;"Bremgarten";"AG";;
+;4064;11488;"Büttikon";"AG";;
+;4065;12217;"Dottikon";"AG";;
+;4066;12157;"Eggenwil";"AG";;
+;4067;12006;"Fischbach-Göslikon";"AG";;
+;4068;12004;"Hägglingen";"AG";;
+31.12.1952;4069;;"Hermetschwil";"AG";4069;
+31.12.2013;4069;12310;"Hermetschwil-Staffeln";"AG";4063;01.01.1953
+31.12.2009;4070;12153;"Hilfikon";"AG";4080;
+;4071;12644;"Jonen";"AG";;
+;4072;12569;"Niederwil";"AG";;
+;4073;12452;"Oberlunkhofen";"AG";;
+31.12.1983;4074;11288;"Oberwil";"AG";4074;
+;4074;13681;"Oberwil-Lieli";"AG";;01.01.1984
+31.12.1952;4075;;"Rudolfstetten";"AG";4075;
+;4075;12830;"Rudolfstetten-Friedlisberg";"AG";;01.01.1953
+;4076;13010;"Sarmenstorf";"AG";;
+;4077;10550;"Tägerig";"AG";;
+;4078;10853;"Uezwil";"AG";;
+;4079;10867;"Unterlunkhofen";"AG";;
+;4080;15386;"Villmergen";"AG";;
+;4081;10278;"Widen";"AG";;
+;4082;10354;"Wohlen";"AG";;
+;4083;10322;"Zufikon";"AG";;
+;4084;13669;"Islisberg";"AG";;
+;4091;11681;"Auenstein";"AG";;
+;4092;11901;"Birr";"AG";;
+;4093;11837;"Birrhard";"AG";;
+;4094;11851;"Bözen";"AG";;
+;4095;16135;"Brugg";"AG";;
+;4096;12126;"Effingen";"AG";;
+;4097;12243;"Elfingen";"AG";;
+31.12.2012;4098;12074;"Gallenkirch";"AG";4124;
+;4099;12000;"Habsburg";"AG";;
+;4100;14375;"Hausen";"AG";;
+31.12.2009;4101;12214;"Hottwil";"AG";4184;
+31.12.1969;4102;11228;"Lauffohr";"AG";4095;
+31.12.2012;4103;12823;"Linn";"AG";4124;
+;4104;16087;"Lupfig";"AG";;
+;4105;12753;"Mandach";"AG";;
+;4106;12321;"Mönthal";"AG";;
+;4107;12354;"Mülligen";"AG";;
+31.12.2012;4108;12553;"Oberbözberg";"AG";4124;
+31.12.2013;4109;12467;"Oberflachs";"AG";4125;
+;4110;13161;"Remigen";"AG";;
+;4111;12890;"Riniken";"AG";;
+;4112;12838;"Rüfenach";"AG";;
+31.12.2017;4113;13052;"Scherz";"AG";4104;
+31.12.1937;4114;;"Birrenlauf";"AG";4114;
+31.12.2019;4114;14376;"Schinznach-Bad";"AG";4095;01.01.1938
+31.12.1937;4115;;"Schinznach";"AG";4115;
+31.12.2013;4115;14377;"Schinznach-Dorf";"AG";4125;01.01.1938
+31.12.2005;4116;10591;"Stilli";"AG";4121;
+;4117;10760;"Thalheim";"AG";;
+31.12.2009;4118;10858;"Umiken";"AG";4095;
+31.12.2012;4119;10861;"Unterbözberg";"AG";4124;
+;4120;10911;"Veltheim";"AG";;
+;4121;14535;"Villigen";"AG";;
+;4122;10009;"Villnachern";"AG";;
+;4123;10360;"Windisch";"AG";;
+;4124;15615;"Bözberg";"AG";;01.01.2013
+;4125;15645;"Schinznach";"AG";;01.01.2014
+;4131;11886;"Beinwil am See";"AG";;
+;4132;11913;"Birrwil";"AG";;
+;4133;11503;"Burg";"AG";;
+;4134;12122;"Dürrenäsch";"AG";;
+;4135;12047;"Gontenschwil";"AG";;
+;4136;12140;"Holziken";"AG";;
+;4137;12783;"Leimbach";"AG";;
+;4138;12778;"Leutwil";"AG";;
+;4139;12397;"Menziken";"AG";;
+;4140;12454;"Oberkulm";"AG";;
+;4141;13174;"Reinach";"AG";;
+;4142;13043;"Schlossrued";"AG";;
+;4143;13042;"Schmiedrued";"AG";;
+;4144;13005;"Schöftland";"AG";;
+;4145;10562;"Teufenthal";"AG";;
+;4146;10866;"Unterkulm";"AG";;
+;4147;10301;"Zetzwil";"AG";;
+;4161;12170;"Eiken";"AG";;
+31.12.2009;4162;12246;"Etzgen";"AG";4184;
+;4163;11953;"Frick";"AG";;
+;4164;12114;"Gansingen";"AG";;
+;4165;12065;"Gipf-Oberfrick";"AG";;
+;4166;12317;"Herznach";"AG";;
+;4167;12211;"Hornussen";"AG";;
+31.12.2009;4168;12667;"Ittenthal";"AG";4169;
+;4169;15389;"Kaisten";"AG";;
+;4170;15390;"Laufenburg";"AG";;
+31.12.2009;4171;12406;"Mettau";"AG";4184;
+;4172;12357;"Münchwilen";"AG";;
+;4173;12472;"Oberhof";"AG";;
+31.12.2009;4174;12473;"Oberhofen";"AG";4184;
+;4175;12509;"Oeschgen";"AG";;
+;4176;12964;"Schwaderloch";"AG";;
+;4177;12980;"Sisseln";"AG";;
+31.12.2009;4178;10543;"Sulz";"AG";4170;
+;4179;10849;"Ueken";"AG";;
+31.12.2009;4180;10283;"Wil";"AG";4184;
+;4181;10353;"Wittnau";"AG";;
+;4182;10359;"Wölflinswil";"AG";;
+;4183;10309;"Zeihen";"AG";;
+;4184;15388;"Mettauertal";"AG";;01.01.2010
+;4191;11783;"Ammerswil";"AG";;
+;4192;11790;"Boniswil";"AG";;
+;4193;11472;"Brunegg";"AG";;
+;4194;11566;"Dintikon";"AG";;
+;4195;12167;"Egliswil";"AG";;
+;4196;12252;"Fahrwangen";"AG";;
+31.12.1950;4197;;"Niederhallwil";"AG";4197;
+;4197;11996;"Hallwil";"AG";;01.01.1951
+;4198;12235;"Hendschiken";"AG";;
+;4199;12139;"Holderbank";"AG";;
+;4200;12179;"Hunzenschwil";"AG";;
+;4201;12782;"Lenzburg";"AG";;
+;4202;12411;"Meisterschwanden";"AG";;
+31.12.1950;4203;;"Möriken";"AG";4203;
+;4203;12367;"Möriken-Wildegg";"AG";;01.01.1951
+;4204;12561;"Niederlenz";"AG";;
+;4205;13113;"Othmarsingen";"AG";;
+;4206;12833;"Rupperswil";"AG";;
+;4207;13056;"Schafisheim";"AG";;
+;4208;12949;"Seengen";"AG";;
+;4209;12996;"Seon";"AG";;
+;4210;10579;"Staufen";"AG";;
+;4221;11741;"Abtwil";"AG";;
+;4222;11764;"Aristau";"AG";;
+;4223;11659;"Auw";"AG";;
+31.12.1950;4224;;"Beinwil bei Muri";"AG";4224;
+;4224;11875;"Beinwil (Freiamt)";"AG";;01.01.1951
+31.12.2011;4225;11860;"Benzenschwil";"AG";4234;
+;4226;11888;"Besenbüren";"AG";;
+;4227;11910;"Bettwil";"AG";;
+;4228;11800;"Boswil";"AG";;
+;4229;11464;"Bünzen";"AG";;
+;4230;11490;"Buttwil";"AG";;
+;4231;11564;"Dietwil";"AG";;
+;4232;12104;"Geltwil";"AG";;
+;4233;12638;"Kallern";"AG";;
+;4234;15503;"Merenschwand";"AG";;
+;4235;12358;"Mühlau";"AG";;
+;4236;12438;"Muri";"AG";;
+;4237;12446;"Oberrüti";"AG";;
+;4238;12851;"Rottenschwil";"AG";;
+31.12.1940;4239;;"Meienberg";"AG";4239;
+;4239;12983;"Sins";"AG";;01.01.1941
+;4240;10468;"Waltenschwil";"AG";;
+;4251;12228;"Hellikon";"AG";;
+;4252;12643;"Kaiseraugst";"AG";;
+;4253;12711;"Magden";"AG";;
+;4254;12429;"Möhlin";"AG";;
+;4255;12355;"Mumpf";"AG";;
+;4256;12468;"Obermumpf";"AG";;
+;4257;12508;"Olsberg";"AG";;
+;4258;12911;"Rheinfelden";"AG";;
+;4259;12967;"Schupfart";"AG";;
+;4260;10582;"Stein";"AG";;
+;4261;10462;"Wallbach";"AG";;
+;4262;10446;"Wegenstetten";"AG";;
+;4263;10310;"Zeiningen";"AG";;
+;4264;10329;"Zuzgen";"AG";;
+;4271;11738;"Aarburg";"AG";;
+31.12.2018;4272;11668;"Attelwil";"AG";4281;
+;4273;11845;"Bottenwil";"AG";;
+;4274;11636;"Brittnau";"AG";;
+;4275;12696;"Kirchleerau";"AG";;
+;4276;12677;"Kölliken";"AG";;
+;4277;12328;"Moosleerau";"AG";;
+31.12.2001;4278;12353;"Mühlethal";"AG";4289;
+;4279;12335;"Murgenthal";"AG";;
+;4280;12494;"Oftringen";"AG";;
+;4281;16126;"Reitnau";"AG";;
+;4282;12852;"Rothrist";"AG";;
+;4283;12873;"Safenwil";"AG";;
+;4284;10707;"Staffelbach";"AG";;
+;4285;10590;"Strengelbach";"AG";;
+;4286;10850;"Uerkheim";"AG";;
+;4287;10370;"Vordemwald";"AG";;
+;4288;10338;"Wiliberg";"AG";;
+;4289;14361;"Zofingen";"AG";;
+;4301;11706;"Baldingen";"AG";;
+;4302;11814;"Böbikon";"AG";;
+;4303;11840;"Böttstein";"AG";;
+;4304;12210;"Döttingen";"AG";;
+31.12.1944;4305;;"Oberendingen";"AG";4305;
+;4305;15646;"Endingen";"AG";;01.01.1945
+;4306;11999;"Fisibach";"AG";;
+;4307;12091;"Full-Reuenthal";"AG";;
+;4308;12653;"Kaiserstuhl";"AG";;
+;4309;12672;"Klingnau";"AG";;
+;4310;12685;"Koblenz";"AG";;
+;4311;12694;"Leibstadt";"AG";;
+;4312;12786;"Lengnau";"AG";;
+;4313;12775;"Leuggern";"AG";;
+;4314;12404;"Mellikon";"AG";;
+;4315;13183;"Rekingen";"AG";;
+;4316;12893;"Rietheim";"AG";;
+;4317;12835;"Rümikon";"AG";;
+;4318;13040;"Schneisingen";"AG";;
+;4319;12987;"Siglistorf";"AG";;
+;4320;10541;"Tegerfelden";"AG";;
+31.12.2013;4321;10863;"Unterendingen";"AG";4305;
+;4322;10350;"Wislikofen";"AG";;
+30.11.2006;4323;10328;"Zurzach";"AG";4323;
+;4323;14920;"Bad Zurzach";"AG";;01.12.2006
+;4401;15456;"Arbon";"TG";;
+31.12.1997;4402;11966;"Frasnacht";"TG";4401;
+;4406;15403;"Dozwil";"TG";;
+;4411;15402;"Egnach";"TG";;
+;4416;15406;"Hefenhofen";"TG";;
+;4421;15404;"Horn";"TG";;
+;4426;15409;"Kesswil";"TG";;
+31.12.1971;4427;11179;"Dussnang";"TG";4726;
+;4431;15412;"Roggwil";"TG";;
+;4436;15411;"Romanshorn";"TG";;
+;4441;15413;"Salmsach";"TG";;
+;4446;15417;"Sommeri";"TG";;
+31.12.1966;4447;11269;"Obersommeri";"TG";4446;
+;4451;15397;"Uttwil";"TG";;
+;4461;15451;"Amriswil";"TG";;
+31.12.1978;4462;11382;"Biessenhofen";"TG";4461;
+31.12.1978;4463;11381;"Oberaach";"TG";4461;
+31.12.1978;4464;11380;"Räuchlisberg";"TG";4461;
+;4471;15449;"Bischofszell";"TG";;
+;4476;15427;"Erlen";"TG";;
+31.12.1994;4477;12272;"Engishofen";"TG";4476;
+31.12.1994;4478;12278;"Ennetaach";"TG";4476;
+31.12.1994;4480;12588;"Kümmertshausen";"TG";4476;
+;4486;15446;"Hauptwil-Gottshaus";"TG";;
+31.12.1998;4491;12222;"Heldswil";"TG";4495;
+;4495;15466;"Hohentannen";"TG";;
+31.12.1995;4496;11460;"Buhwil";"TG";4501;
+31.12.1995;4497;12005;"Halden";"TG";4471;
+31.12.1995;4499;12974;"Schönenberg an der Thur";"TG";4501;
+31.12.1996;4500;14083;"Schweizersholz";"TG";4471;
+;4501;15448;"Kradolf-Schönenberg";"TG";;
+;4506;15450;"Sulgen";"TG";;
+31.12.1995;4507;12045;"Götighofen";"TG";4506;
+31.12.1995;4508;12681;"Kradolf";"TG";4501;
+31.12.1994;4509;12896;"Riedt";"TG";4476;
+;4511;15452;"Zihlschlacht-Sitterdorf";"TG";;
+31.12.1999;4516;14089;"Schocherswil";"TG";4461;
+31.12.1996;4517;12979;"Sitterdorf";"TG";4511;
+31.12.1996;4518;10318;"Zihlschlacht";"TG";4511;
+31.12.1998;4532;12383;"Mett-Oberschlatt";"TG";4546;
+31.12.1998;4533;13047;"Schlattingen";"TG";4536;
+31.12.1998;4534;10870;"Unterschlatt";"TG";4546;
+;4536;15468;"Basadingen-Schlattingen";"TG";;01.01.1999
+31.12.1998;4540;;"Basadingen";"TG";4536;
+31.12.1999;4542;10343;"Willisdorf";"TG";4545;
+;4545;15473;"Diessenhofen";"TG";;
+;4546;15467;"Schlatt";"TG";;01.01.1999
+;4551;15442;"Aadorf";"TG";;
+31.12.1995;4552;11740;"Aawangen";"TG";4551;
+31.12.1995;4553;12263;"Ettenhausen";"TG";4551;
+31.12.1995;4554;11927;"Guntershausen bei Aadorf";"TG";4551;
+31.12.1995;4555;10351;"Wittenwil";"TG";4551;
+;4561;15423;"Felben-Wellhausen";"TG";;
+31.12.1999;4562;13678;"Wellhausen";"TG";4561;
+;4566;15458;"Frauenfeld";"TG";;
+;4571;15457;"Gachnang";"TG";;
+31.12.1997;4572;11993;"Gerlikon";"TG";4566;
+31.12.1997;4573;12664;"Islikon";"TG";4571;
+31.12.1997;4574;12662;"Kefikon";"TG";4571;
+31.12.1997;4575;12571;"Niederwil";"TG";4571;
+31.12.1997;4576;12495;"Oberwil";"TG";4571;
+31.12.1998;4581;12230;"Eschikofen";"TG";4590;
+31.12.1998;4582;12014;"Harenwilen";"TG";4590;
+31.12.1998;4584;12431;"Mettendorf";"TG";4590;
+;4590;15469;"Hüttlingen";"TG";;
+;4591;15410;"Matzingen";"TG";;
+31.12.1995;4596;12562;"Niederneunforn";"TG";4601;
+31.12.1995;4597;12448;"Oberneunforn";"TG";4601;
+31.12.1995;4598;10335;"Wilen bei Neunforn";"TG";4601;
+;4601;15447;"Neunforn";"TG";;
+;4606;15396;"Stettfurt";"TG";;
+;4611;15429;"Thundorf";"TG";;
+;4616;15431;"Uesslingen-Buch";"TG";;
+31.12.1994;4617;10852;"Uesslingen";"TG";4616;
+31.12.1994;4618;10441;"Warth";"TG";4621;
+;4621;15430;"Warth-Weiningen";"TG";;
+31.12.1995;4631;11785;"Alterswilen";"TG";4666;
+31.12.1995;4632;11769;"Altishausen";"TG";4666;
+31.12.1995;4634;12209;"Ellighausen";"TG";4666;
+31.12.1995;4635;12826;"Lippoldswilen";"TG";4666;
+31.12.1995;4636;12520;"Neuwilen";"TG";4666;
+31.12.1995;4637;13679;"Siegershausen";"TG";4666;
+31.12.1994;4638;;"Weiningen";"TG";4621;
+;4641;15398;"Altnau";"TG";;
+;4643;15425;"Bottighofen";"TG";;
+;4646;15421;"Ermatingen";"TG";;
+31.12.1999;4647;13238;"Triboltingen";"TG";4646;
+;4651;15401;"Gottlieben";"TG";;
+;4656;15400;"Güttingen";"TG";;
+31.12.1997;4662;12474;"Oberhofen bei Kreuzlingen";"TG";4683;
+31.12.1997;4663;12961;"Schönenbaumgarten";"TG";4681;
+;4666;15445;"Kemmental";"TG";;
+31.12.1997;4670;;"Illighausen";"TG";4683;
+;4671;15408;"Kreuzlingen";"TG";;
+31.12.1997;4676;12197;"Dünnershaus";"TG";4681;
+31.12.1997;4677;12312;"Herrenhof";"TG";4681;
+31.12.1996;4679;10321;"Zuben";"TG";4681;
+;4681;15459;"Langrickenbach";"TG";;
+;4683;15460;"Lengwil";"TG";;01.01.1998
+31.12.1993;4687;12625;"Landschlacht";"TG";4691;
+;4691;15426;"Münsterlingen";"TG";;01.01.1994
+31.12.1993;4695;13036;"Scherzingen";"TG";4691;
+;4696;15394;"Tägerwilen";"TG";;
+;4701;15432;"Wäldi";"TG";;
+31.12.1994;4702;12825;"Lipperswil";"TG";4701;
+31.12.1994;4703;10410;"Sonterswil";"TG";4701;
+;4711;15433;"Affeltrangen";"TG";;
+31.12.1994;4712;11459;"Buch bei Märwil";"TG";4711;
+31.12.1994;4713;12737;"Märwil";"TG";4711;
+31.12.1994;4714;10317;"Zezikon";"TG";4711;
+;4716;15434;"Bettwiesen";"TG";;
+;4721;15443;"Bichelsee-Balterswil";"TG";;
+31.12.1995;4722;11917;"Bichelsee";"TG";4721;
+;4723;15470;"Braunau";"TG";;01.01.1999
+;4724;15454;"Eschlikon";"TG";;
+;4726;15419;"Fischingen";"TG";;
+31.12.1971;4729;11181;"Oberwangen";"TG";4726;
+31.12.1971;4730;11182;"Tannegg";"TG";4726;
+31.12.1994;4737;12649;"Kalthäusern";"TG";4741;
+31.12.1994;4739;10346;"Weingarten";"TG";4741;
+31.12.1996;4740;14053;"Wetzikon";"TG";4611;
+;4741;15435;"Lommis";"TG";;
+;4746;15407;"Münchwilen";"TG";;
+;4751;15463;"Rickenbach";"TG";;01.01.1998
+31.12.1997;4752;10336;"Wilen bei Wil";"TG";4786;
+31.12.1997;4755;12903;"Rickenbach bei Wil";"TG";4751;
+;4756;15415;"Schönholzerswilen";"TG";;
+31.12.1999;4757;13198;"Toos";"TG";4756;
+;4761;15453;"Sirnach";"TG";;
+31.12.1996;4763;12202;"Horben";"TG";4761;
+31.12.1996;4765;10465;"Wallenwil";"TG";4724;
+31.12.1996;4766;10280;"Wiezikon";"TG";4761;
+31.12.1998;4772;10551;"Tägerschen";"TG";4776;
+31.12.1998;4773;10875;"Tobel";"TG";4776;
+;4776;15471;"Tobel-Tägerschen";"TG";;01.01.1999
+;4781;15441;"Wängi";"TG";;
+31.12.1968;4782;11262;"Krillberg";"TG";4781;
+31.12.1968;4783;11263;"Tuttwil";"TG";4781;
+;4786;15462;"Wilen";"TG";;01.01.1998
+;4791;15418;"Wuppenau";"TG";;
+31.12.1970;4792;11191;"Hosenruck";"TG";4791;
+;4801;15399;"Berlingen";"TG";;
+;4806;15405;"Eschenz";"TG";;
+;4811;15464;"Herdern";"TG";;
+31.12.1997;4812;12632;"Lanzenneunforn";"TG";4811;
+;4816;15472;"Homburg";"TG";;
+;4821;15455;"Hüttwilen";"TG";;
+31.12.1996;4822;12557;"Nussbaumen";"TG";4821;
+31.12.1996;4823;10851;"Uerschhausen";"TG";4821;
+;4826;15424;"Mammern";"TG";;
+;4831;15416;"Müllheim";"TG";;
+31.12.1997;4836;11557;"Dettighofen";"TG";4841;
+;4841;15465;"Pfyn";"TG";;
+;4846;15414;"Raperswilen";"TG";;
+;4851;15422;"Salenstein";"TG";;
+31.12.1999;4852;13657;"Mannenbach";"TG";4851;
+31.12.1998;4861;11957;"Gündelhart-Hörhausen";"TG";4816;
+31.12.1998;4863;13007;"Salen-Reutenen";"TG";4816;
+;4864;15395;"Steckborn";"TG";;
+;4871;15440;"Wagenhausen";"TG";;
+31.12.1994;4872;12910;"Rheinklingen";"TG";4871;
+;4881;15436;"Amlikon-Bissegg";"TG";;
+31.12.1994;4882;11805;"Bissegg";"TG";4881;
+31.12.1994;4883;12090;"Griesenberg";"TG";4881;
+31.12.1994;4884;10589;"Strohwilen";"TG";4881;
+;4891;15461;"Berg";"TG";;
+31.12.1994;4893;12041;"Graltshausen";"TG";4891;
+31.12.1999;4895;14064;"Weerswilen";"TG";4946;
+;4901;15438;"Birwinken";"TG";;
+31.12.1994;4903;11930;"Guntershausen bei Birwinken";"TG";4891;
+31.12.1994;4904;12013;"Happerswil-Buch";"TG";4901;
+31.12.1994;4905;12698;"Klarsreuti";"TG";4901;
+31.12.1994;4906;12746;"Mattwil";"TG";4901;
+;4911;15428;"Bürglen";"TG";;
+31.12.1995;4912;;"Donzhausen";"TG";4506;
+31.12.1995;4913;;"Hessenreuti";"TG";4506;
+31.12.1994;4914;12784;"Leimbach";"TG";4911;
+31.12.1994;4915;12481;"Opfershofen";"TG";4911;
+;4921;15444;"Bussnang";"TG";;
+31.12.1995;4922;11952;"Friltschen";"TG";4921;
+31.12.1994;4923;12666;"Istighofen";"TG";4911;
+31.12.1995;4924;12631;"Lanterswil";"TG";4921;
+31.12.1995;4925;12432;"Mettlen";"TG";4921;
+31.12.1995;4926;12555;"Oberbussnang";"TG";4921;
+31.12.1995;4927;12485;"Oppikon";"TG";4921;
+31.12.1995;4928;12914;"Reuti";"TG";4921;
+31.12.1995;4929;12854;"Rothenhausen";"TG";4921;
+31.12.1995;4936;12218;"Dotnacht";"TG";4666;
+31.12.1995;4937;12216;"Hugelshofen";"TG";4666;
+;4941;15420;"Märstetten";"TG";;
+31.12.1974;4942;11203;"Ottoberg";"TG";4941;
+;4946;15437;"Weinfelden";"TG";;
+31.12.1994;4951;11788;"Bonau";"TG";4951;
+;4951;15439;"Wigoltingen";"TG";;01.01.1995
+31.12.1994;4952;12281;"Engwang";"TG";4951;
+31.12.1994;4953;12193;"Illhart";"TG";4951;
+;5001;11768;"Arbedo-Castione";"TI";;
+;5002;16078;"Bellinzona";"TI";;
+;5003;14518;"Cadenazzo";"TI";;
+01.04.2017;5004;11435;"Camorino";"TI";5002;
+01.04.2017;5005;12062;"Giubiasco";"TI";5002;
+01.04.2017;5006;12052;"Gnosca";"TI";5002;
+01.04.2017;5007;12054;"Gorduno";"TI";5002;
+01.04.2017;5008;11963;"Gudo";"TI";5002;
+;5009;12665;"Isone";"TI";;
+;5010;12725;"Lumino";"TI";;
+20.11.2010;5011;12403;"Medeglia";"TI";5238;
+01.04.2017;5012;12414;"Moleno";"TI";5002;
+01.04.2017;5013;12347;"Monte Carasso";"TI";5002;
+01.04.2017;5014;13143;"Pianezzo";"TI";5002;
+01.04.2017;5015;13108;"Preonzo";"TI";5002;
+13.03.2005;5016;12943;"Robasacco";"TI";5003;
+;5017;13012;"Sant'Antonino";"TI";;
+01.04.2017;5018;13011;"Sant'Antonio";"TI";5002;
+01.04.2017;5019;13001;"Sementina";"TI";5002;
+21.10.2006;5031;11756;"Aquila";"TI";5049;
+21.10.2006;5032;11457;"Campo Blenio";"TI";5049;
+03.04.2004;5033;11392;"Castro";"TI";5048;
+03.04.2004;5034;11538;"Corzoneso";"TI";5048;
+03.04.2004;5035;12183;"Dongio";"TI";5048;
+21.10.2006;5036;12027;"Ghirone";"TI";5049;
+03.04.2004;5037;12633;"Largario";"TI";5048;
+03.04.2004;5038;12791;"Leontica";"TI";5048;
+03.04.2004;5039;12809;"Lottigna";"TI";5048;
+31.03.2012;5040;12780;"Ludiano";"TI";5050;
+31.03.2012;5041;12751;"Malvaglia";"TI";5050;
+03.04.2004;5042;12763;"Marolta";"TI";5048;
+21.10.2006;5043;12506;"Olivone";"TI";5049;
+03.04.2004;5044;13077;"Ponto Valentino";"TI";5048;
+03.04.2004;5045;13097;"Prugiasco";"TI";5048;
+31.03.2012;5046;13000;"Semione";"TI";5050;
+21.10.2006;5047;10879;"Torre";"TI";5049;
+;5048;14492;"Acquarossa";"TI";;04.04.2004
+;5049;14918;"Blenio";"TI";;22.10.2006
+;5050;15509;"Serravalle";"TI";;01.04.2012
+;5061;11719;"Airolo";"TI";;
+31.03.2012;5062;11754;"Anzonico";"TI";5072;
+;5063;11872;"Bedretto";"TI";;
+;5064;11815;"Bodio";"TI";;
+28.01.2006;5065;11497;"Calonico";"TI";5072;
+31.03.2012;5066;11498;"Calpiogna";"TI";5072;
+31.03.2012;5067;11390;"Campello";"TI";5072;
+31.03.2012;5068;11409;"Cavagnago";"TI";5072;
+28.01.2006;5069;11615;"Chiggiogna";"TI";5072;
+31.03.2012;5070;11608;"Chironico";"TI";5072;
+;5071;11579;"Dalpe";"TI";;
+;5072;15685;"Faido";"TI";;
+;5073;12066;"Giornico";"TI";;
+31.03.2012;5074;12735;"Mairengo";"TI";5072;
+31.03.2012;5075;13130;"Osco";"TI";5072;
+;5076;13153;"Personico";"TI";;
+;5077;13084;"Pollegio";"TI";;
+;5078;13099;"Prato (Leventina)";"TI";;
+;5079;13092;"Quinto";"TI";;
+28.01.2006;5080;12856;"Rossura";"TI";5072;
+09.04.2016;5081;12978;"Sobrio";"TI";5072;
+;5091;11673;"Ascona";"TI";;
+12.04.2001;5092;11660;"Auressio";"TI";5137;
+12.04.2001;5093;11866;"Berzona";"TI";5137;
+24.10.2009;5094;11796;"Borgnone";"TI";5397;
+18.10.2020;5095;11831;"Brione Verzasca";"TI";5399;
+;5096;11832;"Brione sopra Minusio";"TI";;
+;5097;11833;"Brissago";"TI";;
+24.04.2010;5098;11385;"Caviano";"TI";5398;
+13.04.2013;5099;11386;"Cavigliano";"TI";5396;
+31.12.1994;5100;11640;"Comologno";"TI";5136;
+24.04.2010;5101;11645;"Contone";"TI";5398;
+18.10.2020;5102;11622;"Corippo";"TI";5399;
+31.12.1994;5103;11543;"Crana";"TI";5136;
+19.04.2008;5104;11531;"Cugnasco";"TI";5138;
+18.10.2020;5105;11968;"Frasco";"TI";5399;
+24.04.2010;5106;12037;"Gerra Gambarogno";"TI";5398;
+19.04.2008;5107;12021;"Gerra Verzasca";"TI";5138;
+;5108;12051;"Gordola";"TI";;
+09.04.2016;5109;12087;"Gresso";"TI";5136;
+24.04.2010;5110;12655;"Indemini";"TI";5398;
+24.10.2009;5111;13224;"Intragna";"TI";5397;
+;5112;16588;"Lavertezzo";"TI";;
+;5113;12828;"Locarno";"TI";;
+12.04.2001;5114;12806;"Loco";"TI";5137;
+;5115;12807;"Losone";"TI";;
+24.04.2010;5116;12702;"Magadino";"TI";5398;
+;5117;12393;"Mergoscia";"TI";;
+;5118;12436;"Minusio";"TI";;
+09.04.2016;5119;12373;"Mosogno";"TI";5136;
+;5120;12463;"Muralto";"TI";;
+;5121;13135;"Orselina";"TI";;
+24.10.2009;5122;13120;"Palagnedra";"TI";5397;
+24.04.2010;5123;13142;"Piazzogna";"TI";5398;
+31.12.1971;5124;11212;"Rasa";"TI";5111;
+;5125;12922;"Ronco sopra Ascona";"TI";;
+31.12.1994;5126;12874;"Russo";"TI";5136;
+24.04.2010;5127;13014;"San Nazzaro";"TI";5398;
+24.04.2010;5128;13013;"Sant'Abbondio";"TI";5398;
+18.10.2020;5129;10409;"Sonogno";"TI";5399;
+13.04.2013;5130;10557;"Tegna";"TI";5396;
+;5131;10558;"Tenero-Contra";"TI";;
+09.04.2016;5132;10927;"Vergeletto";"TI";5136;
+13.04.2013;5133;10920;"Verscio";"TI";5396;
+24.04.2010;5134;10417;"Vira (Gambarogno)";"TI";5398;
+18.10.2020;5135;10404;"Vogorno";"TI";5399;
+;5136;15686;"Onsernone";"TI";;
+09.04.2016;5137;14356;"Isorno";"TI";5136;13.04.2001
+;5138;16587;"Cugnasco-Gerra";"TI";;20.04.2008
+;5141;11722;"Agno";"TI";;
+03.04.2004;5142;11723;"Agra";"TI";5236;
+;5143;11757;"Aranno";"TI";;
+;5144;11703;"Arogno";"TI";;
+13.03.2005;5145;11658;"Arosio";"TI";5237;
+;5146;11684;"Astano";"TI";;
+19.04.2008;5147;11717;"Barbengo";"TI";5192;
+;5148;11902;"Bedano";"TI";;
+;5149;11770;"Bedigliora";"TI";;
+19.04.2008;5150;11918;"Bidogno";"TI";5226;
+;5151;14939;"Bioggio";"TI";;
+31.12.1975;5152;11353;"Biogno-Beride";"TI";5178;
+20.11.2010;5153;11900;"Bironico";"TI";5238;
+;5154;11806;"Bissone";"TI";;
+13.04.2013;5155;11811;"Bogno";"TI";5192;
+03.04.2004;5156;11797;"Bosco Luganese";"TI";5151;
+31.12.1952;5157;;"Brè";"TI";5157;
+31.12.1971;5157;11176;"Brè-Aldesago";"TI";5192;01.01.1953
+03.04.2004;5158;11821;"Breganzona";"TI";5192;
+13.03.2005;5159;11827;"Breno";"TI";5237;
+;5160;11475;"Brusino Arsizio";"TI";;
+;5161;11492;"Cademario";"TI";;
+;5162;11484;"Cadempino";"TI";;
+13.04.2013;5163;11495;"Cadro";"TI";5192;
+14.10.2001;5164;11496;"Cagiallo";"TI";5226;
+20.11.2010;5165;11499;"Camignolo";"TI";5238;
+31.12.1975;5166;11356;"Campestro";"TI";9012;
+;5167;11404;"Canobbio";"TI";;
+19.04.2008;5168;11406;"Carabbia";"TI";5192;
+31.12.1958;5169;;"Carabbietta";"TI";5169;
+31.03.2012;5169;11416;"Carabietta";"TI";5236;01.01.1959
+13.04.2013;5170;11408;"Carona";"TI";5192;
+;5171;11413;"Caslano";"TI";;
+31.12.1971;5172;11177;"Castagnola";"TI";5192;
+13.04.2013;5173;11384;"Certara";"TI";5192;
+13.04.2013;5174;11587;"Cimadera";"TI";5192;
+03.04.2004;5175;11588;"Cimo";"TI";5151;
+;5176;11616;"Comano";"TI";;
+19.04.2008;5177;11537;"Corticiasca";"TI";5226;
+18.04.2021;5178;13252;"Croglio";"TI";5239;
+03.04.2004;5179;11549;"Cureggia";"TI";5192;
+;5180;11570;"Cureglia";"TI";;
+;5181;11571;"Curio";"TI";;
+03.04.2004;5182;11560;"Davesco-Soragno";"TI";5192;
+13.03.2005;5183;11975;"Fescoggia";"TI";5237;
+03.04.2004;5184;12117;"Gandria";"TI";5192;
+03.04.2004;5185;12022;"Gentilino";"TI";5236;
+;5186;12042;"Grancia";"TI";;
+;5187;12118;"Gravesano";"TI";;
+19.04.2008;5188;12654;"Iseo";"TI";5151;
+;5189;12623;"Lamone";"TI";;
+14.10.2001;5190;12798;"Lopagno";"TI";5226;
+19.04.2008;5191;12721;"Lugaggia";"TI";5226;
+;5192;15628;"Lugano";"TI";;
+;5193;12714;"Magliaso";"TI";;
+;5194;12765;"Manno";"TI";;
+;5195;12762;"Maroggia";"TI";;
+;5196;12749;"Massagno";"TI";;
+;5197;12412;"Melano";"TI";;
+;5198;12388;"Melide";"TI";;
+;5199;12442;"Mezzovico-Vira";"TI";;
+;5200;12420;"Miglieglia";"TI";;
+03.04.2004;5201;12336;"Montagnola";"TI";5236;
+18.04.2021;5202;12326;"Monteggio";"TI";5239;
+;5203;12331;"Morcote";"TI";;
+13.03.2005;5204;12378;"Mugena";"TI";5237;
+;5205;12531;"Muzzano";"TI";;
+;5206;12539;"Neggio";"TI";;
+;5207;12564;"Novaggio";"TI";;
+;5208;12488;"Origlio";"TI";;
+03.04.2004;5209;13118;"Pambio-Noranco";"TI";5192;
+;5210;13116;"Paradiso";"TI";;
+03.04.2004;5211;13123;"Pazzallo";"TI";5192;
+;5212;13138;"Ponte Capriasca";"TI";;
+18.04.2021;5213;13066;"Ponte Tresa";"TI";5239;
+;5214;13073;"Porza";"TI";;
+03.04.2004;5215;13078;"Pregassona";"TI";5192;
+;5216;13093;"Pura";"TI";;
+20.11.2010;5217;12944;"Rivera";"TI";5238;
+14.10.2001;5218;12849;"Roveredo-Capriasca";"TI";5226;
+;5219;12848;"Rovio";"TI";;
+14.10.2001;5220;13023;"Sala Capriasca";"TI";5226;
+;5221;13059;"Savosa";"TI";;
+18.04.2021;5222;12993;"Sessa";"TI";5239;
+20.11.2010;5223;12988;"Sigirino";"TI";5238;
+13.04.2013;5224;10411;"Sonvico";"TI";5192;
+;5225;10415;"Sorengo";"TI";;
+14.10.2001;5226;13253;"Tesserete";"TI";5226;
+;5226;14938;"Capriasca";"TI";;15.10.2001
+;5227;10880;"Torricella-Taverne";"TI";;
+14.10.2001;5228;10932;"Vaglio";"TI";5226;
+13.04.2013;5229;10936;"Valcolla";"TI";5192;
+;5230;10916;"Vernate";"TI";;
+;5231;10943;"Vezia";"TI";;
+13.03.2005;5232;10864;"Vezio";"TI";5237;
+;5233;10755;"Vico Morcote";"TI";;
+03.04.2004;5234;10756;"Viganello";"TI";5192;
+19.04.2008;5235;10829;"Villa Luganese";"TI";5192;
+;5236;15512;"Collina d'Oro";"TI";;04.04.2004
+;5237;14519;"Alto Malcantone";"TI";;14.03.2005
+;5238;15392;"Monteceneri";"TI";;21.11.2010
+;5239;16611;"Tresa";"TI";;19.04.2021
+04.04.2009;5241;11672;"Arzo";"TI";5254;
+;5242;11707;"Balerna";"TI";;
+13.04.2013;5243;11867;"Besazio";"TI";5254;
+24.10.2009;5244;11477;"Bruzella";"TI";5269;
+24.10.2009;5245;11500;"Cabbio";"TI";5269;
+24.10.2009;5246;14500;"Caneggio";"TI";5269;
+04.04.2009;5247;11405;"Capolago";"TI";5254;
+03.04.2004;5248;11412;"Casima";"TI";5249;
+;5249;14499;"Castel San Pietro";"TI";;
+;5250;13251;"Chiasso";"TI";;
+;5251;11594;"Coldrerio";"TI";;
+04.04.2009;5252;12100;"Genestrerio";"TI";5254;
+13.04.2013;5253;12829;"Ligornetto";"TI";5254;
+;5254;15630;"Mendrisio";"TI";;
+13.04.2013;5255;12394;"Meride";"TI";5254;
+03.04.2004;5256;12346;"Monte";"TI";5249;
+;5257;12329;"Morbio Inferiore";"TI";;
+24.10.2009;5258;12330;"Morbio Superiore";"TI";5269;
+24.10.2009;5259;12379;"Muggio";"TI";5269;
+;5260;12544;"Novazzano";"TI";;
+31.12.1975;5261;11301;"Pedrinate";"TI";5250;
+04.04.2009;5262;13173;"Rancate";"TI";5254;
+;5263;12904;"Riva San Vitale";"TI";;
+24.10.2009;5264;12888;"Sagno";"TI";5269;
+03.04.2004;5265;13017;"Salorino";"TI";5254;
+;5266;10381;"Stabio";"TI";;
+04.04.2009;5267;10885;"Tremona";"TI";5254;
+;5268;10930;"Vacallo";"TI";;
+;5269;14974;"Breggia";"TI";;25.10.2009
+;5281;11904;"Biasca";"TI";;
+01.04.2017;5282;11590;"Claro";"TI";5002;
+01.04.2017;5283;11521;"Cresciano";"TI";5287;
+01.04.2017;5284;12669;"Iragna";"TI";5287;
+01.04.2017;5285;12820;"Lodrino";"TI";5287;
+01.04.2017;5286;13129;"Osogna";"TI";5287;
+;5287;16079;"Riviera";"TI";;02.04.2017
+03.04.2004;5301;11677;"Aurigeno";"TI";5317;
+19.04.2008;5302;11652;"Avegno";"TI";5324;
+21.10.2006;5303;11889;"Bignasco";"TI";5310;
+31.12.1933;5304;;"Bosco (Vallemaggia)";"TI";5304;
+;5304;11798;"Bosco/Gurin";"TI";;01.01.1934
+03.04.2004;5305;11669;"Broglio";"TI";5323;
+03.04.2004;5306;11468;"Brontallo";"TI";5323;
+;5307;11402;"Campo Vallemaggia";"TI";;
+21.10.2006;5308;11407;"Cavergno";"TI";5310;
+;5309;11388;"Cerentino";"TI";;
+;5310;14919;"Cevio";"TI";;
+03.04.2004;5311;11592;"Coglio";"TI";5317;
+03.04.2004;5312;12085;"Fusio";"TI";5323;
+03.04.2004;5313;12061;"Giumaglio";"TI";5317;
+19.04.2008;5314;12050;"Gordevio";"TI";5324;
+;5315;12814;"Linescio";"TI";;
+03.04.2004;5316;12804;"Lodano";"TI";5317;
+;5317;14495;"Maggia";"TI";;
+03.04.2004;5318;12391;"Menzonio";"TI";5323;
+03.04.2004;5319;12419;"Moghegno";"TI";5317;
+03.04.2004;5320;13125;"Peccia";"TI";5323;
+03.04.2004;5321;13101;"Prato-Sornico";"TI";5323;
+03.04.2004;5322;10405;"Someo";"TI";5317;
+;5323;14497;"Lavizzara";"TI";;04.04.2004
+;5324;14940;"Avegno Gordevio";"TI";;20.04.2008
+;5396;15627;"Terre di Pedemonte";"TI";;14.04.2013
+;5397;14973;"Centovalli";"TI";;25.10.2009
+;5398;15391;"Gambarogno";"TI";;25.04.2010
+;5399;16589;"Verzasca";"TI";;19.10.2020
+;5401;14540;"Aigle";"VD";;
+;5402;14541;"Bex";"VD";;
+;5403;14808;"Chessel";"VD";;
+;5404;14793;"Corbeyrier";"VD";;
+;5405;14747;"Gryon";"VD";;
+;5406;14645;"Lavey-Morcles";"VD";;
+;5407;14625;"Leysin";"VD";;
+;5408;14620;"Noville";"VD";;
+;5409;14663;"Ollon";"VD";;
+;5410;14670;"Ormont-Dessous";"VD";;
+;5411;14669;"Ormont-Dessus";"VD";;
+;5412;14616;"Rennaz";"VD";;
+;5413;14603;"Roche";"VD";;
+;5414;14914;"Villeneuve";"VD";;
+;5415;14911;"Yvorne";"VD";;
+30.06.2021;5421;14780;"Apples";"VD";7563;
+;5422;16600;"Aubonne";"VD";;
+;5423;14784;"Ballens";"VD";;
+;5424;14763;"Berolle";"VD";;
+;5425;14757;"Bière";"VD";;
+31.12.1952;5426;;"Bougy";"VD";5426;
+;5426;14764;"Bougy-Villars";"VD";;01.01.1953
+;5427;14743;"Féchy";"VD";;
+;5428;14730;"Gimel";"VD";;
+;5429;14624;"Longirod";"VD";;
+;5430;14631;"Marchissy";"VD";;
+;5431;14679;"Mollens";"VD";;
+31.12.2020;5432;14696;"Montherod";"VD";7560;
+30.06.2011;5433;14561;"Pizy";"VD";5422;
+;5434;14615;"Saint-George";"VD";;
+;5435;14601;"Saint-Livres";"VD";;
+;5436;14586;"Saint-Oyens";"VD";;
+;5437;14583;"Saubraz";"VD";;
+;5451;15487;"Avenches";"VD";;
+30.06.2011;5452;14762;"Bellerive";"VD";5464;
+30.06.2011;5453;14865;"Chabrey";"VD";5464;
+31.12.2001;5454;11436;"Champmartin";"VD";5456;
+30.06.2011;5455;14796;"Constantine";"VD";5464;
+;5456;14546;"Cudrefin";"VD";;
+30.06.2006;5457;12171;"Donatyre";"VD";5451;
+;5458;14749;"Faoug";"VD";;
+30.06.2011;5459;14693;"Montmagny";"VD";5464;
+30.06.2011;5460;14688;"Mur";"VD";5464;
+30.06.2011;5461;14664;"Oleyres";"VD";5451;
+30.06.2011;5462;14867;"Vallamand";"VD";5464;
+30.06.2011;5463;14891;"Villars-le-Grand";"VD";5464;
+;5464;15488;"Vully-les-Lacs";"VD";;01.07.2011
+;5471;14755;"Bettens";"VD";;
+;5472;14766;"Bournens";"VD";;
+;5473;14765;"Boussens";"VD";;
+31.12.1952;5474;;"La Chaux";"VD";5474;
+;5474;14651;"La Chaux (Cossonay)";"VD";;01.01.1953
+;5475;14853;"Chavannes-le-Veyron";"VD";;
+;5476;14814;"Chevilly";"VD";;
+;5477;14828;"Cossonay";"VD";;
+30.06.2021;5478;14826;"Cottens";"VD";7568;
+;5479;14830;"Cuarnens";"VD";;
+;5480;14819;"Daillens";"VD";;
+;5481;14854;"Dizy";"VD";;
+;5482;14716;"Eclépens";"VD";;
+;5483;14746;"Ferreyres";"VD";;
+;5484;14734;"Gollion";"VD";;
+;5485;14736;"Grancy";"VD";;
+;5486;14652;"L'Isle";"VD";;
+31.12.1998;5487;12729;"Lussery";"VD";5487;
+;5487;14547;"Lussery-Villars";"VD";;01.01.1999
+;5488;14683;"Mauraz";"VD";;
+;5489;14676;"Mex";"VD";;
+;5490;14681;"Moiry";"VD";;
+;5491;14686;"Mont-la-Ville";"VD";;
+;5492;14695;"Montricher";"VD";;
+;5493;14668;"Orny";"VD";;
+30.06.2021;5494;14567;"Pampigny";"VD";7569;
+;5495;14555;"Penthalaz";"VD";;
+;5496;14556;"Penthaz";"VD";;
+;5497;14578;"Pompaples";"VD";;
+;5498;14657;"La Sarraz";"VD";;
+;5499;14594;"Senarclens";"VD";;
+30.06.2021;5500;14593;"Sévery";"VD";7571;
+;5501;14900;"Sullens";"VD";;
+31.12.1998;5502;10771;"Villars-Lussery";"VD";5487;
+;5503;14908;"Vufflens-la-Ville";"VD";;
+;5511;16613;"Assens";"VD";;
+;5512;14552;"Bercher";"VD";;
+30.06.2021;5513;14758;"Bioley-Orjulaz";"VD";7562;
+;5514;14771;"Bottens";"VD";;
+;5515;14772;"Bretigny-sur-Morrens";"VD";;
+;5516;14825;"Cugy";"VD";;
+30.06.2011;5517;14714;"Dommartin";"VD";5540;
+;5518;14717;"Echallens";"VD";;
+30.06.2011;5519;14719;"Eclagnens";"VD";5541;
+;5520;14708;"Essertines-sur-Yverdon";"VD";;
+;5521;14702;"Etagnières";"VD";;
+;5522;14744;"Fey";"VD";;
+;5523;14748;"Froideville";"VD";;
+30.06.2011;5524;14738;"Goumoens-la-Ville";"VD";5541;
+30.06.2011;5525;14737;"Goumoens-le-Jux";"VD";5541;
+31.12.2008;5526;14641;"Malapalud";"VD";5511;
+;5527;14687;"Morrens";"VD";;
+30.06.2011;5528;14660;"Naz";"VD";5540;
+;5529;14562;"Oulens-sous-Echallens";"VD";;
+;5530;14565;"Pailly";"VD";;
+;5531;14557;"Penthéréaz";"VD";;
+30.06.2011;5532;14576;"Poliez-le-Grand";"VD";5540;
+;5533;14577;"Poliez-Pittet";"VD";;
+;5534;14619;"Rueyres";"VD";;
+;5535;14612;"Saint-Barthélemy";"VD";;
+30.06.2011;5536;14893;"Sugnens";"VD";5540;
+;5537;14887;"Villars-le-Terroir";"VD";;
+30.06.2011;5538;14915;"Villars-Tiercelin";"VD";5804;
+;5539;14910;"Vuarrens";"VD";;
+;5540;15489;"Montilliez";"VD";;01.07.2011
+;5541;15490;"Goumoëns";"VD";;01.07.2011
+;5551;14777;"Bonvillars";"VD";;
+;5552;14843;"Bullet";"VD";;
+;5553;14848;"Champagne";"VD";;
+;5554;14798;"Concise";"VD";;
+;5555;14804;"Corcelles-près-Concise";"VD";;
+;5556;14742;"Fiez";"VD";;
+;5557;14751;"Fontaines-sur-Grandson";"VD";;
+30.06.2011;5558;14752;"Fontanezier";"VD";5571;
+;5559;14741;"Giez";"VD";;
+;5560;14732;"Grandevent";"VD";;
+;5561;14725;"Grandson";"VD";;
+;5562;14633;"Mauborget";"VD";;
+;5563;14661;"Mutrux";"VD";;
+;5564;14617;"Novalles";"VD";;
+;5565;14672;"Onnens";"VD";;
+;5566;14572;"Provence";"VD";;
+30.06.2011;5567;14600;"Romairon";"VD";5571;
+;5568;14591;"Sainte-Croix";"VD";;
+30.06.2011;5569;14875;"Vaugondry";"VD";5571;
+30.06.2011;5570;14889;"Villars-Burquin";"VD";5571;
+;5571;15492;"Tévenon";"VD";;01.07.2011
+;5581;14760;"Belmont-sur-Lausanne";"VD";;
+;5582;14810;"Cheseaux-sur-Lausanne";"VD";;
+;5583;14832;"Crissier";"VD";;
+;5584;14701;"Epalinges";"VD";;
+;5585;14644;"Jouxtens-Mézery";"VD";;
+;5586;14649;"Lausanne";"VD";;
+;5587;14647;"Le Mont-sur-Lausanne";"VD";;
+;5588;14568;"Paudex";"VD";;
+;5589;14575;"Prilly";"VD";;
+;5590;14574;"Pully";"VD";;
+;5591;14580;"Renens";"VD";;
+;5592;14605;"Romanel-sur-Lausanne";"VD";;
+;5601;14806;"Chexbres";"VD";;
+30.06.2011;5602;14818;"Cully";"VD";5613;
+30.06.2011;5603;14700;"Epesses";"VD";5613;
+;5604;14753;"Forel (Lavaux)";"VD";;
+30.06.2011;5605;14724;"Grandvaux";"VD";5613;
+;5606;14640;"Lutry";"VD";;
+;5607;14573;"Puidoux";"VD";;
+30.06.2011;5608;14610;"Riex";"VD";5613;
+;5609;14602;"Rivaz";"VD";;
+;5610;14588;"Saint-Saphorin (Lavaux)";"VD";;
+;5611;14584;"Savigny";"VD";;
+30.06.2011;5612;14917;"Villette (Lavaux)";"VD";5613;
+;5613;15493;"Bourg-en-Lavaux";"VD";;01.07.2011
+;5621;14781;"Aclens";"VD";;
+;5622;14770;"Bremblens";"VD";;
+;5623;14844;"Buchillon";"VD";;
+31.12.1958;5624;;"Bussigny-sur-Morges";"VD";5624;
+30.04.2014;5624;14839;"Bussigny-près-Lausanne";"VD";5624;01.01.1959
+;5624;15651;"Bussigny";"VD";;01.05.2014
+30.06.2021;5625;14551;"Bussy-Chardonney";"VD";7572;
+31.12.1960;5626;11243;"Chardonney-sur-Morges";"VD";5625;
+;5627;14860;"Chavannes-près-Renens";"VD";;
+;5628;14815;"Chigny";"VD";;
+;5629;14816;"Clarmont";"VD";;
+30.06.2011;5630;14795;"Colombier";"VD";5634;
+;5631;14824;"Denens";"VD";;
+;5632;14822;"Denges";"VD";;
+;5633;14718;"Echandens";"VD";;
+;5634;15494;"Echichens";"VD";;
+;5635;14721;"Ecublens";"VD";;
+;5636;14703;"Etoy";"VD";;
+;5637;14650;"Lavigny";"VD";;
+;5638;14622;"Lonay";"VD";;
+;5639;14636;"Lully";"VD";;
+31.12.1952;5640;;"Lussy";"VD";5640;
+;5640;14637;"Lussy-sur-Morges";"VD";;01.01.1953
+30.06.2011;5641;14677;"Monnaz";"VD";5634;
+;5642;14690;"Morges";"VD";;
+;5643;14570;"Préverenges";"VD";;
+30.06.2021;5644;14608;"Reverolle";"VD";7570;
+;5645;14606;"Romanel-sur-Morges";"VD";;
+;5646;14587;"Saint-Prex";"VD";;
+30.06.2011;5647;14589;"Saint-Saphorin-sur-Morges";"VD";5634;
+;5648;14590;"Saint-Sulpice";"VD";;
+;5649;14880;"Tolochenaz";"VD";;
+;5650;14874;"Vaux-sur-Morges";"VD";;
+;5651;14885;"Villars-Ste-Croix";"VD";;
+;5652;14882;"Villars-sous-Yens";"VD";;
+;5653;14907;"Vufflens-le-Château";"VD";;
+;5654;14901;"Vullierens";"VD";;
+;5655;14913;"Yens";"VD";;
+;5656;16612;"Hautemorges";"VD";;01.07.2021
+;5661;14767;"Boulens";"VD";;
+31.12.2016;5662;14768;"Brenles";"VD";7316;
+;5663;14841;"Bussy-sur-Moudon";"VD";;
+31.12.1952;5664;;"Chapelle";"VD";5664;
+31.12.2012;5664;14847;"Chapelle-sur-Moudon";"VD";5693;01.01.1953
+;5665;14856;"Chavannes-sur-Moudon";"VD";;
+31.12.2016;5666;14813;"Chesalles-sur-Moudon";"VD";7317;
+31.12.2012;5667;14803;"Correvon";"VD";5693;
+31.12.2016;5668;14834;"Cremin";"VD";7318;
+;5669;14821;"Curtilles";"VD";;
+31.12.2012;5670;14823;"Denezy";"VD";5693;
+;5671;14715;"Dompierre";"VD";;
+31.12.2016;5672;14754;"Forel-sur-Lucens";"VD";7319;
+;5673;14698;"Hermenches";"VD";;
+;5674;14623;"Lovatens";"VD";;
+;5675;16073;"Lucens";"VD";;
+31.12.2012;5676;14635;"Martherenges";"VD";5693;
+30.06.2011;5677;14692;"Montaubion-Chardonney";"VD";5804;
+;5678;14685;"Moudon";"VD";;
+31.12.2012;5679;14662;"Neyruz-sur-Moudon";"VD";5693;
+;5680;14665;"Ogens";"VD";;
+30.06.2011;5681;14564;"Oulens-sur-Lucens";"VD";5675;
+31.12.2012;5682;14559;"Peyres-Possens";"VD";5693;
+;5683;14571;"Prévonloup";"VD";;
+;5684;14611;"Rossenges";"VD";;
+31.12.2012;5685;14614;"Saint-Cierges";"VD";5693;
+31.12.2016;5686;14592;"Sarzens";"VD";7320;
+30.06.2011;5687;14904;"Sottens";"VD";5804;
+;5688;14898;"Syens";"VD";;
+31.12.2012;5689;14895;"Thierrens";"VD";5693;
+;5690;14888;"Villars-le-Comte";"VD";;
+30.06.2011;5691;14886;"Villars-Mendraz";"VD";5804;
+;5692;14909;"Vucherens";"VD";;
+;5693;15616;"Montanaire";"VD";;01.01.2013
+;5701;14779;"Arnex-sur-Nyon";"VD";;
+30.04.2014;5702;14791;"Arzier";"VD";5702;
+;5702;15652;"Arzier-Le Muids";"VD";;01.05.2014
+;5703;14788;"Bassins";"VD";;
+;5704;14761;"Begnins";"VD";;
+;5705;14776;"Bogis-Bossey";"VD";;
+;5706;14775;"Borex";"VD";;
+;5707;14859;"Chavannes-de-Bogis";"VD";;
+;5708;14858;"Chavannes-des-Bois";"VD";;
+;5709;14809;"Chéserex";"VD";;
+;5710;14817;"Coinsins";"VD";;
+;5711;14799;"Commugny";"VD";;
+;5712;14794;"Coppet";"VD";;
+31.12.2020;5713;14827;"Crans-près-Céligny";"VD";5713;
+;5713;16609;"Crans";"VD";;01.01.2021
+;5714;14835;"Crassier";"VD";;
+;5715;14711;"Duillier";"VD";;
+;5716;14706;"Eysins";"VD";;
+;5717;14750;"Founex";"VD";;
+;5718;14726;"Genolier";"VD";;
+;5719;14731;"Gingins";"VD";;
+;5720;14735;"Givrins";"VD";;
+;5721;14733;"Gland";"VD";;
+;5722;14728;"Grens";"VD";;
+;5723;14680;"Mies";"VD";;
+;5724;14659;"Nyon";"VD";;
+;5725;14582;"Prangins";"VD";;
+;5726;14658;"La Rippe";"VD";;
+;5727;14613;"Saint-Cergue";"VD";;
+;5728;14598;"Signy-Avenex";"VD";;
+;5729;14897;"Tannay";"VD";;
+;5730;14879;"Trélex";"VD";;
+;5731;14639;"Le Vaud";"VD";;
+;5732;14892;"Vich";"VD";;
+;5741;14653;"L'Abergement";"VD";;
+;5742;14783;"Agiez";"VD";;
+;5743;14778;"Arnex-sur-Orbe";"VD";;
+;5744;14785;"Ballaigues";"VD";;
+;5745;14787;"Baulmes";"VD";;
+;5746;14786;"Bavois";"VD";;
+;5747;14773;"Bofflens";"VD";;
+;5748;14769;"Bretonnières";"VD";;
+;5749;16074;"Chavornay";"VD";;
+;5750;14627;"Les Clées";"VD";;
+31.12.2016;5751;14797;"Corcelles-sur-Chavornay";"VD";7321;
+;5752;14831;"Croy";"VD";;
+31.12.1969;5753;11225;"Envy";"VD";5761;
+;5754;14643;"Juriens";"VD";;
+;5755;14621;"Lignerolle";"VD";;
+;5756;14689;"Montcherand";"VD";;
+;5757;14673;"Orbe";"VD";;
+;5758;14655;"La Praz";"VD";;
+;5759;14569;"Premier";"VD";;
+;5760;14553;"Rances";"VD";;
+31.12.1969;5761;11268;"Romainmôtier";"VD";5761;
+;5761;14549;"Romainmôtier-Envy";"VD";;01.01.1970
+;5762;14595;"Sergey";"VD";;
+;5763;14868;"Valeyres-sous-Rances";"VD";;
+;5764;14866;"Vallorbe";"VD";;
+;5765;14873;"Vaulion";"VD";;
+;5766;14903;"Vuiteboeuf";"VD";;
+31.12.2011;5781;14838;"Bussigny-sur-Oron";"VD";5805;
+30.06.2016;5782;14861;"Carrouge";"VD";7131;
+31.12.2011;5783;14850;"Châtillens";"VD";5805;
+31.12.2011;5784;14812;"Chesalles-sur-Oron";"VD";5805;
+;5785;14792;"Corcelles-le-Jorat";"VD";;
+31.12.2011;5786;14626;"Les Cullayes";"VD";5799;
+31.12.2011;5787;14720;"Ecoteaux";"VD";5805;
+;5788;14705;"Essertes";"VD";;
+30.06.2016;5789;14745;"Ferlens";"VD";7132;
+;5790;14545;"Maracon";"VD";;
+30.06.2016;5791;14674;"Mézières";"VD";7133;
+;5792;14697;"Montpreveyres";"VD";;
+31.12.2011;5793;14667;"Oron-la-Ville";"VD";5805;
+31.12.2011;5794;14684;"Oron-le-Châtel";"VD";5805;
+31.12.2011;5795;14566;"Palézieux";"VD";5805;
+30.06.2011;5796;14554;"Peney-le-Jorat";"VD";5804;
+31.12.2002;5797;12583;"La Rogivue";"VD";5790;
+;5798;14607;"Ropraz";"VD";;
+;5799;15505;"Servion";"VD";;
+31.12.2011;5800;14629;"Les Tavernes";"VD";5805;
+31.12.2011;5801;14628;"Les Thioleyres";"VD";5805;
+31.12.2011;5802;14905;"Vuibroye";"VD";5805;
+;5803;14902;"Vulliens";"VD";;
+;5804;15491;"Jorat-Menthue";"VD";;01.07.2011
+;5805;15504;"Oron";"VD";;01.01.2012
+;5806;15687;"Jorat-Mézières";"VD";;01.07.2016
+30.06.2011;5811;14863;"Cerniaz";"VD";5831;
+;5812;14852;"Champtauroz";"VD";;
+;5813;14807;"Chevroux";"VD";;
+30.06.2011;5814;14801;"Combremont-le-Grand";"VD";5831;
+30.06.2011;5815;14800;"Combremont-le-Petit";"VD";5831;
+;5816;14805;"Corcelles-près-Payerne";"VD";;
+;5817;14729;"Grandcour";"VD";;
+31.12.1952;5818;;"Granges";"VD";5818;
+30.06.2011;5818;14723;"Granges-près-Marnand";"VD";5831;01.01.1953
+;5819;14707;"Henniez";"VD";;
+30.06.2011;5820;14630;"Marnand";"VD";5831;
+;5821;14682;"Missy";"VD";;
+;5822;14560;"Payerne";"VD";;
+30.06.2006;5823;12843;"Rossens";"VD";5830;
+30.06.2011;5824;14585;"Sassel";"VD";5831;
+30.06.2006;5825;12954;"Sédeilles";"VD";5830;
+30.06.2011;5826;14597;"Seigneux";"VD";5831;
+;5827;14877;"Trey";"VD";;
+;5828;14881;"Treytorrens (Payerne)";"VD";;
+30.06.2011;5829;14890;"Villars-Bramard";"VD";5831;
+;5830;14542;"Villarzel";"VD";;
+;5831;15496;"Valbroye";"VD";;01.07.2011
+;5841;14845;"Château-d'Oex";"VD";;
+;5842;14609;"Rossinière";"VD";;
+;5843;14618;"Rougemont";"VD";;
+;5851;14782;"Allaman";"VD";;
+;5852;14837;"Bursinel";"VD";;
+;5853;14840;"Bursins";"VD";;
+;5854;14842;"Burtigny";"VD";;
+;5855;14712;"Dully";"VD";;
+;5856;14704;"Essertines-sur-Rolle";"VD";;
+;5857;14739;"Gilly";"VD";;
+;5858;14638;"Luins";"VD";;
+;5859;14694;"Mont-sur-Rolle";"VD";;
+;5860;14558;"Perroy";"VD";;
+;5861;14604;"Rolle";"VD";;
+;5862;14894;"Tartegnin";"VD";;
+;5863;14916;"Vinzel";"VD";;
+;5871;14654;"L'Abbaye";"VD";;
+;5872;14646;"Le Chenit";"VD";;
+;5873;14648;"Le Lieu";"VD";;
+;5881;14774;"Blonay";"VD";;
+;5882;14846;"Chardonne";"VD";;
+;5883;14802;"Corseaux";"VD";;
+31.12.1952;5884;;"Corsier";"VD";5884;
+;5884;14833;"Corsier-sur-Vevey";"VD";;01.01.1953
+;5885;14642;"Jongny";"VD";;
+;5886;14550;"Montreux";"VD";;
+;5888;14599;"Saint-Légier-La Chiésaz";"VD";;
+;5889;14656;"La Tour-de-Peilz";"VD";;
+;5890;14872;"Vevey";"VD";;
+;5891;14876;"Veytaux";"VD";;
+31.12.2004;5901;11725;"Arrissoules";"VD";5928;
+;5902;14759;"Belmont-sur-Yverdon";"VD";;
+;5903;14756;"Bioley-Magnoux";"VD";;
+;5904;14864;"Chamblon";"VD";;
+;5905;15506;"Champvent";"VD";;
+31.12.2012;5906;14849;"Chanéaz";"VD";5693;
+;5907;14857;"Chavannes-le-Chêne";"VD";;
+31.12.1952;5908;;"Chêne-Paquier";"VD";5908;
+;5908;14862;"Chêne-Pâquier";"VD";;01.01.1953
+;5909;14811;"Cheseaux-Noréaz";"VD";;
+;5910;14836;"Cronay";"VD";;
+;5911;14829;"Cuarny";"VD";;
+;5912;14820;"Démoret";"VD";;
+;5913;15507;"Donneloye";"VD";;
+;5914;14699;"Ependes";"VD";;
+31.12.2016;5915;14709;"Essert-Pittet";"VD";7322;
+31.12.2011;5916;14710;"Essert-sous-Champvent";"VD";5905;
+31.12.2007;5917;14740;"Gossens";"VD";5913;
+30.06.2011;5918;14727;"Gressy";"VD";5938;
+;5919;14634;"Mathod";"VD";;
+31.12.2007;5920;14675;"Mézery-près-Donneloye";"VD";5913;
+;5921;14678;"Molondin";"VD";;
+;5922;14691;"Montagny-près-Yverdon";"VD";;
+;5923;14666;"Oppens";"VD";;
+;5924;14671;"Orges";"VD";;
+;5925;14563;"Orzens";"VD";;
+;5926;14579;"Pomy";"VD";;
+31.12.2011;5927;14581;"Prahins";"VD";5913;
+;5928;14544;"Rovray";"VD";;
+;5929;14896;"Suchy";"VD";;
+;5930;14899;"Suscévaz";"VD";;
+;5931;14878;"Treycovagnes";"VD";;
+;5932;14870;"Ursins";"VD";;
+;5933;14869;"Valeyres-sous-Montagny";"VD";;
+;5934;14871;"Valeyres-sous-Ursins";"VD";;
+;5935;14883;"Villars-Epeney";"VD";;
+31.12.2011;5936;14884;"Villars-sous-Champvent";"VD";5905;
+;5937;14906;"Vugelles-La Mothe";"VD";;
+31.12.1981;5938;11339;"Yverdon";"VD";5938;
+;5938;15497;"Yverdon-les-Bains";"VD";;01.01.1982
+;5939;14912;"Yvonand";"VD";;
+31.12.2012;6001;11898;"Birgisch";"VS";6007;
+;6002;13228;"Brig-Glis";"VS";;
+30.09.1972;6003;11218;"Brigerbad";"VS";6002;
+;6004;12132;"Eggerberg";"VS";;
+30.09.1972;6005;11219;"Glis";"VS";6002;
+31.12.2012;6006;12359;"Mund";"VS";6007;
+;6007;15617;"Naters";"VS";;
+17.10.1993;6008;12901;"Ried bei Brig";"VS";6008;
+;6008;13759;"Ried-Brig";"VS";;18.10.1993
+;6009;12984;"Simplon";"VS";;
+;6010;10560;"Termen";"VS";;
+;6011;10159;"Zwischbergen";"VS";;
+;6021;11763;"Ardon";"VS";;
+;6022;11418;"Chamoson";"VS";;
+;6023;11635;"Conthey";"VS";;
+;6024;12518;"Nendaz";"VS";;
+;6025;10923;"Vétroz";"VS";;
+31.12.2020;6031;11705;"Bagnes";"VS";6037;
+;6032;11846;"Bourg-St-Pierre";"VS";;
+;6033;12790;"Liddes";"VS";;
+;6034;13134;"Orsières";"VS";;
+;6035;13002;"Sembrancher";"VS";;
+31.12.2020;6036;10369;"Vollèges";"VS";6037;
+;6037;16601;"Val de Bagnes";"VS";;01.01.2021
+30.09.2004;6051;11653;"Ausserbinn";"VS";6051;
+31.12.2007;6051;;"Ausserbinn";"VS";6056;01.10.2004
+;6052;11883;"Bellwald";"VS";;
+30.09.2000;6053;11896;"Biel";"VS";6073;
+;6054;11892;"Binn";"VS";;
+31.12.2016;6055;11812;"Blitzingen";"VS";6077;
+;6056;14504;"Ernen";"VS";;
+;6057;12018;"Fiesch";"VS";;
+;6058;12017;"Fieschertal";"VS";;
+30.09.2004;6059;12031;"Geschinen";"VS";6074;
+30.09.2004;6060;12053;"Gluringen";"VS";6075;
+;6061;12609;"Lax";"VS";;
+30.09.2004;6062;12356;"Mühlebach";"VS";6062;
+31.12.2007;6062;;"Mühlebach";"VS";6056;01.10.2004
+30.09.2004;6063;12360;"Münster";"VS";6074;
+31.12.2016;6064;12567;"Niederwald";"VS";6077;
+31.12.2008;6065;12477;"Obergesteln";"VS";6076;
+31.12.2008;6066;12479;"Oberwald";"VS";6076;
+30.09.2004;6067;13167;"Reckingen";"VS";6075;
+30.09.2000;6068;12933;"Ritzingen";"VS";6073;
+30.09.2000;6069;13004;"Selkingen";"VS";6073;
+30.09.2004;6070;10599;"Steinhaus";"VS";6070;
+31.12.2007;6070;;"Steinhaus";"VS";6056;01.10.2004
+31.12.2008;6071;10872;"Ulrichen";"VS";6076;
+31.12.2016;6073;14132;"Grafschaft";"VS";6077;01.10.2000
+31.12.2016;6074;14502;"Münster-Geschinen";"VS";6077;01.10.2004
+31.12.2016;6075;14503;"Reckingen-Gluringen";"VS";6077;01.10.2004
+;6076;14958;"Obergoms";"VS";;01.01.2009
+;6077;16075;"Goms";"VS";;01.01.2017
+31.12.1964;6081;11274;"Agettes";"VS";6081;
+31.12.2016;6081;13202;"Les Agettes";"VS";6266;01.01.1965
+;6082;11666;"Ayent";"VS";;
+;6083;12255;"Evolène";"VS";;
+;6084;12298;"Hérémence";"VS";;
+31.12.2010;6085;12739;"Mase";"VS";6090;
+31.12.2010;6086;12526;"Nax";"VS";6090;
+;6087;13032;"Saint-Martin";"VS";;
+31.12.2010;6088;10914;"Vernamiège";"VS";6090;
+;6089;10925;"Vex";"VS";;
+;6090;15485;"Mont-Noble";"VS";;01.01.2011
+;6101;11720;"Agarn";"VS";;
+;6102;11730;"Albinen";"VS";;
+31.12.2008;6103;11828;"Bratsch";"VS";6118;
+;6104;12307;"Ergisch";"VS";;
+31.12.2012;6105;12244;"Erschmatt";"VS";6110;
+30.09.2000;6106;11976;"Feschel";"VS";6117;
+31.12.2008;6107;12082;"Gampel";"VS";6118;
+30.09.2000;6108;11972;"Guttet";"VS";6117;
+;6109;12656;"Inden";"VS";;
+;6110;15618;"Leuk";"VS";;
+;6111;12777;"Leukerbad";"VS";;
+;6112;12464;"Oberems";"VS";;
+;6113;13035;"Salgesch";"VS";;
+31.12.2012;6114;10846;"Turtmann";"VS";6119;
+31.12.2012;6115;10908;"Unterems";"VS";6119;
+;6116;10938;"Varen";"VS";;
+;6117;14133;"Guttet-Feschel";"VS";;01.10.2000
+;6118;14959;"Gampel-Bratsch";"VS";;01.01.2009
+;6119;15619;"Turtmann-Unterems";"VS";;01.01.2013
+;6131;11850;"Bovernier";"VS";;
+31.12.2020;6132;11448;"Charrat";"VS";6136;
+;6133;12089;"Fully";"VS";;
+;6134;12663;"Isérables";"VS";;
+;6135;12767;"Leytron";"VS";;
+31.07.1964;6136;11277;"Martigny-Bourg";"VS";6136;
+;6136;16602;"Martigny";"VS";;01.08.1964
+;6137;12756;"Martigny-Combe";"VS";;
+31.07.1964;6138;11278;"Martigny-Ville";"VS";6136;
+;6139;12917;"Riddes";"VS";;
+;6140;12871;"Saillon";"VS";;
+;6141;13058;"Saxon";"VS";;
+;6142;10891;"Trient";"VS";;
+;6151;11415;"Champéry";"VS";;
+;6152;11596;"Collombey-Muraz";"VS";;
+;6153;12323;"Monthey";"VS";;
+;6154;13075;"Port-Valais";"VS";;
+;6155;12863;"Saint-Gingolph";"VS";;
+;6156;10897;"Troistorrents";"VS";;
+;6157;10933;"Val-d'Illiez";"VS";;
+;6158;10078;"Vionnaz";"VS";;
+;6159;10372;"Vouvry";"VS";;
+31.12.2013;6171;11905;"Betten";"VS";6205;
+;6172;11807;"Bister";"VS";;
+;6173;11808;"Bitsch";"VS";;
+31.12.2008;6174;12015;"Filet";"VS";6203;
+31.10.2003;6175;12049;"Goppisberg";"VS";6175;
+31.12.2007;6175;;"Goppisberg";"VS";6181;01.11.2003
+31.10.2003;6176;12084;"Greich";"VS";6176;
+31.12.2007;6176;;"Greich";"VS";6181;01.11.2003
+;6177;12079;"Grengiols";"VS";;
+31.12.2013;6178;12736;"Martisberg";"VS";6205;
+31.12.2008;6179;12351;"Mörel";"VS";6203;
+17.10.1993;6180;12899;"Ried bei Mörel";"VS";6180;
+31.10.2003;6180;13760;"Ried-Mörel";"VS";6180;18.10.1993
+31.12.2007;6180;;"Ried-Mörel";"VS";6181;01.11.2003
+31.12.2007;6181;14468;"Riederalp";"VS";6181;01.11.2003
+;6181;14468;"Riederalp";"VS";;01.01.2008
+;6191;11675;"Ausserberg";"VS";;
+;6192;11818;"Blatten";"VS";;
+;6193;11485;"Bürchen";"VS";;
+;6194;12151;"Eischoll";"VS";;
+;6195;11995;"Ferden";"VS";;
+31.12.2008;6196;12138;"Hohtenn";"VS";6204;
+;6197;12686;"Kippel";"VS";;
+;6198;12511;"Niedergesteln";"VS";;
+;6199;13162;"Raron";"VS";;
+31.12.2008;6200;10581;"Steg";"VS";6204;
+;6201;10860;"Unterbäch";"VS";;
+;6202;10337;"Wiler (Lötschen)";"VS";;
+;6203;14960;"Mörel-Filet";"VS";;01.01.2009
+;6204;14961;"Steg-Hohtenn";"VS";;01.01.2009
+;6205;15649;"Bettmeralp";"VS";;01.01.2014
+;6211;11598;"Collonges";"VS";;
+;6212;12207;"Dorénaz";"VS";;
+;6213;12256;"Evionnaz";"VS";;
+;6214;12010;"Finhaut";"VS";;
+;6215;12741;"Massongex";"VS";;
+31.12.2012;6216;12445;"Mex";"VS";6217;
+;6217;15620;"Saint-Maurice";"VS";;
+;6218;13016;"Salvan";"VS";;
+;6219;10917;"Vernayaz";"VS";;
+;6220;10919;"Vérossaz";"VS";;
+31.12.2008;6231;11686;"Ayer";"VS";6252;
+;6232;11396;"Chalais";"VS";;
+31.12.2008;6233;11440;"Chandolin";"VS";6252;
+31.12.2016;6234;11602;"Chermignon";"VS";6253;
+;6235;11610;"Chippis";"VS";;
+21.06.1972;6236;11221;"Granges";"VS";6248;
+31.12.2008;6237;12093;"Grimentz";"VS";6252;
+;6238;12044;"Grône";"VS";;
+;6239;12187;"Icogne";"VS";;
+;6240;12797;"Lens";"VS";;
+31.12.2020;6241;12444;"Miège";"VS";6254;
+31.12.2016;6242;12424;"Mollens";"VS";6253;
+31.12.2016;6243;12341;"Montana";"VS";6253;
+31.12.2016;6244;13179;"Randogne";"VS";6253;
+31.12.2008;6245;12861;"Saint-Jean";"VS";6252;
+;6246;12857;"Saint-Léonard";"VS";;
+31.12.2008;6247;13034;"Saint-Luc";"VS";6252;
+;6248;13227;"Sierre";"VS";;
+31.12.2020;6249;10912;"Venthône";"VS";6254;
+31.12.2020;6250;10926;"Veyras";"VS";6254;
+31.12.2008;6251;10376;"Vissoie";"VS";6252;
+;6252;14962;"Anniviers";"VS";;01.01.2009
+;6253;16077;"Crans-Montana";"VS";;01.01.2017
+;6254;16603;"Noble-Contrée";"VS";;01.01.2021
+;6261;11758;"Arbaz";"VS";;
+12.11.1968;6262;11265;"Bramois";"VS";6266;
+;6263;12094;"Grimisuat";"VS";;
+31.12.2012;6264;13019;"Salins";"VS";6266;
+;6265;13061;"Savièse";"VS";;
+;6266;16076;"Sion";"VS";;
+;6267;10907;"Veysonnaz";"VS";;
+;6281;11714;"Baltschieder";"VS";;
+;6282;12150;"Eisten";"VS";;
+;6283;12293;"Embd";"VS";;
+30.09.1972;6284;11223;"Eyholz";"VS";6297;
+;6285;12040;"Grächen";"VS";;
+;6286;12598;"Lalden";"VS";;
+;6287;13180;"Randa";"VS";;
+31.12.2006;6288;12878;"Saas Almagell";"VS";6288;
+;6288;14927;"Saas-Almagell";"VS";;01.01.2007
+31.12.2006;6289;12877;"Saas Balen";"VS";6289;
+;6289;14928;"Saas-Balen";"VS";;01.01.2007
+31.12.2006;6290;12876;"Saas Fee";"VS";6290;
+;6290;14929;"Saas-Fee";"VS";;01.01.2007
+31.12.2006;6291;12875;"Saas Grund";"VS";6291;
+;6291;14930;"Saas-Grund";"VS";;01.01.2007
+;6292;10375;"St. Niklaus";"VS";;
+;6293;10573;"Stalden";"VS";;
+;6294;10574;"Staldenried";"VS";;
+;6295;10555;"Täsch";"VS";;
+;6296;10877;"Törbel";"VS";;
+;6297;13226;"Visp";"VS";;
+;6298;10419;"Visperterminen";"VS";;
+;6299;10330;"Zeneggen";"VS";;
+;6300;10315;"Zermatt";"VS";;
+31.12.2012;6401;11667;"Auvernier";"NE";7923;
+31.12.2017;6402;11920;"Bevaix";"NE";7514;
+31.12.2012;6403;11809;"Bôle";"NE";7924;
+;6404;16089;"Boudry";"NE";;
+31.12.2015;6405;11469;"Brot-Dessous";"NE";7098;
+31.12.2012;6406;11619;"Colombier";"NE";7925;
+31.12.2020;6407;16090;"Corcelles-Cormondrèche";"NE";7556;
+;6408;16091;"Cortaillod";"NE";;
+31.12.2017;6409;11955;"Fresens";"NE";7515;
+31.12.2017;6410;12067;"Gorgier";"NE";7516;
+31.12.2017;6411;12349;"Montalchez";"NE";7517;
+31.12.2020;6412;16092;"Peseux";"NE";7555;
+;6413;16093;"Rochefort";"NE";;
+31.12.2017;6414;12869;"Saint-Aubin-Sauges";"NE";7518;
+31.12.1965;6415;11273;"Vaumarcus-Vernéaz";"NE";6415;
+31.12.2017;6415;13203;"Vaumarcus";"NE";7519;01.01.1966
+;6421;16095;"La Chaux-de-Fonds";"NE";;
+;6422;16096;"Les Planchettes";"NE";;
+;6423;16097;"La Sagne";"NE";;
+31.12.2020;6431;16098;"Les Brenets";"NE";7558;
+;6432;16099;"La Brévine";"NE";;
+;6433;16100;"Brot-Plamboz";"NE";;
+;6434;16101;"Le Cerneux-Péquignot";"NE";;
+;6435;16102;"La Chaux-du-Milieu";"NE";;
+;6436;16605;"Le Locle";"NE";;
+;6437;16104;"Les Ponts-de-Martel";"NE";;
+;6451;16105;"Cornaux";"NE";;
+;6452;16106;"Cressier";"NE";;
+;6453;16107;"Enges";"NE";;
+;6454;16108;"Hauterive";"NE";;
+31.12.1965;6455;11272;"Landeron-Combes";"NE";6455;
+;6455;16109;"Le Landeron";"NE";;01.01.1966
+;6456;16110;"Lignières";"NE";;
+31.12.2008;6457;12760;"Marin-Epagnier";"NE";6461;
+;6458;16604;"Neuchâtel";"NE";;
+;6459;16112;"Saint-Blaise";"NE";;
+31.12.2008;6460;10567;"Thielle-Wavre";"NE";6461;
+;6461;16113;"La Tène";"NE";;01.01.2009
+31.12.2012;6471;11841;"Boudevilliers";"NE";7926;
+31.12.2012;6472;11391;"Cernier";"NE";7927;
+31.12.2012;6473;11614;"Chézard-Saint-Martin";"NE";7928;
+31.12.2012;6474;11600;"Coffrane";"NE";7929;
+31.12.2012;6475;12194;"Dombresson";"NE";7930;
+31.12.2012;6476;12295;"Engollon";"NE";7931;
+31.12.2012;6477;11983;"Fenin-Vilars-Saules";"NE";7932;
+31.12.2012;6478;11945;"Fontainemelon";"NE";7933;
+31.12.2012;6479;11931;"Fontaines";"NE";7934;
+31.12.2012;6480;12772;"Les Geneveys-sur-Coffrane";"NE";7935;
+31.12.2012;6481;12788;"Les Hauts-Geneveys";"NE";7936;
+31.12.2012;6482;12325;"Montmollin";"NE";7937;
+31.12.2012;6483;12619;"Le Pâquier";"NE";7938;
+31.12.2012;6484;13062;"Savagnier";"NE";7939;
+31.12.2020;6485;16114;"Valangin";"NE";7557;
+31.12.2012;6486;10037;"Villiers";"NE";7940;
+31.12.2008;6501;12792;"Les Bayards";"NE";6512;
+31.12.2008;6502;11849;"Boveresse";"NE";6512;
+31.12.2008;6503;11487;"Buttes";"NE";6512;
+;6504;16116;"La Côte-aux-Fées";"NE";;
+31.12.2008;6505;11526;"Couvet";"NE";6512;
+31.12.2008;6506;11943;"Fleurier";"NE";6512;
+31.12.2008;6507;12375;"Môtiers";"NE";6512;
+31.12.2008;6508;12572;"Noiraigue";"NE";6512;
+31.12.2008;6509;13026;"Saint-Sulpice";"NE";6512;
+31.12.2008;6510;10883;"Travers";"NE";6512;
+;6511;16117;"Les Verrières";"NE";;
+;6512;16118;"Val-de-Travers";"NE";;01.01.2009
+;6601;11726;"Aire-la-Ville";"GE";;
+;6602;11776;"Anières";"GE";;
+;6603;11664;"Avully";"GE";;
+;6604;11665;"Avusy";"GE";;
+;6605;11692;"Bardonnex";"GE";;
+;6606;11880;"Bellevue";"GE";;
+;6607;11853;"Bernex";"GE";;
+;6608;11400;"Carouge";"GE";;
+;6609;11411;"Cartigny";"GE";;
+;6610;11387;"Céligny";"GE";;
+;6611;11439;"Chancy";"GE";;
+;6612;11431;"Chêne-Bougeries";"GE";;
+;6613;11535;"Chêne-Bourg";"GE";;
+;6614;11586;"Choulex";"GE";;
+;6615;11595;"Collex-Bossy";"GE";;
+;6616;11597;"Collonge-Bellerive";"GE";;
+;6617;11599;"Cologny";"GE";;
+;6618;11651;"Confignon";"GE";;
+;6619;11569;"Corsier";"GE";;
+;6620;11582;"Dardagny";"GE";;
+;6621;12099;"Genève";"GE";;
+;6622;12097;"Genthod";"GE";;
+;6623;12606;"Le Grand-Saconnex";"GE";;
+;6624;11959;"Gy";"GE";;
+;6625;12296;"Hermance";"GE";;
+;6626;12642;"Jussy";"GE";;
+;6627;12575;"Laconnex";"GE";;
+;6628;12624;"Lancy";"GE";;
+;6629;12409;"Meinier";"GE";;
+;6630;12430;"Meyrin";"GE";;
+;6631;12484;"Onex";"GE";;
+;6632;13155;"Perly-Certoux";"GE";;
+;6633;13114;"Plan-les-Ouates";"GE";;
+31.12.1959;6634;;"Pregny";"GE";6634;
+;6634;13110;"Pregny-Chambésy";"GE";;01.01.1960
+;6635;13107;"Presinge";"GE";;
+;6636;13094;"Puplinge";"GE";;
+;6637;12872;"Russin";"GE";;
+;6638;13051;"Satigny";"GE";;
+;6639;10414;"Soral";"GE";;
+;6640;10569;"Thônex";"GE";;
+;6641;10896;"Troinex";"GE";;
+;6642;10942;"Vandoeuvres";"GE";;
+;6643;10918;"Vernier";"GE";;
+;6644;10921;"Versoix";"GE";;
+;6645;10902;"Veyrier";"GE";;
+31.12.1978;6701;10982;"Bassecourt";"BE";6701;
+31.12.2012;6701;13272;"Bassecourt";"JU";6729;01.01.1979
+31.12.1978;6702;10983;"Boécourt";"BE";6702;
+;6702;13273;"Boécourt";"JU";;01.01.1979
+31.12.1978;6703;;"Bourrignon";"BE";6703;
+;6703;13274;"Bourrignon";"JU";;01.01.1979
+31.12.1978;6704;;"Châtillon";"BE";6704;
+;6704;13275;"Châtillon";"JU";;01.01.1979
+31.12.1978;6705;;"Corban";"BE";6705;
+31.12.2017;6705;13276;"Corban";"JU";7324;01.01.1979
+31.12.1978;6706;;"Courchapoix";"BE";6706;
+;6706;13277;"Courchapoix";"JU";;01.01.1979
+31.12.1978;6707;;"Courfaivre";"BE";6707;
+31.12.2012;6707;13278;"Courfaivre";"JU";6729;01.01.1979
+31.12.1978;6708;;"Courrendlin";"BE";6708;
+;6708;16127;"Courrendlin";"JU";;01.01.1979
+31.12.1978;6709;;"Courroux";"BE";6709;
+;6709;13280;"Courroux";"JU";;01.01.1979
+31.12.1978;6710;10991;"Courtételle";"BE";6710;
+;6710;13281;"Courtételle";"JU";;01.01.1979
+31.12.1978;6711;;"Delémont";"BE";6711;
+;6711;13282;"Delémont";"JU";;01.01.1979
+31.12.1978;6712;;"Develier";"BE";6712;
+;6712;13283;"Develier";"JU";;01.01.1979
+31.12.1978;6713;;"Ederswiler";"BE";6713;
+;6713;13284;"Ederswiler";"JU";;01.01.1979
+31.12.1978;6714;10995;"Glovelier";"BE";6714;
+31.12.2012;6714;13285;"Glovelier";"JU";6729;01.01.1979
+31.12.1978;6715;;"Mervelier";"BE";6715;
+;6715;13286;"Mervelier";"JU";;01.01.1979
+31.12.1978;6716;;"Mettembert";"BE";6716;
+;6716;13680;"Mettembert";"JU";;01.01.1979
+31.12.1978;6717;;"Montsevelier";"BE";6717;
+31.12.2012;6717;13288;"Montsevelier";"JU";6730;01.01.1979
+31.12.1978;6718;;"Movelier";"BE";6718;
+;6718;13289;"Movelier";"JU";;01.01.1979
+31.12.1978;6719;;"Pleigne";"BE";6719;
+;6719;13290;"Pleigne";"JU";;01.01.1979
+31.12.1978;6720;;"Rebeuvelier";"BE";6720;
+31.12.2018;6720;13291;"Rebeuvelier";"JU";7467;01.01.1979
+31.12.1978;6721;;"Rossemaison";"BE";6721;
+;6721;13292;"Rossemaison";"JU";;01.01.1979
+31.12.1978;6722;;"Saulcy";"BE";6722;
+;6722;13293;"Saulcy";"JU";;01.01.1979
+31.12.1978;6723;;"Soulce";"BE";6723;
+31.12.2012;6723;13294;"Soulce";"JU";6729;01.01.1979
+31.12.1978;6724;;"Soyhières";"BE";6724;
+;6724;13295;"Soyhières";"JU";;01.01.1979
+31.12.1978;6725;;"Undervelier";"BE";6725;
+31.12.2012;6725;13296;"Undervelier";"JU";6729;01.01.1979
+31.12.1978;6726;;"Vermes";"BE";6726;
+31.12.2012;6726;13297;"Vermes";"JU";6730;01.01.1979
+31.12.1978;6727;;"Vicques";"BE";6727;
+31.12.2012;6727;13298;"Vicques";"JU";6730;01.01.1979
+31.12.1995;6728;;"Vellerat";"BE";6728;
+31.12.2018;6728;14087;"Vellerat";"JU";7466;01.01.1996
+;6729;15624;"Haute-Sorne";"JU";;01.01.2013
+;6730;16119;"Val Terbi";"JU";;01.01.2013
+31.12.1978;6741;;"Le Bémont";"BE";6741;
+;6741;13299;"Le Bémont";"JU";;01.01.1979
+31.12.1978;6742;;"Les Bois";"BE";6742;
+;6742;13300;"Les Bois";"JU";;01.01.1979
+31.12.1978;6743;;"Les Breuleux";"BE";6743;
+;6743;13301;"Les Breuleux";"JU";;01.01.1979
+31.12.1978;6744;;"La Chaux-des-Breuleux";"BE";6744;
+;6744;13302;"La Chaux-des-Breuleux";"JU";;01.01.1979
+31.12.1978;6745;;"Les Enfers";"BE";6745;
+;6745;13303;"Les Enfers";"JU";;01.01.1979
+31.12.1978;6746;;"Epauvillers";"BE";6746;
+31.12.2008;6746;13304;"Epauvillers";"JU";6808;01.01.1979
+31.12.1978;6747;;"Epiquerez";"BE";6747;
+31.12.2008;6747;13305;"Epiquerez";"JU";6808;01.01.1979
+31.12.1978;6748;;"Les Genevez";"BE";6748;
+;6748;13306;"Les Genevez";"JU";;01.01.1979
+31.12.1978;6749;10961;"Goumois";"BE";6749;
+31.12.2008;6749;13307;"Goumois";"JU";6757;01.01.1979
+31.12.1978;6750;;"Lajoux";"BE";6750;
+;6750;13308;"Lajoux";"JU";;01.01.1979
+31.12.1978;6751;;"Montfaucon";"BE";6751;
+;6751;14967;"Montfaucon";"JU";;01.01.1979
+31.12.1978;6752;;"Montfavergier";"BE";6752;
+31.12.2008;6752;13310;"Montfavergier";"JU";6751;01.01.1979
+31.12.1978;6753;;"Muriaux";"BE";6753;
+;6753;14968;"Muriaux";"JU";;01.01.1979
+31.12.1978;6754;;"Le Noirmont";"BE";6754;
+;6754;13312;"Le Noirmont";"JU";;01.01.1979
+31.12.1978;6755;;"Le Peuchapatte";"BE";6755;
+31.12.2008;6755;13313;"Le Peuchapatte";"JU";6753;01.01.1979
+31.12.1978;6756;10968;"Les Pommerats";"BE";6756;
+31.12.2008;6756;13314;"Les Pommerats";"JU";6757;01.01.1979
+31.12.1978;6757;10969;"Saignelégier";"BE";6757;
+;6757;14966;"Saignelégier";"JU";;01.01.1979
+31.12.1978;6758;;"Saint-Brais";"BE";6758;
+;6758;13316;"Saint-Brais";"JU";;01.01.1979
+31.12.1978;6759;;"Soubey";"BE";6759;
+;6759;13317;"Soubey";"JU";;01.01.1979
+31.12.1978;6771;;"Alle";"BE";6771;
+;6771;13318;"Alle";"JU";;01.01.1979
+31.12.1978;6772;;"Asuel";"BE";6772;
+31.12.2008;6772;13319;"Asuel";"JU";6810;01.01.1979
+31.12.1978;6773;;"Beurnevésin";"BE";6773;
+;6773;13320;"Beurnevésin";"JU";;01.01.1979
+31.12.1978;6774;10975;"Boncourt";"BE";6774;
+;6774;13321;"Boncourt";"JU";;01.01.1979
+31.12.1978;6775;;"Bonfol";"BE";6775;
+;6775;13322;"Bonfol";"JU";;01.01.1979
+31.12.1978;6776;;"Bressaucourt";"BE";6776;
+31.12.2012;6776;13323;"Bressaucourt";"JU";6790;01.01.1979
+31.12.1978;6777;;"Buix";"BE";6777;
+31.12.2008;6777;13324;"Buix";"JU";6807;01.01.1979
+31.12.1978;6778;;"Bure";"BE";6778;
+;6778;13325;"Bure";"JU";;01.01.1979
+31.12.1978;6779;;"Charmoille";"BE";6779;
+31.12.2008;6779;13326;"Charmoille";"JU";6810;01.01.1979
+31.12.1978;6780;;"Chevenez";"BE";6780;
+31.12.2008;6780;13327;"Chevenez";"JU";6809;01.01.1979
+31.12.1978;6781;;"Coeuve";"BE";6781;
+;6781;13328;"Coeuve";"JU";;01.01.1979
+31.12.1978;6782;;"Cornol";"BE";6782;
+;6782;13329;"Cornol";"JU";;01.01.1979
+31.12.1978;6783;;"Courchavon";"BE";6783;
+;6783;13330;"Courchavon";"JU";;01.01.1979
+31.12.1978;6784;;"Courgenay";"BE";6784;
+;6784;13331;"Courgenay";"JU";;01.01.1979
+31.12.1978;6785;;"Courtedoux";"BE";6785;
+;6785;13332;"Courtedoux";"JU";;01.01.1979
+31.12.1978;6786;;"Courtemaîche";"BE";6786;
+31.12.2008;6786;13333;"Courtemaîche";"JU";6807;01.01.1979
+31.12.1978;6787;;"Damphreux";"BE";6787;
+;6787;13334;"Damphreux";"JU";;01.01.1979
+31.12.1978;6788;;"Damvant";"BE";6788;
+31.12.2008;6788;13335;"Damvant";"JU";6809;01.01.1979
+31.12.1978;6789;11061;"Fahy";"BE";6789;
+;6789;13336;"Fahy";"JU";;01.01.1979
+31.12.1978;6790;;"Fontenais";"BE";6790;
+;6790;15626;"Fontenais";"JU";;01.01.1979
+31.12.1978;6791;;"Fregiécourt";"BE";6791;
+31.12.2008;6791;13338;"Fregiécourt";"JU";6810;01.01.1979
+31.12.1978;6792;;"Grandfontaine";"BE";6792;
+;6792;13339;"Grandfontaine";"JU";;01.01.1979
+31.12.1978;6793;;"Lugnez";"BE";6793;
+;6793;13340;"Lugnez";"JU";;01.01.1979
+31.12.1978;6794;;"Miécourt";"BE";6794;
+31.12.2008;6794;13341;"Miécourt";"JU";6810;01.01.1979
+31.12.1978;6795;;"Montenol";"BE";6795;
+31.12.2008;6795;13342;"Montenol";"JU";6808;01.01.1979
+31.12.1978;6796;;"Montignez";"BE";6796;
+31.12.2008;6796;13343;"Montignez";"JU";6807;01.01.1979
+31.12.1978;6797;;"Montmelon";"BE";6797;
+31.12.2008;6797;13344;"Montmelon";"JU";6808;01.01.1979
+31.12.1978;6798;;"Ocourt";"BE";6798;
+31.12.2008;6798;13345;"Ocourt";"JU";6808;01.01.1979
+31.12.1978;6799;;"Pleujouse";"BE";6799;
+31.12.2008;6799;13346;"Pleujouse";"JU";6810;01.01.1979
+31.12.1978;6800;11057;"Porrentruy";"BE";6800;
+;6800;13347;"Porrentruy";"JU";;01.01.1979
+31.12.1978;6801;;"Réclère";"BE";6801;
+31.12.2008;6801;13348;"Réclère";"JU";6809;01.01.1979
+31.12.1978;6802;;"Roche-d'Or";"BE";6802;
+31.12.2008;6802;13349;"Roche-d'Or";"JU";6809;01.01.1979
+31.12.1978;6803;;"Rocourt";"BE";6803;
+31.12.2017;6803;13350;"Rocourt";"JU";7323;01.01.1979
+31.12.1978;6804;11020;"Saint-Ursanne";"BE";6804;
+31.12.2008;6804;13351;"Saint-Ursanne";"JU";6808;01.01.1979
+31.12.1978;6805;;"Seleute";"BE";6805;
+31.12.2008;6805;13352;"Seleute";"JU";6808;01.01.1979
+31.12.1978;6806;;"Vendlincourt";"BE";6806;
+;6806;13353;"Vendlincourt";"JU";;01.01.1979
+;6807;14970;"Basse-Allaine";"JU";;01.01.2009
+;6808;14965;"Clos du Doubs";"JU";;01.01.2009
+;6809;16120;"Haute-Ajoie";"JU";;01.01.2009
+;6810;14969;"La Baroche";"JU";;01.01.2009
+30.06.2021;7015;;"Bussy-Chardonney (Bussy-sur-Morges)";"VD";7573;01.01.2016
+30.06.2021;7016;;"Bussy-Chardonney (Chardonney-sur-Morges)";"VD";7574;01.01.2016
+;7017;;"Montreux (Montreux-Châtelard)";"VD";;01.01.2016
+;7018;;"Montreux (Montreux-Planches)";"VD";;01.01.2016
+;7019;;"Romainmôtier-Envy (Romainmôtier)";"VD";;01.01.2016
+;7020;;"Romainmôtier-Envy (Envy)";"VD";;01.01.2016
+;7021;;"Lussery-Villars (Villars-Lussery)";"VD";;01.01.2016
+;7022;;"Lussery-Villars (Lussery)";"VD";;01.01.2016
+;7023;;"Cudrefin (Champmartin)";"VD";;01.01.2016
+;7024;;"Maracon (La Rogivue)";"VD";;01.01.2016
+;7025;;"Rovray (Arrissoules)";"VD";;01.01.2016
+;7026;;"Villarzel (Rossens)";"VD";;01.01.2016
+;7027;;"Villarzel (Sédeilles)";"VD";;01.01.2016
+;7028;;"Avenches (Donatyre)";"VD";;01.01.2016
+;7029;;"Donneloye (Mézery-près-Donneloye)";"VD";;01.01.2016
+;7030;;"Donneloye (Gossens)";"VD";;01.01.2016
+;7031;;"Assens (Malapalud)";"VD";;01.01.2016
+;7032;;"Bourg-en-Lavaux (Cully)";"VD";;01.01.2016
+;7033;;"Bourg-en-Lavaux (Epesses)";"VD";;01.01.2016
+;7034;;"Bourg-en-Lavaux (Grandvaux)";"VD";;01.01.2016
+;7035;;"Bourg-en-Lavaux (Riex)";"VD";;01.01.2016
+;7036;;"Bourg-en-Lavaux (Villette)";"VD";;01.01.2016
+;7037;;"Echichens (Colombier)";"VD";;01.01.2016
+;7038;;"Echichens (Monnaz)";"VD";;01.01.2016
+;7039;;"Echichens (Saint-Saphorin-sur-Morges)";"VD";;01.01.2016
+;7040;;"Tévenon (Fontanezier)";"VD";;01.01.2016
+;7041;;"Tévenon (Romairon)";"VD";;01.01.2016
+;7042;;"Tévenon (Vaugondry)";"VD";;01.01.2016
+;7043;;"Tévenon (Villars-Burquin)";"VD";;01.01.2016
+;7044;;"Vully-les-Lacs (Bellerive)";"VD";;01.01.2016
+;7045;;"Vully-les-Lacs (Chabrey)";"VD";;01.01.2016
+;7046;;"Vully-les-Lacs (Constantine)";"VD";;01.01.2016
+;7047;;"Vully-les-Lacs (Montmagny)";"VD";;01.01.2016
+;7048;;"Vully-les-Lacs (Mur)";"VD";;01.01.2016
+;7049;;"Vully-les-Lacs (Vallamand)";"VD";;01.01.2016
+;7050;;"Vully-les-Lacs (Villars-le-Grand)";"VD";;01.01.2016
+;7051;;"Aubonne (Pizy)";"VD";;01.01.2016
+;7052;;"Goumoëns (Eclagnens)";"VD";;01.01.2016
+;7053;;"Goumoëns (Goumoens-la-Ville)";"VD";;01.01.2016
+;7054;;"Goumoëns (Goumoens-le-Jux)";"VD";;01.01.2016
+;7055;;"Montilliez (Dommartin)";"VD";;01.01.2016
+;7056;;"Montilliez (Naz)";"VD";;01.01.2016
+;7057;;"Montilliez (Poliez-le-Grand)";"VD";;01.01.2016
+;7058;;"Montilliez (Sugnens)";"VD";;01.01.2016
+;7059;;"Yverdon-les-Bains (Gressy)";"VD";;01.01.2016
+;7060;;"Lucens (Oulens-sur-Lucens)";"VD";;01.01.2016
+;7061;;"Jorat-Menthue (Montaubion-Chardonney)";"VD";;01.01.2016
+;7062;;"Jorat-Menthue (Peney-le-Jorat)";"VD";;01.01.2016
+;7063;;"Jorat-Menthue (Sottens)";"VD";;01.01.2016
+;7064;;"Jorat-Menthue (Villars-Tiercelin)";"VD";;01.01.2016
+;7065;;"Jorat-Menthue (Villars-Mendraz)";"VD";;01.01.2016
+;7066;;"Valbroye (Cerniaz)";"VD";;01.01.2016
+;7067;;"Valbroye (Combremont-le-Grand)";"VD";;01.01.2016
+;7068;;"Valbroye (Combremont-le-Petit)";"VD";;01.01.2016
+;7069;;"Valbroye (Granges-près-Marnand)";"VD";;01.01.2016
+;7070;;"Valbroye (Marnand)";"VD";;01.01.2016
+;7071;;"Valbroye (Sassel)";"VD";;01.01.2016
+;7072;;"Valbroye (Seigneux)";"VD";;01.01.2016
+;7073;;"Valbroye (Villars-Bramard)";"VD";;01.01.2016
+;7074;;"Avenches (Oleyres)";"VD";;01.01.2016
+;7075;;"Oron (Bussigny-sur-Oron)";"VD";;01.01.2016
+;7076;;"Oron (Châtillens)";"VD";;01.01.2016
+;7077;;"Oron (Chesalles-sur-Oron)";"VD";;01.01.2016
+;7078;;"Oron (Ecoteaux)";"VD";;01.01.2016
+;7079;;"Oron (Les Tavernes)";"VD";;01.01.2016
+;7080;;"Oron (Les Thioleyres)";"VD";;01.01.2016
+;7081;;"Oron (Oron-la-Ville)";"VD";;01.01.2016
+;7082;;"Oron (Oron-le-Châtel)";"VD";;01.01.2016
+;7083;;"Oron (Palézieux)";"VD";;01.01.2016
+;7084;;"Oron (Vuibroye)";"VD";;01.01.2016
+;7085;;"Champvent (Essert-sous-Champvent)";"VD";;01.01.2016
+;7086;;"Champvent (Villars-sous-Champvent)";"VD";;01.01.2016
+;7087;;"Servion (Les Cullayes)";"VD";;01.01.2016
+;7088;;"Donneloye (Prahins)";"VD";;01.01.2016
+;7089;;"Montanaire (Chanéaz)";"VD";;01.01.2016
+;7090;;"Montanaire (Chapelle-sur-Moudon)";"VD";;01.01.2016
+;7091;;"Montanaire (Correvon)";"VD";;01.01.2016
+;7092;;"Montanaire (Denezy)";"VD";;01.01.2016
+;7093;;"Montanaire (Neyruz-sur-Moudon)";"VD";;01.01.2016
+;7094;;"Montanaire (Martherenges)";"VD";;01.01.2016
+;7095;;"Montanaire (Peyres-Possens)";"VD";;01.01.2016
+;7096;;"Montanaire (Saint-Cierges)";"VD";;01.01.2016
+;7097;;"Montanaire (Thierrens)";"VD";;01.01.2016
+;7098;;"Brot-Dessous (Rochefort)";"NE";;01.01.2016
+;7099;;"Montfavergier (Montfaucon)";"JU";;01.03.2016
+;7100;;"Le Peuchapatte (Muriaux)";"JU";;01.03.2016
+;7101;;"Goumois (Saignelégier)";"JU";;01.03.2016
+;7102;;"Les Pommerats (Saignelégier)";"JU";;01.03.2016
+;7103;;"Asuel (La Baroche)";"JU";;01.03.2016
+;7104;;"Charmoille (La Baroche)";"JU";;01.03.2016
+;7105;;"Fregiécourt (La Baroche)";"JU";;01.03.2016
+;7106;;"Miécourt (La Baroche)";"JU";;01.03.2016
+;7107;;"Pleujouse (La Baroche)";"JU";;01.03.2016
+;7108;;"Buix (Basse-Allaine)";"JU";;01.03.2016
+;7109;;"Courtemaîche (Basse-Allaine)";"JU";;01.03.2016
+;7110;;"Montignez (Basse-Allaine)";"JU";;01.03.2016
+;7111;;"Epauvillers (Clos du Doubs)";"JU";;01.03.2016
+;7112;;"Epiquerez (Clos du Doubs)";"JU";;01.03.2016
+;7113;;"Montenol (Clos du Doubs)";"JU";;01.03.2016
+;7114;;"Montmelon (Clos du Doubs)";"JU";;01.03.2016
+;7115;;"Ocourt (Clos du Doubs)";"JU";;01.03.2016
+;7116;;"Saint-Ursanne (Clos du Doubs)";"JU";;01.03.2016
+;7117;;"Seleute (Clos du Doubs)";"JU";;01.03.2016
+;7118;;"Chevenez (Haute-Ajoie)";"JU";;01.03.2016
+;7119;;"Damvant (Haute-Ajoie)";"JU";;01.03.2016
+;7120;;"Réclère (Haute-Ajoie)";"JU";;01.03.2016
+;7121;;"Roche-d'Or (Haute-Ajoie)";"JU";;01.03.2016
+;7122;;"Bassecourt (Haute-Sorne)";"JU";;01.03.2016
+;7123;;"Courfaivre (Haute-Sorne)";"JU";;01.03.2016
+;7124;;"Glovelier (Haute-Sorne)";"JU";;01.03.2016
+;7125;;"Soulce (Haute-Sorne)";"JU";;01.03.2016
+;7126;;"Undervelier (Haute-Sorne)";"JU";;01.03.2016
+;7127;;"Montsevelier (Val Terbi)";"JU";;01.03.2016
+;7128;;"Vermes (Val Terbi)";"JU";;01.03.2016
+;7129;;"Vicques (Val Terbi)";"JU";;01.03.2016
+;7130;;"Bressaucourt (Fontenais)";"JU";;01.03.2016
+;7131;;"Jorat-Mézières (Carrouge)";"VD";;01.07.2016
+;7132;;"Jorat-Mézières (Ferlens)";"VD";;01.07.2016
+;7133;;"Jorat-Mézières (Mézières)";"VD";;01.07.2016
+31.12.2020;7134;;"Cheiry (Chapelle (Broye))";"FR";7538;01.01.2017
+;7135;;"Cugy (Vesin)";"FR";;01.01.2017
+;7136;;"Estavayer (Bussy (FR))";"FR";;01.01.2017
+;7137;;"Estavayer (Estavayer-le-Lac)";"FR";;01.01.2017
+;7138;;"Estavayer (Morens (FR))";"FR";;01.01.2017
+;7139;;"Estavayer (Murist)";"FR";;01.01.2017
+;7140;;"Estavayer (Rueyres-les-Prés)";"FR";;01.01.2017
+;7141;;"Estavayer (Vernay)";"FR";;01.01.2017
+;7142;;"Estavayer (Vuissens)";"FR";;01.01.2017
+;7143;;"Estavayer (Font)";"FR";;01.01.2017
+;7144;;"Estavayer (Autavaux)";"FR";;01.01.2017
+;7145;;"Estavayer (Forel (FR))";"FR";;01.01.2017
+;7146;;"Estavayer (Montbrelloz)";"FR";;01.01.2017
+;7147;;"Estavayer (Franex)";"FR";;01.01.2017
+;7148;;"Estavayer (Montborget)";"FR";;01.01.2017
+;7149;;"Estavayer (La Vounaise)";"FR";;01.01.2017
+;7150;;"Lully (Bollion)";"FR";;01.01.2017
+;7151;;"Lully (Seiry)";"FR";;01.01.2017
+;7152;;"Montagny (Mannens-Grandsivaz)";"FR";;01.01.2017
+;7153;;"Montagny (Montagny-la-Ville)";"FR";;01.01.2017
+;7154;;"Montagny (Montagny-les-Monts)";"FR";;01.01.2017
+;7155;;"Saint-Aubin (FR) (Les Friques)";"FR";;01.01.2017
+;7156;;"Surpierre (Praratoud)";"FR";;01.01.2017
+;7157;;"Surpierre (Villeneuve (FR))";"FR";;01.01.2017
+;7158;;"Les Montets (Aumont)";"FR";;01.01.2017
+;7159;;"Les Montets (Frasses)";"FR";;01.01.2017
+;7160;;"Les Montets (Granges-de-Vesin)";"FR";;01.01.2017
+;7161;;"Les Montets (Montet (Broye))";"FR";;01.01.2017
+;7162;;"Delley-Portalban (Delley)";"FR";;01.01.2017
+;7163;;"Delley-Portalban (Portalban)";"FR";;01.01.2017
+;7164;;"Belmont-Broye (Domdidier)";"FR";;01.01.2017
+;7165;;"Belmont-Broye (Dompierre (FR))";"FR";;01.01.2017
+;7166;;"Belmont-Broye (Léchelles)";"FR";;01.01.2017
+;7167;;"Belmont-Broye (Russy)";"FR";;01.01.2017
+;7168;;"Belmont-Broye (Chandon)";"FR";;01.01.2017
+;7169;;"Cheyres-Châbles (Châbles)";"FR";;01.01.2017
+;7170;;"Cheyres-Châbles (Cheyres)";"FR";;01.01.2017
+;7171;;"Billens-Hennens (Billens)";"FR";;01.01.2017
+;7172;;"Billens-Hennens (Hennens)";"FR";;01.01.2017
+;7173;;"Ecublens (FR) (Eschiens)";"FR";;01.01.2017
+;7174;;"Ecublens (FR) (Villangeaux)";"FR";;01.01.2017
+;7175;;"Mézières (FR) (Berlens)";"FR";;01.01.2017
+;7176;;"Romont (FR) (Les Glânes)";"FR";;01.01.2017
+;7177;;"Romont (FR) (Arruffens)";"FR";;01.01.2017
+;7178;;"Rue (Gillarens)";"FR";;01.01.2017
+;7179;;"Rue (Promasens)";"FR";;01.01.2017
+;7180;;"Rue (Blessens)";"FR";;01.01.2017
+;7181;;"Siviriez (Chavannes-les-Forts)";"FR";;01.01.2017
+;7182;;"Siviriez (Prez-vers-Siviriez)";"FR";;01.01.2017
+;7183;;"Siviriez (Villaraboud)";"FR";;01.01.2017
+;7184;;"Siviriez (Le Saulgy)";"FR";;01.01.2017
+;7185;;"Siviriez (Villaranon)";"FR";;01.01.2017
+;7186;;"Ursy (Vuarmarens)";"FR";;01.01.2017
+;7187;;"Ursy (Esmonts)";"FR";;01.01.2017
+;7188;;"Ursy (Bionnens)";"FR";;01.01.2017
+;7189;;"Ursy (Mossel)";"FR";;01.01.2017
+;7190;;"Ursy (Morlens)";"FR";;01.01.2017
+;7191;;"Ursy (Vauderens)";"FR";;01.01.2017
+31.12.2019;7192;;"Villaz-Saint-Pierre (Fuyens)";"FR";7534;01.01.2017
+;7193;;"Vuisternens-devant-Romont (La Neirigue)";"FR";;01.01.2017
+;7194;;"Vuisternens-devant-Romont (Les Ecasseys)";"FR";;01.01.2017
+;7195;;"Vuisternens-devant-Romont (Estévenens)";"FR";;01.01.2017
+;7196;;"Vuisternens-devant-Romont (La Joux)";"FR";;01.01.2017
+;7197;;"Vuisternens-devant-Romont (Lieffrens)";"FR";;01.01.2017
+;7198;;"Vuisternens-devant-Romont (La Magne)";"FR";;01.01.2017
+;7199;;"Vuisternens-devant-Romont (Sommentier)";"FR";;01.01.2017
+;7200;;"Vuisternens-devant-Romont (Villariaz)";"FR";;01.01.2017
+;7201;;"Villorsonnens (Chavannes-sous-Orsonnens)";"FR";;01.01.2017
+;7202;;"Villorsonnens (Orsonnens)";"FR";;01.01.2017
+;7203;;"Villorsonnens (Villargiroud)";"FR";;01.01.2017
+;7204;;"Villorsonnens (Villarsiviriaux)";"FR";;01.01.2017
+;7205;;"Villorsonnens (Granges-la-Battiaz)";"FR";;01.01.2017
+;7206;;"Torny (Middes)";"FR";;01.01.2017
+;7207;;"Torny (Torny-le-Grand)";"FR";;01.01.2017
+31.12.2019;7208;;"La Folliaz (Lussy)";"FR";7535;01.01.2017
+31.12.2019;7209;;"La Folliaz (Villarimboud)";"FR";7536;01.01.2017
+31.12.2019;7210;;"La Folliaz (Macconnens)";"FR";7537;01.01.2017
+;7211;;"Haut-Intyamon (Albeuve)";"FR";;01.01.2017
+;7212;;"Haut-Intyamon (Lessoc)";"FR";;01.01.2017
+;7213;;"Haut-Intyamon (Montbovon)";"FR";;01.01.2017
+;7214;;"Haut-Intyamon (Neirivue)";"FR";;01.01.2017
+;7215;;"Pont-en-Ogoz (Avry-devant-Pont)";"FR";;01.01.2017
+;7216;;"Pont-en-Ogoz (Le Bry)";"FR";;01.01.2017
+;7217;;"Pont-en-Ogoz (Gumefens)";"FR";;01.01.2017
+;7218;;"Pont-en-Ogoz (Villars-d'Affry)";"FR";;01.01.2017
+;7219;;"Botterens (Villarbeney)";"FR";;01.01.2017
+;7220;;"Bulle (La Tour-de-Trême)";"FR";;01.01.2017
+;7221;;"Corbières (Villarvolard)";"FR";;01.01.2017
+;7222;;"Marsens (Vuippens)";"FR";;01.01.2017
+;7223;;"Sâles (Maules)";"FR";;01.01.2017
+;7224;;"Sâles (Romanens)";"FR";;01.01.2017
+;7225;;"Sâles (Rueyres-Treyfayes)";"FR";;01.01.2017
+;7226;;"Bas-Intyamon (Enney)";"FR";;01.01.2017
+;7227;;"Bas-Intyamon (Estavannens)";"FR";;01.01.2017
+;7228;;"Bas-Intyamon (Villars-sous-Mont)";"FR";;01.01.2017
+;7229;;"Val-de-Charmey (Cerniat (FR))";"FR";;01.01.2017
+;7230;;"Val-de-Charmey (Charmey)";"FR";;01.01.2017
+;7231;;"Avry (Avry-sur-Matran)";"FR";;01.01.2017
+;7232;;"Avry (Corjolens)";"FR";;01.01.2017
+;7233;;"Belfaux (Autafond)";"FR";;01.01.2017
+;7234;;"Belfaux (Cutterwil)";"FR";;01.01.2017
+;7235;;"Corminboeuf (Chésopelloz)";"FR";;01.01.2017
+31.12.2020;7236;;"Ependes (FR) (Sales)";"FR";7541;01.01.2017
+;7237;;"Grolley (Corsalettes (Lac))";"FR";;01.01.2017
+;7238;;"Marly (Chésalles)";"FR";;01.01.2017
+;7239;;"Marly (Marly-le-Grand)";"FR";;01.01.2017
+;7240;;"Marly (Marly-le-Petit)";"FR";;01.01.2017
+;7241;;"Ponthaux (Nierlet-les-Bois)";"FR";;01.01.2017
+;7242;;"Le Mouret (Bonnefontaine)";"FR";;01.01.2017
+;7243;;"Le Mouret (Essert)";"FR";;01.01.2017
+;7244;;"Le Mouret (Montévraz)";"FR";;01.01.2017
+;7245;;"Le Mouret (Oberried)";"FR";;01.01.2017
+;7246;;"Le Mouret (Praroman)";"FR";;01.01.2017
+;7247;;"Le Mouret (Zénauva)";"FR";;01.01.2017
+;7248;;"Le Mouret (Montécu)";"FR";;01.01.2017
+;7249;;"Hauterive (FR) (Ecuvillens)";"FR";;01.01.2017
+;7250;;"Hauterive (FR) (Posieux)";"FR";;01.01.2017
+;7251;;"La Brillaz (Lentigny)";"FR";;01.01.2017
+;7252;;"La Brillaz (Lovens)";"FR";;01.01.2017
+;7253;;"La Brillaz (Onnens)";"FR";;01.01.2017
+;7254;;"La Sonnaz (La Corbaz)";"FR";;01.01.2017
+;7255;;"La Sonnaz (Cormagens)";"FR";;01.01.2017
+;7256;;"La Sonnaz (Lossy-Formangueires)";"FR";;01.01.2017
+;7257;;"La Sonnaz (Formangueires)";"FR";;01.01.2017
+;7258;;"La Sonnaz (Lossy)";"FR";;01.01.2017
+;7259;;"Gibloux (Corpataux-Magnedens)";"FR";;01.01.2017
+;7260;;"Gibloux (Farvagny)";"FR";;01.01.2017
+;7261;;"Gibloux (Le Glèbe)";"FR";;01.01.2017
+;7262;;"Gibloux (Rossens (FR))";"FR";;01.01.2017
+;7263;;"Gibloux (Vuisternens-en-Ogoz)";"FR";;01.01.2017
+;7264;;"Gibloux (Estavayer-le-Gibloux)";"FR";;01.01.2017
+;7265;;"Gibloux (Rueyres-Saint-Laurent)";"FR";;01.01.2017
+;7266;;"Gibloux (Villarlod)";"FR";;01.01.2017
+;7267;;"Gibloux (Villarsel-le-Gibloux)";"FR";;01.01.2017
+;7268;;"Gibloux (Corpataux)";"FR";;01.01.2017
+;7269;;"Gibloux (Magnedens)";"FR";;01.01.2017
+;7270;;"Gibloux (Farvagny-le-Grand)";"FR";;01.01.2017
+;7271;;"Gibloux (Farvagny-le-Petit)";"FR";;01.01.2017
+;7272;;"Gibloux (Grenilles)";"FR";;01.01.2017
+;7273;;"Gibloux (Posat)";"FR";;01.01.2017
+;7274;;"Gibloux (Illens)";"FR";;01.01.2017
+;7275;;"Courtepin (Barberêche)";"FR";;01.01.2017
+;7276;;"Courtepin (Villarepos)";"FR";;01.01.2017
+;7277;;"Courtepin (Wallenried)";"FR";;01.01.2017
+;7278;;"Courtepin (Courtaman)";"FR";;01.01.2017
+;7279;;"Courtepin (Chandossel)";"FR";;01.01.2017
+;7280;;"Gurmels (Cordast)";"FR";;01.01.2017
+;7281;;"Gurmels (Guschelmuth)";"FR";;01.01.2017
+;7282;;"Gurmels (Liebistorf)";"FR";;01.01.2017
+;7283;;"Gurmels (Wallenbuch)";"FR";;01.01.2017
+;7284;;"Gurmels (Kleingurmels)";"FR";;01.01.2017
+;7285;;"Gurmels (Grossgurmels)";"FR";;01.01.2017
+;7286;;"Gurmels (Monterschu)";"FR";;01.01.2017
+;7287;;"Gurmels (Grossguschelmuth)";"FR";;01.01.2017
+;7288;;"Gurmels (Kleinguschelmuth)";"FR";;01.01.2017
+;7289;;"Misery-Courtion (Cormérod)";"FR";;01.01.2017
+;7290;;"Misery-Courtion (Cournillens)";"FR";;01.01.2017
+;7291;;"Misery-Courtion (Courtion)";"FR";;01.01.2017
+;7292;;"Misery-Courtion (Misery)";"FR";;01.01.2017
+;7293;;"Murten (Courlevon)";"FR";;01.01.2017
+;7294;;"Murten (Jeuss)";"FR";;01.01.2017
+;7295;;"Murten (Lurtigen)";"FR";;01.01.2017
+;7296;;"Murten (Salvenach)";"FR";;01.01.2017
+;7297;;"Murten (Büchslen)";"FR";;01.01.2017
+;7298;;"Murten (Altavilla)";"FR";;01.01.2017
+;7299;;"Murten (Burg)";"FR";;01.01.2017
+;7300;;"Murten (Coussiberlé)";"FR";;01.01.2017
+;7301;;"Ried bei Kerzers (Agriswil)";"FR";;01.01.2017
+;7302;;"Mont-Vully (Bas-Vully)";"FR";;01.01.2017
+;7303;;"Mont-Vully (Haut-Vully)";"FR";;01.01.2017
+;7304;;"Plaffeien (Oberschrot)";"FR";;01.01.2017
+;7305;;"Plaffeien  (Zumholz)";"FR";;01.01.2017
+;7306;;"Plasselb (Neuhaus)";"FR";;01.01.2017
+;7307;;"Saint-Martin (FR) (Besencens)";"FR";;01.01.2017
+;7308;;"Saint-Martin (FR) (Fiaugères)";"FR";;01.01.2017
+;7309;;"Semsales (La Rougève)";"FR";;01.01.2017
+;7310;;"Le Flon (Bouloz)";"FR";;01.01.2017
+;7311;;"Le Flon (Pont)";"FR";;01.01.2017
+;7312;;"Le Flon (Porsel)";"FR";;01.01.2017
+;7313;;"La Verrerie (Le Crêt)";"FR";;01.01.2017
+;7314;;"La Verrerie (Grattavache)";"FR";;01.01.2017
+;7315;;"La Verrerie (Progens)";"FR";;01.01.2017
+;7316;;"Lucens (Brenles)";"VD";;01.01.2017
+;7317;;"Lucens (Chesalles-sur-Moudon)";"VD";;01.01.2017
+;7318;;"Lucens (Cremin)";"VD";;01.01.2017
+;7319;;"Lucens (Forel-sur-Lucens)";"VD";;01.01.2017
+;7320;;"Lucens (Sarzens)";"VD";;01.01.2017
+;7321;;"Chavornay (Corcelles-sur-Chavornay)";"VD";;01.01.2017
+;7322;;"Chavornay (Essert-Pittet)";"VD";;01.01.2017
+;7323;;"Rocourt (Haute-Ajoie)";"JU";;01.01.2018
+;7324;;"Corban (Val Terbi)";"JU";;01.01.2018
+;7325;;"Albula/Alvra (Alvaneu)";"GR";;01.01.2018
+;7326;;"Albula/Alvra (Alvaschein)";"GR";;01.01.2018
+;7327;;"Albula/Alvra (Brienz/Brinzauls)";"GR";;01.01.2018
+;7328;;"Albula/Alvra (Mon)";"GR";;01.01.2018
+;7329;;"Albula/Alvra (Stierva)";"GR";;01.01.2018
+;7330;;"Albula/Alvra (Surava)";"GR";;01.01.2018
+;7331;;"Albula/Alvra (Tiefencastel)";"GR";;01.01.2018
+;7332;;"Surses (Bivio)";"GR";;01.01.2018
+;7333;;"Surses (Cunter)";"GR";;01.01.2018
+;7334;;"Surses (Marmorera)";"GR";;01.01.2018
+;7335;;"Surses (Mulegns)";"GR";;01.01.2018
+;7336;;"Surses (Salouf)";"GR";;01.01.2018
+;7337;;"Surses (Savognin)";"GR";;01.01.2018
+;7338;;"Surses (Sur)";"GR";;01.01.2018
+;7339;;"Surses (Riom-Parsonz)";"GR";;01.01.2018
+;7340;;"Surses (Riom)";"GR";;01.01.2018
+;7341;;"Surses (Parsonz)";"GR";;01.01.2018
+;7342;;"Surses (Tinizong-Rona)";"GR";;01.01.2018
+;7343;;"Surses (Rona)";"GR";;01.01.2018
+;7344;;"Surses (Tinizong)";"GR";;01.01.2018
+;7345;;"Luzein (St. Antönien)";"GR";;01.01.2018
+;7346;;"Luzein (St. Antönien-Ascharina)";"GR";;01.01.2018
+;7347;;"Luzein (St. Antönien-Castels)";"GR";;01.01.2018
+;7348;;"Luzein (St. Antönien-Rüti)";"GR";;01.01.2018
+;7349;;"Davos (Wiesen)";"GR";;01.01.2018
+;7350;;"Grüsch (Fanas)";"GR";;01.01.2018
+;7351;;"Grüsch (Valzeina)";"GR";;01.01.2018
+19.02.2021;7352;;"Klosters-Serneus (Saas)";"GR";7561;01.01.2018
+;7353;;"Arosa (Calfreisen)";"GR";;01.01.2018
+;7354;;"Arosa (Castiel)";"GR";;01.01.2018
+;7355;;"Arosa (Langwies)";"GR";;01.01.2018
+;7356;;"Arosa (Lüen)";"GR";;01.01.2018
+;7357;;"Arosa (Molinis)";"GR";;01.01.2018
+;7358;;"Arosa (Peist)";"GR";;01.01.2018
+;7359;;"Arosa (St. Peter-Pagig)";"GR";;01.01.2018
+;7360;;"Arosa (Pagig)";"GR";;01.01.2018
+;7361;;"Arosa (St. Peter)";"GR";;01.01.2018
+;7362;;"Churwalden (Malix)";"GR";;01.01.2018
+;7363;;"Churwalden (Parpan)";"GR";;01.01.2018
+;7364;;"Tschiertschen-Praden (Tschiertschen)";"GR";;01.01.2018
+;7365;;"Tschiertschen-Praden (Praden)";"GR";;01.01.2018
+;7366;;"Scuol (Ardez)";"GR";;01.01.2018
+;7367;;"Scuol (Ftan)";"GR";;01.01.2018
+;7368;;"Scuol (Guarda)";"GR";;01.01.2018
+;7369;;"Scuol (Sent)";"GR";;01.01.2018
+;7370;;"Scuol (Tarasp)";"GR";;01.01.2018
+;7371;;"Zernez (Lavin)";"GR";;01.01.2018
+;7372;;"Zernez (Susch)";"GR";;01.01.2018
+;7373;;"Valsot (Ramosch)";"GR";;01.01.2018
+;7374;;"Valsot (Tschlin)";"GR";;01.01.2018
+;7375;;"Val Müstair (Fuldera)";"GR";;01.01.2018
+;7376;;"Val Müstair (Lü)";"GR";;01.01.2018
+;7377;;"Val Müstair (Müstair)";"GR";;01.01.2018
+;7378;;"Val Müstair (Sta. Maria)";"GR";;01.01.2018
+;7379;;"Val Müstair (Tschierv)";"GR";;01.01.2018
+;7380;;"Val Müstair (Valchava)";"GR";;01.01.2018
+;7381;;"Landquart (Igis)";"GR";;01.01.2018
+;7382;;"Landquart (Mastrils)";"GR";;01.01.2018
+;7383;;"Trimmis (Says)";"GR";;01.01.2018
+;7384;;"Bregaglia (Bondo)";"GR";;01.01.2018
+;7385;;"Bregaglia (Castasegna)";"GR";;01.01.2018
+;7386;;"Bregaglia (Soglio)";"GR";;01.01.2018
+;7387;;"Bregaglia (Stampa)";"GR";;01.01.2018
+;7388;;"Bregaglia (Vicosoprano)";"GR";;01.01.2018
+;7389;;"Bregaglia (Casaccia)";"GR";;01.01.2018
+;7390;;"Grono (Leggia)";"GR";;01.01.2018
+;7391;;"Grono (Verdabbio)";"GR";;01.01.2018
+;7392;;"Calanca (Arvigo)";"GR";;01.01.2018
+;7393;;"Calanca (Landarenca)";"GR";;01.01.2018
+;7394;;"Calanca (Braggio)";"GR";;01.01.2018
+;7395;;"Calanca (Cauco)";"GR";;01.01.2018
+;7396;;"Calanca (Selma)";"GR";;01.01.2018
+;7397;;"Rossa (Sta. Domenica)";"GR";;01.01.2018
+;7398;;"Rossa (Augio)";"GR";;01.01.2018
+;7399;;"Obersaxen Mundaun (Obersaxen)";"GR";;01.01.2018
+;7400;;"Obersaxen Mundaun (Mundaun)";"GR";;01.01.2018
+;7401;;"Obersaxen Mundaun (Flond)";"GR";;01.01.2018
+;7402;;"Obersaxen Mundaun (Surcuolm)";"GR";;01.01.2018
+;7403;;"Vals (St. Martin)";"GR";;01.01.2018
+;7404;;"Ilanz/Glion (Ilanz)";"GR";;01.01.2018
+;7405;;"Ilanz/Glion (Strada)";"GR";;01.01.2018
+;7406;;"Ilanz/Glion (Castrisch)";"GR";;01.01.2018
+;7407;;"Ilanz/Glion (Duvin)";"GR";;01.01.2018
+;7408;;"Ilanz/Glion (Ladir)";"GR";;01.01.2018
+;7409;;"Ilanz/Glion (Luven)";"GR";;01.01.2018
+;7410;;"Ilanz/Glion (Pigniu)";"GR";;01.01.2018
+;7411;;"Ilanz/Glion (Pitasch)";"GR";;01.01.2018
+;7412;;"Ilanz/Glion (Riein)";"GR";;01.01.2018
+;7413;;"Ilanz/Glion (Rueun)";"GR";;01.01.2018
+;7414;;"Ilanz/Glion (Ruschein)";"GR";;01.01.2018
+;7415;;"Ilanz/Glion (Schnaus)";"GR";;01.01.2018
+;7416;;"Ilanz/Glion (Sevgein)";"GR";;01.01.2018
+;7417;;"Ilanz/Glion (Siat)";"GR";;01.01.2018
+;7418;;"Lumnezia (Cumbel)";"GR";;01.01.2018
+;7419;;"Lumnezia (Degen)";"GR";;01.01.2018
+;7420;;"Lumnezia (Lumbrein)";"GR";;01.01.2018
+;7421;;"Lumnezia (Morissen)";"GR";;01.01.2018
+;7422;;"Lumnezia (Vella)";"GR";;01.01.2018
+;7423;;"Lumnezia (Vignogn)";"GR";;01.01.2018
+;7424;;"Lumnezia (Vrin)";"GR";;01.01.2018
+;7425;;"Lumnezia (Suraua)";"GR";;01.01.2018
+;7426;;"Lumnezia (Camuns)";"GR";;01.01.2018
+;7427;;"Lumnezia (Surcasti)";"GR";;01.01.2018
+;7428;;"Lumnezia (Tersnaus)";"GR";;01.01.2018
+;7429;;"Lumnezia (Uors-Peiden)";"GR";;01.01.2018
+;7430;;"Lumnezia (Uors)";"GR";;01.01.2018
+;7431;;"Lumnezia (Peiden)";"GR";;01.01.2018
+;7432;;"Safiental (Valendas)";"GR";;01.01.2018
+;7433;;"Safiental (Versam)";"GR";;01.01.2018
+;7434;;"Safiental (Safien)";"GR";;01.01.2018
+;7435;;"Safiental (Tenna)";"GR";;01.01.2018
+;7436;;"Trun (Schlans)";"GR";;01.01.2018
+;7437;;"Domleschg (Almens)";"GR";;01.01.2018
+;7438;;"Domleschg (Paspels)";"GR";;01.01.2018
+;7439;;"Domleschg (Pratval)";"GR";;01.01.2018
+;7440;;"Domleschg (Rodels)";"GR";;01.01.2018
+;7441;;"Domleschg (Tomils)";"GR";;01.01.2018
+;7442;;"Domleschg (Tumegl/Tomils)";"GR";;01.01.2018
+;7443;;"Domleschg (Feldis/Veulden)";"GR";;01.01.2018
+;7444;;"Domleschg (Scheid)";"GR";;01.01.2018
+;7445;;"Domleschg (Trans)";"GR";;01.01.2018
+;7446;;"Cazis (Portein)";"GR";;01.01.2018
+;7447;;"Cazis (Präz)";"GR";;01.01.2018
+;7448;;"Cazis (Sarn)";"GR";;01.01.2018
+;7449;;"Cazis (Tartar)";"GR";;01.01.2018
+;7450;;"Andeer (Clugin)";"GR";;01.01.2018
+;7451;;"Andeer (Pignia)";"GR";;01.01.2018
+;7452;;"Splügen (Medels i. Rh.)";"GR";;01.01.2018
+31.12.2020;7453;;"Donat (Donath)";"GR";7550;01.01.2018
+31.12.2020;7454;;"Donat (Patzen-Fardün)";"GR";7551;01.01.2018
+31.12.2020;7455;;"Casti-Wergenstein (Casti)";"GR";7547;01.01.2018
+31.12.2020;7456;;"Casti-Wergenstein (Wergenstein)";"GR";7548;01.01.2018
+;7457;;"Ferrera (Ausserferrera)";"GR";;01.01.2018
+;7458;;"Ferrera (Innerferrera)";"GR";;01.01.2018
+;7459;;"Thusis (Mutten)";"GR";;01.01.2018
+;7460;;"Bergün Filisur (Filisur)";"GR";;01.01.2018
+;7461;;"Bergün Filisur (Bergün/Bravuogn)";"GR";;01.01.2018
+;7462;;"Bergün Filisur (Stugl/Stuls)";"GR";;01.01.2018
+;7463;;"Bergün Filisur (Latsch)";"GR";;01.01.2018
+;7464;;"Breil/Brigels (Andiast)";"GR";;01.01.2018
+;7465;;"Breil/Brigels (Waltensburg/Vuorz)";"GR";;01.01.2018
+;7466;;"Vellerat (Courrendlin)";"JU";;01.01.2019
+;7467;;"Rebeuvelier (Courrendlin)";"JU";;01.01.2019
+;7468;;"Kallnach (Golaten)";"BE";;01.01.2019
+;7469;;"Chur (Maladers)";"GR";;01.01.2020
+;7470;;"Fraubrunnen (Büren zum Hof)";"BE";;01.01.2018
+;7471;;"Fraubrunnen  (Etzelkofen)";"BE";;01.01.2018
+;7472;;"Fraubrunnen (Grafenried)";"BE";;01.01.2018
+;7473;;"Fraubrunnen (Limpach)";"BE";;01.01.2018
+;7474;;"Fraubrunnen (Mülchi)";"BE";;01.01.2018
+;7475;;"Fraubrunnen (Schalunen)";"BE";;01.01.2018
+;7476;;"Fraubrunnen (Zauggenried)";"BE";;01.01.2018
+;7477;;"Oberdiessbach (Bleiken bei Oberdiessbach)";"BE";;01.01.2018
+;7478;;"Sauge (Plagne)";"BE";;01.01.2018
+;7479;;"Sauge (Vauffelin)";"BE";;01.01.2018
+;7480;;"Uttigen (Kienersrüti)";"BE";;01.01.2018
+;7481;;"Stocken-Höfen (Höfen)";"BE";;01.01.2018
+;7482;;"Stocken-Höfen (Oberstocken)";"BE";;01.01.2018
+;7483;;"Stocken-Höfen (Niederstocken)";"BE";;01.01.2018
+;7484;;"Innertkirchen (Gadmen)";"BE";;01.01.2018
+;7485;;"Plateau de Diesse (Diesse)";"BE";;01.01.2018
+;7486;;"Plateau de Diesse (Lamboing)";"BE";;01.01.2018
+;7487;;"Plateau de Diesse (Prêles)";"BE";;01.01.2018
+;7488;;"Jegenstorf (Scheunen)";"BE";;01.01.2018
+;7489;;"Jegenstorf (Münchringen)";"BE";;01.01.2018
+;7490;;"Petit-Val (Châtelat)";"BE";;01.01.2018
+;7491;;"Petit-Val (Monible)";"BE";;01.01.2018
+;7492;;"Petit-Val (Sornetan)";"BE";;01.01.2018
+;7493;;"Petit-Val (Souboz)";"BE";;01.01.2018
+;7494;;"Péry-La Heutte (Péry)";"BE";;01.01.2018
+;7495;;"Péry-La Heutte (La Heutte)";"BE";;01.01.2018
+;7496;;"Valbirse (Bévilard)";"BE";;01.01.2018
+;7497;;"Valbirse (Malleray)";"BE";;01.01.2018
+;7498;;"Valbirse (Pontenet)";"BE";;01.01.2018
+;7499;;"Ersigen (Niederösch)";"BE";;01.01.2018
+31.12.1971;7500;11179;"Au";"TG";4726;
+31.12.1999;7501;13220;"Heiligkreuz";"TG";4791;
+31.12.1994;7502;12648;"Kaltenbach";"TG";4871;
+31.12.1966;7503;11271;"Langenhart";"TG";4831;
+31.12.1955;7504;;"Insone";"TI";5229;
+31.12.1930;7505;;"Niederurdorf";"ZH";250;
+;7506;;"Ersigen (Oberösch)";"BE";;01.01.2018
+;7507;;"Rapperswil (Bangerten)";"BE";;01.01.2018
+;7508;;"Seeberg (Hermiswil)";"BE";;01.01.2018
+;7509;;"Münsingen (Tägertschi)";"BE";;01.01.2018
+;7510;;"Kirchdorf (Gelterfingen)";"BE";;01.01.2018
+;7511;;"Kirchdorf (Noflen)";"BE";;01.01.2018
+;7512;;"Kirchdorf (Mühledorf)";"BE";;01.01.2018
+;7513;;"Grosshöchstetten (Schlosswil)";"BE";;01.01.2018
+;7514;;"Bevaix (La Grande Béroche)";"NE";;01.01.2018
+;7515;;"Fresens (La Grande Béroche)";"NE";;01.01.2018
+;7516;;"Gorgier (La Grande Béroche)";"NE";;01.01.2018
+;7517;;"Montalchez (La Grande Béroche)";"NE";;01.01.2018
+;7518;;"Saint-Aubin-Sauges (La Grande Béroche)";"NE";;01.01.2018
+;7519;;"Vaumarcus (La Grande Béroche)";"NE";;01.01.2018
+;7520;;"Rheinwald (Hinterrhein)";"GR";;01.01.2019
+;7521;;"Rheinwald (Nufenen)";"GR";;01.01.2019
+;7522;;"Rheinwald (Splügen)";"GR";;01.01.2019
+;7523;;"Rheinwald (Medels i. Rh.)";"GR";;01.01.2019
+;7524;;"Villaz (Villaz-Saint-Pierre)";"FR";;01.01.2020
+;7525;;"Prez (Corserey)";"FR";;01.01.2020
+;7526;;"Prez (Noréaz)";"FR";;01.01.2020
+;7527;;"Prez (Prez-vers-Noréaz)";"FR";;01.01.2020
+;7528;;"Thurnen (Kirchenthurnen)";"BE";;01.01.2020
+;7529;;"Thurnen (Mühlethurnen)";"BE";;01.01.2020
+;7530;;"Thurnen (Lohnstorf)";"BE";;01.01.2020
+;7531;;"Niederbipp (Wolfisberg)";"BE";;01.01.2020
+;7532;;"Steffisburg (Schwendibach)";"BE";;01.01.2020
+;7533;;"Villaz (La Folliaz)";"FR";;01.01.2020
+;7534;;"Villaz (Fuyens)";"FR";;01.01.2020
+;7535;;"Villaz (Lussy)";"FR";;01.01.2020
+;7536;;"Villaz (Villarimboud)";"FR";;01.01.2020
+;7537;;"Villaz (Macconnens)";"FR";;01.01.2020
+;7538;;"Surpierre (Chapelle (Broye))";"FR";;01.01.2021
+;7539;;"Bois-d'Amont (Arconciel)";"FR";;01.01.2021
+;7540;;"Bois-d'Amont (Ependes (FR))";"FR";;01.01.2021
+;7541;;"Bois-d'Amont (Sales)";"FR";;01.01.2021
+;7542;;"Bois-d'Amont (Senèdes)";"FR";;01.01.2021
+;7543;;"Tafers (Alterswil)";"FR";;01.01.2021
+;7544;;"Tafers (St. Antoni)";"FR";;01.01.2021
+;7545;;"Surpierre (Cheiry)";"FR";;01.01.2021
+;7546;;"Muntogna da Schons (Casti-Wergenstein)";"GR";;01.01.2021
+;7547;;"Muntogna da Schons (Casti)";"GR";;01.01.2021
+;7548;;"Muntogna da Schons (Wergenstein)";"GR";;01.01.2021
+;7549;;"Muntogna da Schons (Donat)";"GR";;01.01.2021
+;7550;;"Muntogna da Schons (Donath)";"GR";;01.01.2021
+;7551;;"Muntogna da Schons (Patzen-Fardün)";"GR";;01.01.2021
+;7552;;"Muntogna da Schons (Lohn)";"GR";;01.01.2021
+;7553;;"Muntogna da Schons (Mathon)";"GR";;01.01.2021
+;7554;;"Chur (Haldenstein)";"GR";;01.01.2021
+;7555;;"Peseux (Neuchâtel)";"NE";;01.01.2021
+;7556;;"Corcelles-Cormondrèche (Neuchâtel)";"NE";;01.01.2021
+;7557;;"Valangin (Neuchâtel)";"NE";;01.01.2021
+;7558;;"Les Brenets (Le Locle)";"NE";;01.01.2021
+;7559;;"Welschenrohr";"SO";;01.01.2021
+;7560;;"Aubonne (Montherod)";"VD";;01.01.2021
+;7561;;"Klosters (Saas)";"GR";;20.02.2021
+;7562;;"Assens (Bioley-Orjulaz)";"VD";;01.07.2021
+;7563;;"Hautemorges (Apples)";"VD";;01.07.2021
+;7564;;"Hindelbank (Mötschwil)";"BE";;01.01.2021
+;7565;;"Langenthal (Obersteckholz)";"BE";;01.01.2021
+;7566;;"Riggisberg (Rümligen)";"BE";;01.01.2021
+;7568;;"Hautemorges (Cottens)";"VD";;01.07.2021
+;7569;;"Hautemorges (Pampigny)";"VD";;01.07.2021
+;7570;;"Hautemorges (Reverolle)";"VD";;01.07.2021
+;7571;;"Hautemorges (Sévery)";"VD";;01.07.2021
+;7572;;"Hautemorges (Bussy-Chardonney)";"VD";;01.07.2021
+;7573;;"Hautemorges (Bussy-Chardonney, Bussy-sur-Morges)";"VD";;01.07.2021
+;7574;;"Hautemorges (Bussy-Chardonney, Chardonney-sur-Morges)";"VD";;01.07.2021
+;7850;;"Schoren";"BE";;
+;7851;;"Bözingen";"BE";;
+;7852;;"Madretsch";"BE";;
+;7853;;"Mett";"BE";;
+;7854;;"Schwendi";"BE";;
+;7855;;"Strättligen";"BE";;
+;7858;;"Ammannsegg";"SO";;
+;7859;;"Lohn";"SO";;
+31.12.2012;7860;;"Heinrichswil";"SO";2535;
+;7861;;"Winistorf";"SO";;01.01.1993
+31.12.1993;7862;;"Laufen-Stadt";"BE";7862;
+;7862;;"Laufen-Stadt";"BL";;01.01.1994
+31.12.1993;7863;;"Laufen-Vorstadt";"BE";7863;
+;7863;;"Laufen-Vorstadt";"BL";;01.01.1994
+;7864;;"Olsberg";"BL";;
+31.12.2008;7865;;"St. Gallen-Rotmonten";"SG";3203;
+31.12.2014;7866;;"St. Gallen-Straubenzell";"SG";3203;
+;7867;;"St. Gallen-Tablat";"SG";;
+;7868;;"Eggersriet-Grub";"SG";;
+;7869;;"Diepoldsau-Schmitter";"SG";;
+;7870;;"Thal-Altenrhein";"SG";;
+;7871;;"Oberriet-Eichenwies";"SG";;
+;7872;;"Oberriet-Holzrhode";"SG";;
+;7873;;"Oberriet-Kriessern";"SG";;
+;7874;;"Oberriet-Montlingen";"SG";;
+;7875;;"Sennwald-Frümsen";"SG";;
+;7876;;"Sennwald-Haag";"SG";;
+;7877;;"Sennwald-Salez";"SG";;
+;7878;;"Sennwald-Sax";"SG";;
+;7879;;"Flums-Dorf";"SG";;
+;7880;;"Flums-Grossberg";"SG";;
+;7881;;"Flums-Kleinberg";"SG";;
+;7882;;"Mels-Weisstannen";"SG";;
+;7883;;"Pfäfers-Vättis";"SG";;
+30.04.2012;7884;;"Pfäfers-Valens";"SG";7922;
+30.04.2012;7885;;"Pfäfers-Vasön";"SG";7922;
+;7886;;"Quarten-Mols";"SG";;
+;7887;;"Quarten-Murg";"SG";;
+;7888;;"Quarten-Oberterzen";"SG";;
+;7889;;"Quarten-Quinten";"SG";;
+;7890;;"Vilters-Wangs, Vilters";"SG";;
+;7891;;"Vilters-Wangs, Wangs";"SG";;
+;7892;;"Walenstadt-Berschis";"SG";;
+;7893;;"Walenstadt-Tscherlach";"SG";;
+;7894;;"Walenstadt-Walenstadtberg";"SG";;
+;7895;;"Schänis-Dorf";"SG";;
+;7896;;"Schänis-Maseltrangen";"SG";;
+;7897;;"Schänis-Rufi";"SG";;
+;7898;;"Schänis-Rüttiberg";"SG";;
+31.12.2010;7899;;"Ebnat-Kappel, Ebnat";"SG";3352;
+;7900;;"Ebnat-Kappel, Kappel";"SG";;
+31.12.2004;7901;;"Krummenau-Ennetbühl";"SG";7901;
+31.12.2012;7901;;"Nesslau-Krummenau, Ennetbühl";"SG";7958;01.01.2005
+01.06.2014;7902;;"Degersheim-Magdenau";"SG";3401;
+30.06.2020;7903;;"Oberuzwil-Bichwil";"SG";3407;
+09.11.2009;7904;;"Oberuzwil-Niederglatt";"SG";3407;
+31.12.2002;7905;;"Uzwil-Henau";"SG";3408;
+;7906;;"Waldkirch-Bernhardzell";"SG";;
+;7907;;"Oberuzwil-Dorf";"SG";;
+13.07.2004;7908;;"Oron";"VD";5793;
+;7909;;"Boécourt-Séprais";"JU";;
+31.12.1978;7910;;"Montavon";"BE";7910;
+;7910;;"Montavon";"JU";;01.01.1979
+31.12.1978;7911;;"Sceut";"BE";7911;
+;7911;;"Sceut";"JU";;01.01.1979
+;7912;;"Riedes-Dessus";"JU";;
+31.12.2012;7915;;"Nesslau-Krummenau, Nesslau";"SG";3360;01.01.2005
+31.12.2012;7916;;"Nesslau-Krummenau, Krummenau";"SG";7957;01.01.2005
+;7917;;"Neckertal-Brunnadern";"SG";;01.01.2009
+;7918;;"Neckertal-St. Peterzell";"SG";;01.01.2009
+;7919;;"Alt Messen";"SO";;01.01.2010
+;7920;;"Wildhaus-Alt St. Johann, Wildhaus";"SG";;01.01.2010
+;7921;;"Wildhaus-Alt St. Johann, Alt St. Johann";"SG";;01.01.2010
+;7922;;"Pfäfers, Valens-Vasön";"SG";;01.05.2012
+;7923;;"Auvernier (Milvignes)";"NE";;01.01.2013
+;7924;;"Bôle (Milvignes)";"NE";;01.01.2013
+;7925;;"Colombier (Milvignes)";"NE";;01.01.2013
+;7926;;"Boudevilliers (Val-de-Ruz)";"NE";;01.01.2013
+;7927;;"Cernier (Val-de-Ruz)";"NE";;01.01.2013
+;7928;;"Chézard-Saint-Martin (Val-de-Ruz)";"NE";;01.01.2013
+;7929;;"Coffrane (Val-de-Ruz)";"NE";;01.01.2013
+;7930;;"Dombresson (Val-de-Ruz)";"NE";;01.01.2013
+;7931;;"Engollon (Val-de-Ruz)";"NE";;01.01.2013
+;7932;;"Fenin-Vilars-Saules (Val-de-Ruz)";"NE";;01.01.2013
+;7933;;"Fontainemelon (Val-de-Ruz)";"NE";;01.01.2013
+;7934;;"Fontaines (Val-de-Ruz)";"NE";;01.01.2013
+;7935;;"Les Geneveys-sur-Coffrane (Val-de-Ruz)";"NE";;01.01.2013
+;7936;;"Les Hauts-Geneveys (Val-de-Ruz)";"NE";;01.01.2013
+;7937;;"Montmollin (Val-de-Ruz)";"NE";;01.01.2013
+;7938;;"Le Pâquier (Val-de-Ruz)";"NE";;01.01.2013
+;7939;;"Savagnier (Val-de-Ruz)";"NE";;01.01.2013
+;7940;;"Villiers (Val-de-Ruz)";"NE";;01.01.2013
+;7941;;"Marin-Epagnier (La Tène)";"NE";;01.01.2013
+;7942;;"Thielle-Wavre (La Tène)";"NE";;01.01.2013
+;7943;;"Môtiers (Val-de-Travers)";"NE";;01.01.2013
+;7944;;"Couvet (Val-de-Travers)";"NE";;01.01.2013
+;7945;;"Travers (Val-de-Travers)";"NE";;01.01.2013
+;7946;;"Noiraigue (Val-de-Travers)";"NE";;01.01.2013
+;7947;;"Boveresse (Val-de-Travers)";"NE";;01.01.2013
+;7948;;"Fleurier (Val-de-Travers)";"NE";;01.01.2013
+;7949;;"Buttes (Val-de-Travers)";"NE";;01.01.2013
+;7950;;"Les Bayards (Val-de-Travers)";"NE";;01.01.2013
+;7951;;"Saint-Sulpice (Val-de-Travers)";"NE";;01.01.2013
+;7952;;"Lüsslingen";"SO";;01.01.2013
+;7953;;"Nennigkofen";"SO";;01.01.2013
+;7954;;"Gommiswald-Dorf";"SG";;01.01.2013
+;7955;;"Gommiswald-Rieden";"SG";;01.01.2013
+;7956;;"Nesslau-Stein";"SG";;01.01.2013
+;7957;;"Nesslau-Krummenau";"SG";;01.01.2013
+;7958;;"Nesslau-Ennetbühl";"SG";;01.01.2013
+;7959;;"Bütschwil-Ganterschwil, Bütschwil";"SG";;01.01.2013
+;7960;;"Bütschwil-Ganterschwil, Ganterschwil";"SG";;01.01.2013
+;7961;;"Aetigkofen";"SO";;01.01.2014
+;7962;;"Aetingen";"SO";;01.01.2014
+;7963;;"Bibern";"SO";;01.01.2014
+;7964;;"Brügglen";"SO";;01.01.2014
+;7965;;"Gossliwil";"SO";;01.01.2014
+;7966;;"Hessigkofen";"SO";;01.01.2014
+;7967;;"Küttigkofen";"SO";;01.01.2014
+;7968;;"Mühledorf";"SO";;01.01.2014
+;7969;;"Tscheppach";"SO";;01.01.2014
+;7970;;"Degersheim-Dorf";"SG";;30.05.2014
+31.12.1946;9001;;"Bruchthalen";"SH";2939;
+31.12.1932;9002;;"Gysenstein";"BE";612;
+31.12.1932;9003;;"Stalden im Emmental";"BE";612;
+31.12.1945;9004;;"Ausserbirrmoos";"BE";614;
+31.12.1945;9005;;"Innerbirrmoos";"BE";614;
+31.12.1945;9006;;"Mullen";"BE";501;
+31.12.1945;9007;;"Otterbach";"BE";614;
+31.12.1951;9008;;"Tramelan-Dessous";"BE";446;
+31.12.1951;9009;;"Tramelan-Dessus";"BE";446;
+31.12.1982;9010;11320;"Arni-Islisberg";"AG";4084;
+31.12.2000;9011;11663;"Avry-sur-Matran";"FR";2174;
+14.10.2001;9012;13253;"Tesserete";"TI";5226;
+31.12.1939;9013;;"Waldhäusern";"AG";4240;
+31.12.1977;9014;11335;"Grossguschelmuth";"FR";2263;
+31.12.1977;9015;11337;"Grossgurmels";"FR";2262;
+31.12.1981;9016;11302;"Lossy";"FR";2203;
+31.12.1995;9017;12109;"Farvagny-le-Grand";"FR";2192;
+31.12.1996;9018;12416;"Misery";"FR";2272;
+31.12.1997;9019;11890;"Billens";"FR";2063;
+31.12.1998;9020;11629;"Corpataux";"FR";2184;
+31.12.1929;9021;;"Vairano";"TI";5127;
+30.06.1931;9022;;"Eaux-Vives";"GE";6621;
+30.06.1931;9023;;"Plainpalais";"GE";6621;
+30.06.1931;9024;;"Le Petit-Saconnex";"GE";6621;
+31.12.1952;9025;;"Castels";"GR";9026;
+31.12.1978;9026;11375;"St. Antönien Castels";"GR";3893;
+31.12.1942;9027;;"Furth";"GR";3602;
+31.12.1942;9028;;"Obercastels";"GR";9028;
+31.12.2001;9028;14192;"Surcasti";"GR";3599;01.01.1943
+31.12.1942;9029;;"Roffna";"GR";3537;
+31.12.1978;9030;11375;"St. Antönien Rüti";"GR";3893;01.01.1953
+31.12.1929;9035;;"La Coudre";"NE";6458;
+31.12.1994;9036;11782;"Amlikon";"TG";4881;
+31.12.1992;9037;11761;"Andhausen";"TG";4891;
+31.12.1994;9038;11759;"Andwil";"TG";4901;
+31.12.1968;9039;11261;"Anetswil";"TG";4781;
+31.12.1995;9041;11713;"Balterswil";"TG";4721;
+31.12.1995;9042;;"Bleiken";"TG";4506;
+31.12.1994;9043;11481;"Buch bei Frauenfeld";"TG";4616;
+31.12.1994;9044;11476;"Buchackern";"TG";4476;
+31.12.1996;9045;11515;"Busswil";"TG";4761;
+31.12.1994;9046;12280;"Engwilen";"TG";4701;
+31.12.1982;9047;11281;"Felben";"TG";4561;
+31.12.1999;9048;13657;"Fruthwilen";"TG";4851;
+31.12.1995;9049;12036;"Gottshaus";"TG";4486;
+31.12.1995;9050;12036;"Hauptwil";"TG";4486;
+31.12.1994;9054;12710;"Lustdorf";"TG";4611;
+31.12.1994;9055;;"Mauren";"TG";4891;
+31.12.1931;9056;;"Mühlebach bei Amriswil";"TG";4461;
+31.12.1995;9057;12510;"Neukirch an der Thur";"TG";4501;
+31.12.1966;9058;11254;"Niedersommeri";"TG";4446;
+31.12.1949;9059;;"Oberhofen bei Münchwilen";"TG";4746;
+31.12.1949;9061;;"St. Margarethen";"TG";4746;
+31.12.2001;9066;11729;"Albeuve";"FR";2121;
+31.12.1928;9068;;"Calprino";"TI";5210;
+31.12.1929;9069;;"Casenzano";"TI";5127;
+31.12.1955;9070;;"Colla";"TI";5229;
+31.12.1952;9071;;"Croglio";"TI";9072;
+01.01.1953;9072;;"Croglio-Castelrotto";"TI";5178;
+31.12.1955;9074;;"Piandera";"TI";5229;
+31.12.1938;9075;;"Prato-Fiesso";"TI";5078;
+31.12.1955;9076;;"Scareglia";"TI";5229;
+31.12.1955;9077;;"Signôra";"TI";5229;
+31.12.1960;9078;11242;"Bussy-sur-Morges";"VD";5625;
+31.12.1952;9079;;"Le Châtelard-Montreux";"VD";9080;
+01.01.1953;9080;;"Montreux-Châtelard";"VD";5886;
+31.12.1998;9081;12729;"Lussery";"VD";5487;
+31.12.1961;9082;11238;"Montreux-Planches";"VD";5886;
+31.12.1952;9083;;"Neyruz";"VD";5679;
+31.12.1952;9084;;"Les Planches";"VD";9082;
+31.12.1933;9085;;"Affoltern bei Zürich";"ZH";261;
+31.12.1933;9086;;"Albisrieden";"ZH";261;
+31.12.1933;9087;;"Altstetten";"ZH";261;
+31.12.1933;9088;;"Höngg";"ZH";261;
+31.12.1930;9090;;"Oberurdorf";"ZH";250;
+31.12.1933;9091;;"Oerlikon";"ZH";261;
+31.12.1933;9092;;"Schwamendingen";"ZH";261;
+31.12.1933;9093;;"Seebach";"ZH";261;
+31.12.1933;9094;;"Witikon";"ZH";261;
+30.06.1956;9095;;"La Bâtiaz";"VS";6138;
+30.09.1972;9096;11217;"Brig";"VS";6002;
+31.12.2002;9098;13067;"Praroman";"FR";2220;
+31.12.2002;9099;11662;"Avry-devant-Pont";"FR";2122;
+31.12.2002;9100;12840;"Rueyres-Saint-Laurent";"FR";2223;
+31.12.1992;9101;13730;"Heinrichswil";"SO";7860;
+31.12.1960;9103;11244;"Lüterkofen";"SO";2455;
+31.12.1994;9104;12708;"Lüterswil";"SO";2456;
+31.12.1984;9105;11286;"Hofstetten";"SO";2476;
+31.12.1938;9106;;"Niedergerlafingen";"SO";2519;
